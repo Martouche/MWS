@@ -1,0 +1,299 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/faq/",
+    "title": "FAQ vos questions principales parachute jet ski - Mandelieu WaterSports",
+    "description": "Découvrez les activités nautiques à Cannes Mandelieu, du parachute ascensionnel au jet ski, dans notre FAQ complète. Mandelieu Watersports",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/faq/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "FAQ vos questions principales parachute jet ski - Mandelieu WaterSports",
+      "og:description": "Découvrez les activités nautiques à Cannes Mandelieu, du parachute ascensionnel au jet ski, dans notre FAQ complète. Mandelieu Watersports",
+      "og:url": "https://www.mandelieu-watersports.com/faq/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "3 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/faq/",
+            "url": "https://www.mandelieu-watersports.com/faq/",
+            "name": "FAQ vos questions principales parachute jet ski - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "datePublished": "2024-03-25T16:19:25+00:00",
+            "dateModified": "2025-06-30T11:43:39+00:00",
+            "description": "Découvrez les activités nautiques à Cannes Mandelieu, du parachute ascensionnel au jet ski, dans notre FAQ complète. Mandelieu Watersports",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/faq/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/faq/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/faq/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "FAQ"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "FAQ"
+    },
+    {
+      "t": "li",
+      "x": "FAQ"
+    },
+    {
+      "t": "h2",
+      "x": "Découvrez vos questions les plus fréquentes chez Mandelieu Watersports"
+    },
+    {
+      "t": "h4",
+      "x": "Où faire des activités à Cannes ?",
+      "href": "#1751283336061-91b489bb-960e"
+    },
+    {
+      "t": "p",
+      "x": "À Cannes, Mandelieu Watersports offre une multitude d’activités palpitantes pour profiter pleinement de la beauté de la Côte d’Azur. Que vous recherchiez une montée d’adrénaline ou une journée relaxante en mer, nous avons ce qu’il vous faut. Venez nous rejoindre pour des expériences telles que le parachute ascensionnel, la location de jet ski, des randonnées en jet ski, le wakeboard, ainsi que la bouée tractée. Quelle que soit votre envie, notre équipe expérimentée vous garantit des moments inoubliables dans les eaux cristallines de Cannes. Rejoignez-nous chez Mandelieu Watersports pour une aventure aquatique inoubliable !"
+    },
+    {
+      "t": "h4",
+      "x": "Comment réserver le parachute ascensionnel ?",
+      "href": "#1751283336080-ecf4008f-d546"
+    },
+    {
+      "t": "p",
+      "x": "Pour réserver le parachute ascensionnel avec Mandelieu Watersports, suivez ces trois étapes simples : Vérifiez que les participants ont entre 4 et 90 ans pour pouvoir participer à cette activité. Procédez au paiement en ligne pour réserver votre session. Rendez-vous à la base nautique Mandelieu Watersports, située sur la plage de La Rague, où notre équipe vous accueillera pour vivre une expérience inoubliable de parachute ascensionnel."
+    },
+    {
+      "t": "h4",
+      "x": "Où faire du Jet Ski à Cannes ?",
+      "href": "#1751283431113-28cc6e3c-d94e"
+    },
+    {
+      "t": "p",
+      "x": "Pour une expérience de jet ski sans permis à Cannes, rendez-vous chez Mandelieu Watersports. Située à Mandelieu, notre base nautique propose des locations de jet ski sans permis. Venez profiter de cette excitante activité aquatique en explorant les eaux cristallines de la région. Rejoignez-nous chez Mandelieu Watersports pour une aventure inoubliable sur les vagues de la Côte d’Azur."
+    },
+    {
+      "t": "h4",
+      "x": "Où faire du Jet Ski à Théoule ?",
+      "href": "#1751283462570-dece0472-3a28"
+    },
+    {
+      "t": "p",
+      "x": "Pour une expérience de jet ski sans permis à Théoule-sur-Mer, rendez-vous chez Mandelieu Watersports. Située à Mandelieu, notre base nautique propose des locations de jet ski sans permis. Profitez de cette excitante activité aquatique en explorant les magnifiques environs de Théoule-sur-Mer et de ses eaux scintillantes. Rejoignez-nous chez Mandelieu Watersports pour une aventure inoubliable sur les vagues de la Côte d’Azur."
+    },
+    {
+      "t": "h4",
+      "x": "Quels sont les tarifs du jet ski ?",
+      "href": "#1751283499200-fabd8da6-2d1d"
+    },
+    {
+      "t": "p",
+      "x": "Voici nos tarifs pour les activités de jet ski chez Mandelieu Watersports : Location de jet ski sans permis : 90€ pour une demi-heure 160€ pour une heure Randonnées en jet ski : 130€ pour une heure de jet ski au coucher de soleil 200€ pour une excursion de 2 heures comprenant le petit déjeuner, avec un itinéraire aux îles de Lérins et au cap de l’Estérel. Profitez de nos offres exceptionnelles et découvrez la beauté de la Côte d’Azur en jet ski avec Mandelieu Watersports !"
+    },
+    {
+      "t": "h4",
+      "x": "Peut-on conduire un Jet Ski Sans Permis ?",
+      "href": "#1751283539684-291f7edd-07e9"
+    },
+    {
+      "t": "p",
+      "x": "Oui, chez Mandelieu Watersports, nous proposons des locations de jet ski sans permis, ce qui signifie que vous n’avez pas besoin de posséder un permis de conduire maritime pour piloter nos jet skis. De plus, nous organisons également des randonnées en jet ski sans permis, vous offrant ainsi la possibilité de découvrir les magnifiques environs de Cannes et de Théoule-sur-Mer depuis les eaux scintillantes de la Côte d’Azur, même si vous n’avez pas de permis de conduire maritime. Profitez de cette expérience inoubliable avec Mandelieu Watersports !"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

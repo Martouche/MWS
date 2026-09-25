@@ -1,0 +1,293 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/contact/",
+    "title": "Contact, Situez nous base nautique - Mandelieu WaterSports",
+    "description": "Contactez nous par téléphone mail ou réservez directement sur notre site vos activités. Jet ski et parachute Mandelieu Watersports",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/contact/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Contact, Situez nous base nautique - Mandelieu WaterSports",
+      "og:description": "Contactez nous par téléphone mail ou réservez directement sur notre site vos activités. Jet ski et parachute Mandelieu Watersports",
+      "og:url": "https://www.mandelieu-watersports.com/contact/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/contact/",
+            "url": "https://www.mandelieu-watersports.com/contact/",
+            "name": "Contact, Situez nous base nautique - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "datePublished": "2023-01-02T04:58:00+00:00",
+            "dateModified": "2024-05-15T12:52:14+00:00",
+            "description": "Contactez nous par téléphone mail ou réservez directement sur notre site vos activités. Jet ski et parachute Mandelieu Watersports",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/contact/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/contact/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/contact/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h2",
+      "x": "Parking"
+    },
+    {
+      "t": "p",
+      "x": "(Très bien indiqué sur la route, attention l’entrée est dans un virage). Au port vous trouverez un parking payant."
+    },
+    {
+      "t": "p",
+      "x": "PARKING GRATUIT"
+    },
+    {
+      "t": "p",
+      "x": "Sur la route, vous pourrez vous garer avant l’entrée du port sur la gauche. ( Avant la descente en venant de La Napoule – indication Beach Hôtel) puis empruntez le pont qui passe au dessus de la voie ferrée à pied . Le chemin et les escaliers vous mènent à la plage à travers une végétation agréable."
+    },
+    {
+      "t": "p",
+      "x": "En provenance de l’autoroute : Prendre Sortie 40 – direction Saint-Raphaël, Théoule-sur-Mer"
+    },
+    {
+      "t": "p",
+      "x": "En provenance de Cannes, Nice, Mandelieu : Suivre la direction Saint-Raphaël, Théoule-sur-Mer"
+    },
+    {
+      "t": "p",
+      "x": "En provenance de Saint Raphael par le bord de mer : Prendre la direction de Cannes par la Corniche de l’Estérel"
+    },
+    {
+      "t": "p",
+      "x": "Sur votre GPS indiquez :"
+    },
+    {
+      "t": "p",
+      "x": "PLAGE DE LA RAGUE 157-305 rue du capitaine corvette marché, 06210 Mandelieu-la-Napoule"
+    },
+    {
+      "t": "h2",
+      "x": "Informations"
+    },
+    {
+      "t": "p",
+      "x": "Plage de la Rague, 06210"
+    },
+    {
+      "t": "p",
+      "x": "Mandelieu-la-napoule"
+    },
+    {
+      "t": "p",
+      "x": "contact@mandelieu-watersports.com"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/conseil-accompagnement-mandelieu-watersports.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/conseil-accompagnement-mandelieu-watersports.jpg"
+      ],
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/",
+    "title": "Formulaire attestation d'autorisation mineure - Mandelieu WaterSports",
+    "description": "",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Formulaire attestation d'autorisation mineure - Mandelieu WaterSports",
+      "og:url": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
+      "og:image:width": "2560",
+      "og:image:height": "2560",
+      "og:image:type": "image/png",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "3 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/",
+            "url": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/",
+            "name": "Formulaire attestation d'autorisation mineure - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
+            "datePublished": "2024-07-10T15:05:58+00:00",
+            "dateModified": "2025-06-23T08:39:31+00:00",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
+            "width": 2560,
+            "height": 2560
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/formulaire-attestation-dautorisation-mineure/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Formulaire attestation d&rsquo;autorisation mineure"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "Formulaire attestation d’autorisation mineure"
+    },
+    {
+      "t": "li",
+      "x": "Formulaire attestation d’autorisation mineure"
+    },
+    {
+      "t": "h2",
+      "x": "Formulaire d'autorisation pour mineur"
+    },
+    {
+      "t": "p",
+      "x": "Nous vous informons que pour permettre à votre enfant de participer à l’activité de jetski, il est impératif de remplir le formulaire d’autorisation parentale. Cette démarche est essentielle pour garantir la sécurité et le bien-être de tous les participants, ainsi que pour respecter les réglementations en vigueur. Le formulaire doit être complété avec soin et retourné avant la date limite indiquée."
+    },
+    {
+      "t": "p",
+      "x": "Nous vous remercions de votre compréhension et de votre collaboration."
+    },
+    {
+      "t": "p",
+      "x": "Important: Cette autorisation parentale est à nous retourner complétée et signée avec la pièce d’identité du père ou de la mère et la pièce d’identité du mineur. Vérifiez bien que le mineur en question remplisse bien toutes ces conditions :"
+    },
+    {
+      "t": "h3",
+      "x": "Conditions d'aptitudes physiques minimales requises du mineur :"
+    },
+    {
+      "t": "p",
+      "x": "– Acuité visuelle satisfaisante, les verres correcteurs ou lentilles ou cornéennes sont admis."
+    },
+    {
+      "t": "p",
+      "x": "– Acuité auditive satisfaisante, prothèses auditives tolérées."
+    },
+    {
+      "t": "p",
+      "x": "– Etat neuropsychiatrie et vasculaire satisfaisant."
+    },
+    {
+      "t": "p",
+      "x": "– Membres supérieurs, la fonction de préhension des membres supérieurs nécessaire à la conduite doit être satisfaisante."
+    },
+    {
+      "t": "p",
+      "x": "– Membres inférieurs, intégrité des 2 membres ou intégrité de lʼun des membres et appareillage mécanique satisfaisant de lʼautre."
+    },
+    {
+      "t": "h3",
+      "x": "Obligations du Mineur :"
+    },
+    {
+      "t": "p",
+      "x": "– Le participant déclare avoir pris connaissance des conditions d’aptitude physique minimales dans le paragraphe ci-dessus."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant s’engage à respecter les consignes données par le moniteur."
+    },
+    {
+      "t": "p",
+      "x": "– Le port du gilet de sauvetage est obligatoire pendant la durée de l’activité."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant déclare ne pas être sous l’emprise d’alcool, médicament(s) ou produit(s) illicite(s)."
+    },
+    {
+      "t": "p",
+      "x": "– Le non respect des consignes du moniteur entraîne l’entière responsabilité du participant."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant prend conscience qu’il sera formé par le moniteur des conditions et s’engage à les respecter. En cas de non respect des consignes du moniteur, la prestation pourra être arrêtée sans possibilité de remboursement."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant déclare ne pas avoir de contre indication pour la pratique des activités nautiques."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant déclare ne pas avoir subit d’opération chirurgicale dans les 3 derniers mois."
+    },
+    {
+      "t": "p",
+      "x": "– Le participant déclare ne pas être enceinte."
+    },
+    {
+      "t": "p",
+      "x": "Tel: 06 65 48 06 06, Plage de la rague 06210"
+    },
+    {
+      "t": "p",
+      "x": "MANDELIEU LA NAPOULE"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

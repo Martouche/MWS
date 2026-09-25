@@ -1,0 +1,302 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/",
+    "title": "séminaire Mandelieu Théoule | Mandelieu Watersports - séminaire",
+    "description": "On organise pour vous, le séminaire parfait ! Spécialiste dans l'organisation de jeux nautiques et de bonne humeur autour de Mandelieu, Théoule.",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "séminaire Mandelieu Théoule | Mandelieu Watersports - séminaire",
+      "og:description": "On organise pour vous, le séminaire parfait ! Spécialiste dans l'organisation de jeux nautiques et de bonne humeur autour de Mandelieu, Théoule.",
+      "og:url": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "1 minute"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/",
+            "url": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/",
+            "name": "séminaire Mandelieu Théoule | Mandelieu Watersports - séminaire",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/#primaryimage"
+            },
+            "thumbnailUrl": "",
+            "datePublished": "2023-01-03T19:26:46+00:00",
+            "dateModified": "2024-01-24T14:35:05+00:00",
+            "description": "On organise pour vous, le séminaire parfait ! Spécialiste dans l'organisation de jeux nautiques et de bonne humeur autour de Mandelieu, Théoule.",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/#primaryimage",
+            "url": "",
+            "contentUrl": ""
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "ÉVÉNEMENT",
+                "item": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "SÉMINAIRES"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "SÉMINAIRES"
+    },
+    {
+      "t": "li",
+      "x": "ÉVÉNEMENT",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/"
+    },
+    {
+      "t": "li",
+      "x": "SÉMINAIRES"
+    },
+    {
+      "t": "h1",
+      "x": "Organisez vos séminaires ou incentives sur la Côte d’Azur à Mandelieu Théoule."
+    },
+    {
+      "t": "p",
+      "x": "Dans la baie de Mandelieu, Mandelieu Watersports vous invite à Cannes, ville de tous les événements pour réussir le vôtre."
+    },
+    {
+      "t": "img",
+      "src": "https://funparachute.com/wp-content/uploads/2017/07/SEMINAIRE-CANNES-MANDELIEU.jpg",
+      "alt": "SEMINAIRE-CANNES-MANDELIEU"
+    },
+    {
+      "t": "p",
+      "x": "Pour vos journées de séminaires, d’étude, colloques, journées d’affaires… Mandelieu Watersports se mettent à votre disposition pour l’organisation de vos évènements professionnels. Nous avons conscience des enjeux liés à l’organisation d’un séminaire. L’établissement dispose de tout l’équipement nécessaire pour que votre séminaire à Sainte Maxime se déroule dans les meilleures conditions. Découvrez plein d’idées de défis pour organiser votre séminaire qui restera à jamais graver dans la mémoire de tous les participants. Des idées d’activités spéciales pour vos journées de séminaires, d’étude, colloques, journées d’affaires… vous sont également fournies et regroupées par style : Parachute, …",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "p",
+      "x": "Réservations : +336 65 48 06 06"
+    },
+    {
+      "t": "p",
+      "x": "Tous nos prix sont Toutes Taxes Comprises, T.V.A de 20% incluse"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://funparachute.com/wp-content/uploads/2017/07/SEMINAIRE-CANNES-MANDELIEU.jpg",
+      "alts": [
+        "SEMINAIRE-CANNES-MANDELIEU"
+      ],
+      "variantes": [
+        "https://funparachute.com/wp-content/uploads/2017/07/SEMINAIRE-CANNES-MANDELIEU.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

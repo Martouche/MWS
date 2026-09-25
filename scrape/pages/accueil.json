@@ -1,0 +1,948 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/",
+    "title": "Parachute Ascensionnel, Jet Ski à Cannes Mandelieu | Watersports",
+    "description": "Du parachute ascensionnel, le jet ski et de nombreuses activités nautiques au départ de Mandelieu, Cannes. Parasailing Mandelieu Watersports",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "website",
+      "og:title": "Parachute Ascensionnel, Jet Ski à Cannes Mandelieu | Watersports",
+      "og:description": "Du parachute ascensionnel, le jet ski et de nombreuses activités nautiques au départ de Mandelieu, Cannes. Parasailing Mandelieu Watersports",
+      "og:url": "https://www.mandelieu-watersports.com/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Parachute Ascensionnel, Jet Ski à Cannes Mandelieu | Watersports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "about": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg",
+            "datePublished": "2022-12-02T14:45:22+00:00",
+            "dateModified": "2025-07-15T11:32:26+00:00",
+            "description": "Du parachute ascensionnel, le jet ski et de nombreuses activités nautiques au départ de Mandelieu, Cannes. Parasailing Mandelieu Watersports",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg",
+            "width": 2560,
+            "height": 2048,
+            "caption": "parachute-ascensionnel-cannes-théoule-watersports-mandelieu"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "FAITES LE PLEIN DE SENSATIONS SUR LA COTE D’AZUR !"
+    },
+    {
+      "t": "h1",
+      "x": "VOS ACTIVITÉS PRÉFÉRÉES À MANDELIEU THÉOULE"
+    },
+    {
+      "t": "p",
+      "x": "PLAGE DE LA RAGUE, MANDELIEU"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/3-min-min.png",
+      "alt": "Bouée-tractée-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1.png",
+      "alt": "jetski-jet-ski-cannes-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "p",
+      "x": "Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/11-min.png",
+      "alt": "parachute-ascensionnel-parachute-jaune-en l'air-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/15-min-1.webp",
+      "alt": "wakeboard-mandelieu-cannes-théoule-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/19-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h2",
+      "x": "Découvrez toutes nos activités nautiques"
+    },
+    {
+      "t": "h3",
+      "x": "Découvrez toutes nos activités en plus du parachute"
+    },
+    {
+      "t": "p",
+      "x": "Pour les aventuriers de nouvelles sensations, glissez sur l’eau avec le wakeboard !"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-scaled.jpg",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports.jpg",
+      "alt": "Bouée-tractée-canapé-tractée-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakeboard-wakesurf-ski-nautique-mandelieu-watersports.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/ski-nautique-tracte-bateau-theoule-cannes-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/8-min.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/12-min.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/20-min.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/16-min.webp",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/4-min-min.webp",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "Vous n'arrivez pas à vous décider ?"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/13-min.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/5-min-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & BOUÉE*"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/03/pack-parachute-bouee-tractee-mandelieu-watersports-cannes-theoule.png",
+      "alt": "pack-parachute-bouée-tractée-mandelieu-watersports-cannes-théoule"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel + Bouée : 30 min d'activités"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids maximum pour voler en parachute est de 240kg (en vol double jusqu'à 5 personnes)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/9-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & JET-SKI*"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/pack-jet-ski-parachute-ascensionnel-mandelieu-watersports.png",
+      "alt": "pack-jet-ski-parachute-ascensionnel-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute ascensionnel + jet ski : Un tour en parachute + 30 minutes de jet ski"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids maximum pour voler en parachute est de 240kg (en vol seul à deux personnes) Jet-ski encadré par un moniteur sans permis bateau et en toute sécurité."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h4",
+      "x": "Nos Best Sellers :"
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE PETIT DEJEUNER (2H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alt": "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Quel meilleur moyen de débuté sa journée qu'en prenant son petit déjeuner face à la mer avant de prendre le large en direction des îles de Lérins ? • Plus de 2 heures de bonheur ! Cap sur les îles de Lérins. • Montez seul ou à deux au même tarif ! • Accessible à partir de 16 ans."
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & JET-SKI*prix par personne"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alt": "pack-parachute-jet-ski-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute ascensionnel + jet ski : 30 mins d'activités ACTIVITÉE POUR 2 PERSONNES Le poids maximum pour voler en parachute est de 240kg (en vol seul à deux personnes) Jet-ski encadré par un moniteur sans permis bateau et en toute sécurité."
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE COUCHÉ DE SOLEIL (1H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png",
+      "alt": "jet-ski-best-seller-mandelieu-watersports-cannes-theoule"
+    },
+    {
+      "t": "li",
+      "x": "Criques secrètes, calanques, eaux turquoises ... le combo parfait pour une journée inoubliable ! Partez pour une randonnée inoubliable aux couleurs incroyables. Plus d'1 heure de bonheur ! Cap sur le massif de l'Esterel. • Montez seul ou à deux au même tarif ! • Accessible à partir de 16 ans."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/location-randonnee-jet-ski-theoule-cannes-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h2",
+      "x": "RESERVEZ VOTRE JET SKI"
+    },
+    {
+      "t": "p",
+      "x": "Venez faire du Jet Ski entre amis, en famille, en couple et tout ça sans permis !"
+    },
+    {
+      "t": "p",
+      "x": "Encadré par des moniteurs"
+    },
+    {
+      "t": "h3",
+      "x": "On met les gaz !"
+    },
+    {
+      "t": "h4",
+      "x": "Sensations fortes"
+    },
+    {
+      "t": "h2",
+      "x": "RESERVEZ VOTRE VOL EN PARCHUTE ASCENSIONNEL"
+    },
+    {
+      "t": "h3",
+      "x": "Un vol en toute sécurité"
+    },
+    {
+      "t": "h4",
+      "x": "Une expérience magique"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-mandelieu-watersports-theoule-scaled.jpg",
+      "alt": "parachute-ascensionnel-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports.jpg",
+      "alt": "Bouée-tractée-canapé-tractée-mandelieu-watersports"
+    },
+    {
+      "t": "h2",
+      "x": "RÉSERVEZ VOTRE TOUR DE BOUÉE TRACTÉE"
+    },
+    {
+      "t": "h3",
+      "x": "Jusqu'à 8 personnes"
+    },
+    {
+      "t": "h4",
+      "x": "Vitesse adapté pour votre sécurité"
+    },
+    {
+      "t": "h2",
+      "x": "RÉSERVEZ VOTRE SESSION GLISSE"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/25-min-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "Des sensations uniques"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/24-min-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h4",
+      "x": "Des conseils de qualité"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/ski-nautique-tracte-bateau-theoule-cannes-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h2",
+      "x": "DÉCOUVREZ NOS PACK"
+    },
+    {
+      "t": "p",
+      "x": "Choisissez les activités sous forme de packs pour avoir le meilleur prix. Nos Packs sont pour 2 personnes. Entre le Parachute Ascensionnel, le Jetski, la bouée tractée, nous vous proposons les meilleurs prix possibles."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png",
+      "alt": "pack-parachute-bouée-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel + Bouée : Un tour en parachute + un tour en bouée tractée"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids cumulé maximum pour voler en parachute est de 240kg (jusqu'à 5 personnes)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alt": "pack-parachute-jet-ski-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids cumulé maximum pour voler en parachute est de 240kg (jusqu'à 5 personnes) Jet-ski encadré par un moniteur sans permis bateau et en toute sécurité."
+    },
+    {
+      "t": "h2",
+      "x": "VOUS NOUS FAITES DÉJA CONFIANCE"
+    },
+    {
+      "t": "h2",
+      "x": "Gardez un souvenir pour 25€"
+    },
+    {
+      "t": "p",
+      "x": "Profitez de nos dernières Go Pro pour garder ce moment magique avec vous"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/souvenir/gopro-hero-8-black.png",
+      "alt": "souvenir-video-go-pro-parachute-ascensionnel"
+    },
+    {
+      "t": "h2",
+      "x": "Contactez nous"
+    },
+    {
+      "t": "p",
+      "x": "Pour RESERVER un créneau sur n’importe quelle activité ou pack,"
+    },
+    {
+      "t": "p",
+      "x": "appelez nous au 06 65 48 06 06",
+      "href": "tel:+336 65 48 06 06"
+    },
+    {
+      "t": "h3",
+      "x": "Appelez nous pour réserver chez mandelieu watersports"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-300x300.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-600x600.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/3-min-min.png",
+      "alts": [
+        "Bouée-tractée-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/3-min-min-150x84.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/3-min-min-300x168.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1.png",
+      "alts": [
+        "jetski-jet-ski-cannes-mandelieu-watersports-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1-150x84.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1-300x168.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/11-min.png",
+      "alts": [
+        "parachute-ascensionnel-parachute-jaune-en l'air-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/11-min.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/15-min-1.webp",
+      "alts": [
+        "wakeboard-mandelieu-cannes-théoule-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/15-min-1-150x84.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/15-min-1-300x168.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/19-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/19-min-150x84.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/19-min-300x168.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports.jpg",
+      "alts": [
+        "Bouée-tractée-canapé-tractée-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports-800x800.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/Bouee-tractee-bouee-tractee-mandelieu-watersports-1600x1600.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakeboard-wakesurf-ski-nautique-mandelieu-watersports.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakeboard-wakesurf-ski-nautique-mandelieu-watersports.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/ski-nautique-tracte-bateau-theoule-cannes-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/ski-nautique-tracte-bateau-theoule-cannes-mandelieu-watersports.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/ski-nautique-tracte-bateau-theoule-cannes-mandelieu-watersports-800x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/8-min.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/8-min.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/12-min.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/12-min.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/20-min.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/20-min.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/16-min.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/16-min.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/4-min-min.webp",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/4-min-min.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/13-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/13-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/13-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/5-min-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/5-min-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/5-min-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/03/pack-parachute-bouee-tractee-mandelieu-watersports-cannes-theoule.png",
+      "alts": [
+        "pack-parachute-bouée-tractée-mandelieu-watersports-cannes-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/03/pack-parachute-bouee-tractee-mandelieu-watersports-cannes-theoule.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/9-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/9-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/9-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/pack-jet-ski-parachute-ascensionnel-mandelieu-watersports.png",
+      "alts": [
+        "pack-jet-ski-parachute-ascensionnel-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/pack-jet-ski-parachute-ascensionnel-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports-100x50.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alts": [
+        "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alts": [
+        "pack-parachute-jet-ski-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png",
+      "alts": [
+        "jet-ski-best-seller-mandelieu-watersports-cannes-theoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/location-randonnee-jet-ski-theoule-cannes-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/location-randonnee-jet-ski-theoule-cannes-mandelieu-watersports-800x800.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/location-randonnee-jet-ski-theoule-cannes-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-mandelieu-watersports-theoule-scaled.jpg",
+      "alts": [
+        "parachute-ascensionnel-mandelieu-watersports-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-mandelieu-watersports-theoule-scaled-800x800.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-mandelieu-watersports-theoule-scaled-1600x1600.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/25-min-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/25-min-min-150x84.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/25-min-min-300x168.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/24-min-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/24-min-min-150x84.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/24-min-min-300x168.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png",
+      "alts": [
+        "pack-parachute-bouée-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/souvenir/gopro-hero-8-black.png",
+      "alts": [
+        "souvenir-video-go-pro-parachute-ascensionnel"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/souvenir/gopro-hero-8-black-150x150.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-theoule-watersports-mandelieu-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/video-accueil-mandelieu-watersports.mp4",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/video-accueil-mandelieu-watersports.mp4"
+      ],
+      "type": "video"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/video-media/video-accueil-mandelieu-watersports_7.jpeg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/video-media/video-accueil-mandelieu-watersports_7.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/souvenir/securite-parachute-ascensionnel-sainte-maxime-issambres-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/souvenir/securite-parachute-ascensionnel-sainte-maxime-issambres-scaled.jpg"
+      ],
+      "type": "image"
+    }
+  ]
+}

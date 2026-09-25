@@ -1,0 +1,892 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+    "title": "Parachute Ascensionnel Enfant - Mandelieu WaterSports",
+    "description": "Découvrez le parachute ascensionnel 5 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Parachute Ascensionnel Enfant - Mandelieu WaterSports",
+      "og:description": "Découvrez le parachute ascensionnel 5 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+      "og:url": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+      "og:image:width": "2560",
+      "og:image:height": "1964",
+      "og:image:type": "image/webp",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+            "url": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+            "name": "Parachute Ascensionnel Enfant - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+            "datePublished": "2023-01-18T17:43:22+00:00",
+            "dateModified": "2026-05-18T15:01:54+00:00",
+            "description": "Découvrez le parachute ascensionnel 5 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+            "width": 2560,
+            "height": 1964
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boutique",
+                "item": "https://www.mandelieu-watersports.com/boutique/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Parachute Ascensionnel Enfant"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Accueil",
+                  "@id": "https://www.mandelieu-watersports.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Parachute Ascensionnel",
+                  "@id": "https://www.mandelieu-watersports.com/categorie-produit/parachute-ascensionnel/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Parachute Ascensionnel Enfant",
+                  "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/"
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "@id": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/#product",
+            "name": "Parachute Ascensionnel Enfant",
+            "url": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel-enfant/",
+            "description": "À partir de 40 €\r\nPrix par personne*\r\n\r\n&amp;nbsp;\r\n\r\nEnvolez-vous jusqu'à 5 personnes en même temps (entre 3 et 70 ans)\r\nRéservez votre activité directement en ligne avec un acompte de 50% sécurisé.\r\nLe solde sera à régler sur place le jour de votre activité.\r\nRéservation sous réserve de disponibilité de la base nautique.\r\n\r\n\r\n\r\n💡 Vous préférez réserver par téléphone ?\r\nAppelez-nous directement au\r\n\r\n+33 06 65 48 06 06\r\n.\r\nNous pouvons bloquer votre créneau immédiatement :\r\n&amp;nbsp;\r\n\r\nRéserver en ligne",
+            "image": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+            "sku": 32282,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.00",
+              "reviewCount": 220
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Margot"
+                },
+                "reviewBody": "Super équipe, très à l’écoute des petits comme des grands.",
+                "datePublished": "2025-12-04T21:54:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Tristan"
+                },
+                "reviewBody": "Expérience rassurante et amusante pour les enfants, bravo !",
+                "datePublished": "2025-12-04T19:55:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Jacques"
+                },
+                "reviewBody": "Vol en douceur, encadrants rassurants, notre fils est revenu avec le sourire.",
+                "datePublished": "2025-12-04T13:35:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Caroline"
+                },
+                "reviewBody": "Mon fils a adoré cette expérience unique ! Merci à toute l’équipe.",
+                "datePublished": "2025-12-01T21:44:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Chantal"
+                },
+                "reviewBody": "Notre fils ne parle plus que de ça depuis ! Merci mille fois.",
+                "datePublished": "2025-11-03T16:55:00+01:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+      "alt": "Parachute Ascensionnel Enfant"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-12.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 2"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 3"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 4"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 5"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 6"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 7"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg",
+      "alt": "Parachute Ascensionnel Enfant – Image 8"
+    },
+    {
+      "t": "h1",
+      "x": "Parachute Ascensionnel Enfant"
+    },
+    {
+      "t": "h2",
+      "x": "À partir de 40 €"
+    },
+    {
+      "t": "p",
+      "x": "Prix par personne*"
+    },
+    {
+      "t": "p",
+      "x": "Envolez-vous jusqu’à 5 personnes en même temps (entre 3 et 70 ans)"
+    },
+    {
+      "t": "p",
+      "x": "Réservez votre activité directement en ligne avec un acompte de 50% sécurisé. Le solde sera à régler sur place le jour de votre activité. Réservation sous réserve de disponibilité de la base nautique."
+    },
+    {
+      "t": "p",
+      "x": "💡 Vous préférez réserver par téléphone ? Appelez-nous directement au +33 06 65 48 06 06 . Nous pouvons bloquer votre créneau immédiatement :",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "p",
+      "x": "Réserver en ligne",
+      "href": "#resa"
+    },
+    {
+      "t": "li",
+      "x": "Description",
+      "href": "#tab-description"
+    },
+    {
+      "t": "li",
+      "x": "Avis (220)",
+      "href": "#tab-reviews"
+    },
+    {
+      "t": "h2",
+      "x": "Description"
+    },
+    {
+      "t": "p",
+      "x": "Envolez-vous pour de nouvelles sensations et admirez un panorama a 360° entre ciel et mer avec vos amis, vos enfants, vos parents."
+    },
+    {
+      "t": "p",
+      "x": "Décollage et retour en douceur sur le bateau, vous vous sentirez en sécurité."
+    },
+    {
+      "t": "p",
+      "x": "Un vol en parachute ascensionnel à Mandelieu, Théoule en toute sécurité !!!"
+    },
+    {
+      "t": "p",
+      "x": "Vous rêvez de découvrir la baie de Mandelieu, Cannes telle que vous ne l’avez jamais vu ?"
+    },
+    {
+      "t": "p",
+      "x": "Embarquer à bord d’un bateau plate-forme nouvelle génération, notre pilote expérimenté breveté d’état. Vous découvrirez, à bord du parachute ascensionnel, une vue à couper le souffle."
+    },
+    {
+      "t": "h4",
+      "x": "Transaction 100% sécurisée"
+    },
+    {
+      "t": "h4",
+      "x": "Réserver votre créneau"
+    },
+    {
+      "t": "h4",
+      "x": "100% remboursable"
+    },
+    {
+      "t": "h4",
+      "x": "A partir de 4 ans pour la pratique du parachute ascensionnel !"
+    },
+    {
+      "t": "li",
+      "x": "Pas besoin de savoir nager car il n’y a pas de moment dans l’eau."
+    },
+    {
+      "t": "li",
+      "x": "Les mains complètement libres pendant la totalité du vol."
+    },
+    {
+      "t": "li",
+      "x": "Le vol en parachute ascensionnel s’effectue en maillot ou habillé."
+    },
+    {
+      "t": "li",
+      "x": "Décollage et atterrissage sur la plate-forme du bateau."
+    },
+    {
+      "t": "li",
+      "x": "Important : La sensation de vertige n’existe pas car vous n’avez aucun contact direct avec le sol."
+    },
+    {
+      "t": "p",
+      "x": "Avant tout, Notre équipe technique assure le contrôle de l’équipement et des conditions nécessaires à sa mise en œuvre pour votre sécurité."
+    },
+    {
+      "t": "p",
+      "x": "En conclusion, vous voulez vivre des moments de folie en vous amusant, nous sommes là pour vous."
+    },
+    {
+      "t": "h2",
+      "x": "220 avis pour Parachute Ascensionnel Enfant"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Édith – 10 mars 2023"
+    },
+    {
+      "t": "p",
+      "x": "Très bon moment en famille avec les enfants, tout le monde était ravi."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Diane – 9 mars 2023"
+    },
+    {
+      "t": "p",
+      "x": "Un souvenir gravé pour longtemps. Merci à Mandelieu Watersports."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Élisabeth – 8 mars 2023"
+    },
+    {
+      "t": "p",
+      "x": "Une première pour notre fille : elle a adoré ! À refaire l’année prochaine."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Cécile – 8 mars 2023"
+    },
+    {
+      "t": "p",
+      "x": "Mon fils a adoré cette expérience unique ! Merci à toute l’équipe."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Noël – 7 mars 2023"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Théodore – 12 février 2023"
+    },
+    {
+      "t": "p",
+      "x": "Le sourire de notre enfant en disait long. Belle activité !"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Océane – 7 février 2023"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Margaud – 11 janvier 2023"
+    },
+    {
+      "t": "p",
+      "x": "Activité parfaitement adaptée aux enfants. Bravo pour l’organisation !"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Alain – 9 janvier 2023"
+    },
+    {
+      "t": "p",
+      "x": "Super sécurité, staff au top, notre fille s’est éclatée."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Michel – 7 janvier 2023"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Thibault – 7 janvier 2023"
+    },
+    {
+      "t": "p",
+      "x": "Moment magique pour notre petit aventurier ! On recommande les yeux fermés."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/a163c15b2d9a2e2facac065248f048271dea22529b19033da8b94bf42a303dd7?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Madeleine – 7 janvier 2023"
+    },
+    {
+      "t": "p",
+      "x": "Expérience rassurante et amusante pour les enfants, bravo !"
+    },
+    {
+      "t": "h2",
+      "x": "Produits similaires"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/parachute-ascensionnel/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-5.jpg",
+      "alt": "Parachute Ascensionnel"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+      "alts": [
+        "Parachute Ascensionnel Enfant"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-600x460.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-300x230.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-1024x786.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-768x589.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-1536x1178.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-2048x1571.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-200x200.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-150x150.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/05/groupe-privatisation-bateau-parachute-enfant-vol-mandelieu-watersports-300x300.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-12.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 2"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-12.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-600x400.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-300x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-1024x683.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-768x512.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-1536x1025.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-2048x1366.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-10-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-600x900.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-200x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-683x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-768x1152.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-1024x1536.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-1365x2048.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-6-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 5"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-600x900.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-200x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-683x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-768x1151.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-1025x1536.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-1366x2048.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 5"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-9-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 6"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-600x400.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-300x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-1024x683.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-768x512.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-1536x1025.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-2048x1366.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 6"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-adulte-mandelieu-reserver-theoule-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 7"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-600x600.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-1024x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-768x768.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-1536x1536.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-2048x2048.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-200x200.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 7"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/parachute-ascensionnel-fun-vol-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 8"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-600x900.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-200x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-683x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-768x1151.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-1025x1536.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-1366x2048.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg",
+      "alts": [
+        "Parachute Ascensionnel Enfant – Image 8"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-5.jpg",
+      "alts": [
+        "Parachute Ascensionnel"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-5-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-5-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/parachute-ascensionnel-cannes-theoule-mandelieu-watersports-mws-5-200x200.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

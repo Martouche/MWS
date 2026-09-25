@@ -1,0 +1,394 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/ski-nautique/",
+    "title": "Ski Nautique Mandelieu, Théoule | Mandelieu WaterSports",
+    "description": "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique. Amateur ou professionnel, le ski nautique à Mandelieu.",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/ski-nautique/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Ski Nautique Mandelieu, Théoule | Mandelieu WaterSports",
+      "og:description": "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique. Amateur ou professionnel, le ski nautique à Mandelieu.",
+      "og:url": "https://www.mandelieu-watersports.com/ski-nautique/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "og:image:width": "1600",
+      "og:image:height": "900",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "3 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/ski-nautique/",
+            "url": "https://www.mandelieu-watersports.com/ski-nautique/",
+            "name": "Ski Nautique Mandelieu, Théoule | Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/ski-nautique/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/ski-nautique/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "datePublished": "2023-01-19T15:05:53+00:00",
+            "dateModified": "2026-07-02T15:26:21+00:00",
+            "description": "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique. Amateur ou professionnel, le ski nautique à Mandelieu.",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/ski-nautique/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/ski-nautique/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/ski-nautique/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "width": 1600,
+            "height": 900,
+            "caption": "ski-nautique-cannes-mandelieu-watersports"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/ski-nautique/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ski Nautique"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "SKI NAUTIQUE"
+    },
+    {
+      "t": "p",
+      "x": "Des vos premiers tours découvrez des sensations de glisse unique avec le ski nautique !"
+    },
+    {
+      "t": "p",
+      "x": "Le ski nautique vous procurera des sensations de glisse très rapidement car l’activité est très instinctive."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-mandelieu-watersports-jeune"
+    },
+    {
+      "t": "h2",
+      "x": "Ski nautique à Mandelieu, Théoule"
+    },
+    {
+      "t": "p",
+      "x": "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique."
+    },
+    {
+      "t": "p",
+      "x": "Cette activité vous procurera des sensations de glisse très rapidement, c’est le sport de glisse le plus rapide à assimiler !"
+    },
+    {
+      "t": "p",
+      "x": "Tracté par un bateau comme en wakeboard mais en position « de face » après quelques coups d’essai de skier la vague voire même de tenter des sauts en prenant appui sur celle-ci. Le ski nautique est sans aucun doute le sport de glisse aquatique le plus facile."
+    },
+    {
+      "t": "p",
+      "x": "Dans une ambiance conviviale, de l’initiation au perfectionnement encadré par un moniteur diplômé d’état, découvrez le ski nautique."
+    },
+    {
+      "t": "p",
+      "x": "Nous n’avons pas de limite d’âge, un sport de glisse pour tous."
+    },
+    {
+      "t": "p",
+      "x": "Le ski nautique, une activité encadré par des professionnels"
+    },
+    {
+      "t": "h4",
+      "x": "Réservations : +33(6) 65 48 06 06",
+      "href": "tel:+33(6) 65 48 06 06"
+    },
+    {
+      "t": "p",
+      "x": "Tous nos prix sont Toutes Taxes Comprises, T.V.A de 20% incluse"
+    },
+    {
+      "t": "h4",
+      "x": "Le Ski nautique Mandelieu, Théoule"
+    },
+    {
+      "t": "h3",
+      "x": "TOUR SIMPLE"
+    },
+    {
+      "t": "li",
+      "x": "Tout âge"
+    },
+    {
+      "t": "li",
+      "x": "Prix par personne"
+    },
+    {
+      "t": "li",
+      "x": "Le Ski-nautique et le Wake-board se pratiquent avec un moniteur breveté d’état.Le matin de préférence quand les conditions sont propices."
+    },
+    {
+      "t": "h3",
+      "x": "LEÇON ENFANT"
+    },
+    {
+      "t": "li",
+      "x": "A partir de 10 ans"
+    },
+    {
+      "t": "li",
+      "x": "Faîtes des progrès avec un monituer professionnel dès votre premier tour Fous rire en perspective ! Amusez vous sur l’eau tout en apprenant."
+    },
+    {
+      "t": "h3",
+      "x": "LEÇON ADULTE"
+    },
+    {
+      "t": "li",
+      "x": "A partir de 13 ans"
+    },
+    {
+      "t": "h3",
+      "x": "FORFAIT 10 TOURS"
+    },
+    {
+      "t": "li",
+      "x": "UNIQUEMENT SUR DEMANDE"
+    },
+    {
+      "t": "li",
+      "x": "Profitez d'acheter 10 tours pour avoir une réduction ! Amusez vous sur l’eau tout en apprenant."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-mandelieu-watersports-jeune"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-cannes-mandelieu-watersports"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alts": [
+        "ski-nautique-mandelieu-watersports-jeune"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "alts": [
+        "ski-nautique-cannes-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

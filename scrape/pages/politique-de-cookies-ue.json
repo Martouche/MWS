@@ -1,0 +1,569 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/",
+    "title": "Politique de cookies (UE) - Mandelieu WaterSports",
+    "description": "",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Politique de cookies (UE) - Mandelieu WaterSports",
+      "og:url": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/",
+            "url": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/",
+            "name": "Politique de cookies (UE) - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "datePublished": "2024-01-10T16:22:46+00:00",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/politique-de-cookies-ue/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/politique-de-cookies-ue/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Politique de cookies (UE)"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "Politique de cookies (UE)"
+    },
+    {
+      "t": "li",
+      "x": "Politique de cookies (UE)"
+    },
+    {
+      "t": "p",
+      "x": "Cette politique de cookies a été mise à jour pour la dernière fois le 9 juillet 2024 et s’applique aux citoyens et aux résidents permanents légaux de l’Espace Économique Européen et de la Suisse."
+    },
+    {
+      "t": "h2",
+      "x": "1. Introduction"
+    },
+    {
+      "t": "p",
+      "x": "Notre site web, https://www.mandelieu-watersports.com (ci-après : « le site web ») utilise des cookies et autres technologies liées (par simplification, toutes ces technologies sont désignées par le terme « cookies »). Des cookies sont également placés par des tierces parties que nous avons engagées. Dans le document ci-dessous, nous vous informons de l’utilisation des cookies sur notre site web.",
+      "href": "https://www.mandelieu-watersports.com"
+    },
+    {
+      "t": "h2",
+      "x": "2. Que sont les cookies ?"
+    },
+    {
+      "t": "p",
+      "x": "Un cookie est un petit fichier simple envoyé avec les pages de ce site web et stocké par votre navigateur sur le disque dur de votre ordinateur ou d’un autre appareil. Les informations qui y sont stockées peuvent être renvoyées à nos serveurs ou aux serveurs des tierces parties concernées lors d’une visite ultérieure."
+    },
+    {
+      "t": "h2",
+      "x": "3. Que sont les scripts ?"
+    },
+    {
+      "t": "p",
+      "x": "Un script est un élément de code utilisé pour que notre site web fonctionne correctement et de manière interactive. Ce code est exécuté sur notre serveur ou sur votre appareil."
+    },
+    {
+      "t": "h2",
+      "x": "4. Qu’est-ce qu’une balise invisible ?"
+    },
+    {
+      "t": "p",
+      "x": "Une balise invisible (ou balise web) est un petit morceau de texte ou d’image invisible sur un site web, utilisé pour suivre le trafic sur un site web. Pour ce faire, diverses données vous concernant sont stockées à l’aide de balises invisibles."
+    },
+    {
+      "t": "h2",
+      "x": "5. Cookies"
+    },
+    {
+      "t": "h3",
+      "x": "5.1 Cookies techniques ou fonctionnels"
+    },
+    {
+      "t": "p",
+      "x": "Certains cookies assurent le fonctionnement correct de certaines parties du site web et la prise en compte de vos préférences en tant qu’internaute. En plaçant des cookies fonctionnels, nous vous facilitons la visite de notre site web. Ainsi, vous n’avez pas besoin de saisir à plusieurs reprises les mêmes informations lors de la visite de notre site web et, par exemple, les éléments restent dans votre panier jusqu’à votre paiement. Nous pouvons déposer ces cookies sans votre consentement."
+    },
+    {
+      "t": "h3",
+      "x": "5.2 Cookies de marketing/suivi"
+    },
+    {
+      "t": "p",
+      "x": "Les cookies de marketing/suivi sont des cookies ou toute autre forme de stockage local, utilisés pour créer des profils d’utilisateurs afin d’afficher de la publicité ou de suivre l’utilisateur sur ce site web ou sur plusieurs sites web dans des finalités marketing similaires."
+    },
+    {
+      "t": "h3",
+      "x": "5.3 Réseaux sociaux"
+    },
+    {
+      "t": "p",
+      "x": "Sur notre site web, nous avons inclus du contenu pour promouvoir des pages web sur les réseaux sociaux (par exemple, « like », « pin ») ou les partager (par exemple, « tweet »). Ce contenu est intégré grâce un code obtenu de tierces parties et place des cookies. Ce contenu peut stocker et traiter certaines informations à des fins de publicité personnalisée."
+    },
+    {
+      "t": "p",
+      "x": "Veuillez lire la déclaration de confidentialité de ces réseaux sociaux (qui peut être modifiée régulièrement) afin de savoir ce qu’ils font de vos données (personnelles) traitées en utilisant ces cookies. Les données récupérées sont anonymisées autant que possible."
+    },
+    {
+      "t": "h2",
+      "x": "6. Cookies placés"
+    },
+    {
+      "t": "h3",
+      "x": "PHP"
+    },
+    {
+      "t": "p",
+      "x": "Functional"
+    },
+    {
+      "t": "h4",
+      "x": "Utilisation"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons PHP pour website development. En savoir plus sur PHP",
+      "href": "https://cookiedatabase.org/service/php/"
+    },
+    {
+      "t": "h4",
+      "x": "Partage de données"
+    },
+    {
+      "t": "p",
+      "x": "Ces données ne sont pas partagées avec des tierces parties."
+    },
+    {
+      "t": "h4",
+      "x": "Functional"
+    },
+    {
+      "t": "h5",
+      "x": "Nom"
+    },
+    {
+      "t": "h5",
+      "x": "Expiration"
+    },
+    {
+      "t": "h5",
+      "x": "Fonction"
+    },
+    {
+      "t": "h3",
+      "x": "WordPress"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons WordPress pour website development. En savoir plus sur WordPress",
+      "href": "https://cookiedatabase.org/service/wordpress/"
+    },
+    {
+      "t": "h3",
+      "x": "WooCommerce"
+    },
+    {
+      "t": "p",
+      "x": "Functional, Statistics"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons WooCommerce pour webshop management. En savoir plus sur WooCommerce",
+      "href": "https://cookiedatabase.org/service/woocommerce/"
+    },
+    {
+      "t": "h4",
+      "x": "Statistics"
+    },
+    {
+      "t": "h3",
+      "x": "Stripe"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons Stripe pour le traitement de paiement. En savoir plus sur Stripe",
+      "href": "https://cookiedatabase.org/service/stripe/"
+    },
+    {
+      "t": "p",
+      "x": "Pour plus d’informations, veuillez lire la déclaration de confidentialité Stripe.",
+      "href": "https://stripe.com/privacy/"
+    },
+    {
+      "t": "h3",
+      "x": "mailpoet"
+    },
+    {
+      "t": "p",
+      "x": "Marketing"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons mailpoet pour les abonnements aux listes de diffusion. En savoir plus sur mailpoet",
+      "href": "https://cookiedatabase.org/service/mailpoet/"
+    },
+    {
+      "t": "p",
+      "x": "Pour plus d’informations, veuillez lire la déclaration de confidentialité mailpoet.",
+      "href": "https://automattic.com/privacy/"
+    },
+    {
+      "t": "h4",
+      "x": "Marketing"
+    },
+    {
+      "t": "h3",
+      "x": "Wordfence"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons Wordfence pour la sécurité du site web. En savoir plus sur Wordfence",
+      "href": "https://cookiedatabase.org/service/wordfence/"
+    },
+    {
+      "t": "p",
+      "x": "Pour plus d’informations, veuillez lire la déclaration de confidentialité Wordfence.",
+      "href": "https://www.wordfence.com/privacy-policy/"
+    },
+    {
+      "t": "h3",
+      "x": "Complianz"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons Complianz pour cookie consent management. En savoir plus sur Complianz",
+      "href": "https://cookiedatabase.org/service/complianz/"
+    },
+    {
+      "t": "p",
+      "x": "Ces données ne sont pas partagées avec des tierces parties. Pour plus d’informations, veuillez lire la déclaration de confidentialité Complianz.",
+      "href": "https://complianz.io/legal/privacy-statement/"
+    },
+    {
+      "t": "h3",
+      "x": "Zendesk"
+    },
+    {
+      "t": "p",
+      "x": "Statistics"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons Zendesk pour Customer Relations Management. En savoir plus sur Zendesk",
+      "href": "https://cookiedatabase.org/service/zendesk/"
+    },
+    {
+      "t": "h3",
+      "x": "Jetpack"
+    },
+    {
+      "t": "p",
+      "x": "Statistiques, Statistics"
+    },
+    {
+      "t": "p",
+      "x": "Nous utilisons Jetpack pour la publicité. En savoir plus sur Jetpack",
+      "href": "https://cookiedatabase.org/service/jetpack/"
+    },
+    {
+      "t": "p",
+      "x": "Pour plus d’informations, veuillez lire la déclaration de confidentialité Jetpack.",
+      "href": "https://jetpack.com/support/privacy/"
+    },
+    {
+      "t": "h4",
+      "x": "Statistiques"
+    },
+    {
+      "t": "h3",
+      "x": "Divers"
+    },
+    {
+      "t": "p",
+      "x": "Finalité en attente d’enquête"
+    },
+    {
+      "t": "p",
+      "x": "Le partage des données est en cours d’enquête"
+    },
+    {
+      "t": "h4",
+      "x": "Finalité en attente d’enquête"
+    },
+    {
+      "t": "h2",
+      "x": "7. Consentement"
+    },
+    {
+      "t": "p",
+      "x": "Lorsque vous visitez notre site web pour la première fois, nous vous montrerons une fenêtre contextuelle avec une explication sur les cookies. Dès que vous cliquez sur « Enregistrer les préférences » vous nous autorisez à utiliser les catégories de cookies et d’extensions que vous avez sélectionnés dans la fenêtre contextuelle, comme décrit dans la présente politique de cookies. Vous pouvez désactiver l’utilisation des cookies via votre navigateur, mais veuillez noter que notre site web pourrait ne plus fonctionner correctement."
+    },
+    {
+      "t": "h3",
+      "x": "7.1 Gérez vos réglages de consentement"
+    },
+    {
+      "t": "h2",
+      "x": "8. Activer/désactiver et supprimer les cookies"
+    },
+    {
+      "t": "p",
+      "x": "Vous pouvez utiliser votre navigateur internet pour supprimer automatiquement ou manuellement les cookies. Vous pouvez également spécifier que certains cookies ne peuvent pas être placés. Une autre option consiste à modifier les réglages de votre navigateur Internet afin que vous receviez un message à chaque fois qu’un cookie est placé. Pour plus d’informations sur ces options, reportez-vous aux instructions de la section Aide de votre navigateur."
+    },
+    {
+      "t": "p",
+      "x": "Veuillez noter que notre site web peut ne pas marcher correctement si tous les cookies sont désactivés. Si vous supprimez les cookies dans votre navigateur, ils seront de nouveau placés après votre consentement lorsque vous revisiterez notre site web."
+    },
+    {
+      "t": "h2",
+      "x": "9. Vos droits concernant les données personnelles"
+    },
+    {
+      "t": "p",
+      "x": "Vous avez les droits suivants concernant vos données personnelles :"
+    },
+    {
+      "t": "li",
+      "x": "Vous avez le droit de savoir pourquoi vos données personnelles sont nécessaires, ce qui leur arrivera et combien de temps elles seront conservées."
+    },
+    {
+      "t": "li",
+      "x": "Droit d’accès : vous avez le droit d’accéder à vos données personnelles que nous connaissons."
+    },
+    {
+      "t": "li",
+      "x": "Droit de rectification : vous avez le droit à tout moment de compléter, corriger, faire supprimer ou bloquer vos données personnelles."
+    },
+    {
+      "t": "li",
+      "x": "Si vous nous donnez votre consentement pour le traitement de vos données, vous avez le droit de révoquer ce consentement et de faire supprimer vos données personnelles."
+    },
+    {
+      "t": "li",
+      "x": "Droit de transférer vos données : vous avez le droit de demander toutes vos données personnelles au responsable du traitement et de les transférer dans leur intégralité à un autre responsable du traitement."
+    },
+    {
+      "t": "li",
+      "x": "Droit d’opposition : vous pouvez vous opposer au traitement de vos données. Nous obtempérerons, à moins que certaines raisons ne justifient ce traitement."
+    },
+    {
+      "t": "p",
+      "x": "Pour exercer ces droits, veuillez nous contacter. Veuillez vous référer aux coordonnées au bas de cette politique de cookies. Si vous avez une plainte concernant la façon dont nous traitons vos données, nous aimerions en être informés, mais vous avez également le droit de déposer une plainte auprès de l’autorité de contrôle (l’autorité chargée de la protection des données)."
+    },
+    {
+      "t": "h2",
+      "x": "10. Coordonnées"
+    },
+    {
+      "t": "p",
+      "x": "Pour des questions et/ou des commentaires sur notre politique de cookies et cette déclaration, veuillez nous contacter en utilisant les coordonnées suivantes :"
+    },
+    {
+      "t": "p",
+      "x": "WA NAUTIQUE 467 BOULEVARD DES ECUREUILS France Site web : https://www.mandelieu-watersports.com E-mail : contact@ex.commandelieu-watersports.com Numéro de téléphone : 06 65 48 06 06",
+      "href": "https://www.mandelieu-watersports.com"
+    },
+    {
+      "t": "p",
+      "x": "Cette politique de cookies a été synchronisée avec cookiedatabase.org le 10 janvier 2024.",
+      "href": "https://cookiedatabase.org/"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

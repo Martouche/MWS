@@ -1,0 +1,703 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/",
+    "title": "Conditions Générales de Vente - Mandelieu WaterSports",
+    "description": "",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Conditions Générales de Vente - Mandelieu WaterSports",
+      "og:url": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "2048",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "14 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/",
+            "url": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/",
+            "name": "Conditions Générales de Vente - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "datePublished": "2023-02-14T19:01:34+00:00",
+            "dateModified": "2024-07-08T15:36:29+00:00",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/conditions-generales-de-vente/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/conditions-generales-de-vente/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Conditions Générales de Vente"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "Conditions Générales de Vente"
+    },
+    {
+      "t": "li",
+      "x": "Conditions Générales de Vente"
+    },
+    {
+      "t": "h2",
+      "x": "Article 1 : Réservations"
+    },
+    {
+      "t": "p",
+      "x": "Tout état de santé particulier doit être déclarer au moment de la réservation tel qu’énoncé à l’article 6-2."
+    },
+    {
+      "t": "p",
+      "x": "Les personnes âgées de plus de 80 ans ne sont pas acceptées à bord."
+    },
+    {
+      "t": "p",
+      "x": "Les femmes enceintes; les personnes de plus de 110kg et les personnes présentant un handicap, un problème physique ou de santé quelconque, sont impérativement tenus de le signaler au moment de la réservation."
+    },
+    {
+      "t": "p",
+      "x": "Il est préférable d’effectuer la réservation le plus tôt possible, compte tenu du nombre restreint de places à bord du navire et de l’affluence, surtout en pleine saison."
+    },
+    {
+      "t": "p",
+      "x": "La Société accepte les réservations en ligne via son site internet https://www.mandelieu-watersports.com/ , par téléphone, ou directement en point de vente."
+    },
+    {
+      "t": "p",
+      "x": "Toute réservation sans règlement immédiat ne pourra être validée qu’après communication d’une empreinte de carte bancaire et de coordonnées valides."
+    },
+    {
+      "t": "p",
+      "x": "En tout état de cause, le client sera tenu de procéder au règlement de son ticket suite à cette réservation dans les conditions visées à l’article 4 des présentes."
+    },
+    {
+      "t": "p",
+      "x": "Les enfants mineurs sont admis à partir de 5 ans et uniquement s’ils sont accompagnés et sous la responsabilité de leurs parents."
+    },
+    {
+      "t": "p",
+      "x": "Les animaux de compagnie sont interdits à bord."
+    },
+    {
+      "t": "h2",
+      "x": "Article 2 : Horaires, circuits et tarifs"
+    },
+    {
+      "t": "p",
+      "x": "Les horaires et les circuits de promenade sont définis par Mandelieu Watersports. Le site internet ainsi que les dépliants, panneaux et affiches publicitaires édités par Mandelieu Watersports et présentant les circuits des excursions ne constituent pas un document contractuel. Les informations y sont données à titre indicatif. Les programmes peuvent être amenés à subir des modifications."
+    },
+    {
+      "t": "p",
+      "x": "En effet, des modifications de ces horaires et circuits peuvent intervenir en cours de saison en fonction du temps, de la température ressentie, des horaires de lever et coucher du soleil ou encore des horaires d’ouverture des établissements pouvant accueillir les passagers dans le cadre des excursions proposées (port, restaurant, etc.)."
+    },
+    {
+      "t": "p",
+      "x": "Tout comme les horaires et circuits, les tarifs peuvent être amenés à varier à tout moment en fonction des éléments ou encore en fonction de la conjoncture économique (surcharge, carburant…) ou de modification des taxes (TVA, taxes portuaires et d’usage)."
+    },
+    {
+      "t": "p",
+      "x": "Les tarifs ne varient pas en fonction de la fréquentation."
+    },
+    {
+      "t": "p",
+      "x": "Les prix des prestations s’entendent toutes taxes comprises (TTC)."
+    },
+    {
+      "t": "p",
+      "x": "Les passagers connaîtront les horaires, circuits et tarifs, au moment de leur réservation via le site internet ou après avoir contacté la Société pour une prise de renseignements."
+    },
+    {
+      "t": "p",
+      "x": "Cependant, les horaires de départs et d’arrivée annoncés au moment de la réservation peuvent être avancés ou retardés en cas de difficulté quelconque rencontrée par le capitaine du navire."
+    },
+    {
+      "t": "p",
+      "x": "En outre, les conditions météorologiques peuvent contraindre le capitaine du navire à modifier le circuit de l’excursion initialement prévu."
+    },
+    {
+      "t": "p",
+      "x": "En tout état de cause, les passagers seront tenus informés de toute modification d’horaires, de tarifs ou de circuits."
+    },
+    {
+      "t": "p",
+      "x": "En aucun cas, une telle modification ne saurait justifier le versement d’une quelconque indemnité aux passagers."
+    },
+    {
+      "t": "p",
+      "x": "Le transporteur se réserve le droit, à la discrétion du Capitaine et pour des raisons inhérentes à la navigation, d’effectuer des escales autres que celles prévues ou de modifier le trajet initial."
+    },
+    {
+      "t": "p",
+      "x": "Il est permis au capitaine de remorquer, de porter secours aux navires dans toutes situations, de dérouter, de faire tous sauvetages et tous transbordements."
+    },
+    {
+      "t": "p",
+      "x": "Ni le Capitaine ni la Compagnie ne peuvent être tenus responsables en cas de déroutements, de modifications, d’interruptions des services ou de retards dans les départs et arrivées du navire, ni de la non coïncidence dans les arrivées, départs ou correspondances de navires et d’avions et de trains."
+    },
+    {
+      "t": "h2",
+      "x": "Article 3 : Annulation"
+    },
+    {
+      "t": "p",
+      "x": "La compagnie se réserve le droit d’annuler une excursion, sans préavis ni indemnité, si le quota minimum de passagers n’est pas atteint (8 passagers plein tarif), en cas de force majeure, cas fortuit, mauvaises conditions météorologiques, avarie, dysfonctionnement quelconque, pour des raisons de sécurité ou encore pour tout autre motif légitime."
+    },
+    {
+      "t": "p",
+      "x": "Seul le capitaine du navire est habilité à juger si les conditions météorologiques permettent ou non la réalisation de l’excursion, et ce, toujours dans l’objectif de permettre aux passagers de profiter d’une visite dans les meilleurs conditions possibles."
+    },
+    {
+      "t": "p",
+      "x": "Si le départ du navire est empêché ou retardé par l’un de ces événements exceptionnels, la société décline toute responsabilité pour les frais et préjudices directs ou indirects occasionnés pour les passagers."
+    },
+    {
+      "t": "p",
+      "x": "La société Mandelieu Watersports s’engage à prévenir les passagers dès qu’elle a connaissance de la moindre difficulté modifiant ou empêchant la tenue de l’excursion."
+    },
+    {
+      "t": "p",
+      "x": "La société s’efforcera de proposer une alternative aux passagers et notamment, le report de l’excursion, en fonction des disponibilités de la compagnie, sans que ceux-ci puissent réclamer un quelconque dédommagement, remboursement ou indemnité."
+    },
+    {
+      "t": "p",
+      "x": "A défaut de solution de substitution proposée ou acceptée, les passagers pourront réclamer le remboursement de l’intégralité de leurs billets auprès de la Société."
+    },
+    {
+      "t": "p",
+      "x": "Les remboursements s’effectuent selon le même mode de paiement que celui utilisé par le passager lors de sa réservation."
+    },
+    {
+      "t": "p",
+      "x": "3.2- Annulation du fait du passager"
+    },
+    {
+      "t": "p",
+      "x": "Le passager a la possibilité d’annuler sa réservation pour tout motif et à tout moment."
+    },
+    {
+      "t": "p",
+      "x": "Néanmoins, il ne pourra être remboursé ou exonéré du paiement de son ticket que si l’annulation est effectuée au moins 48 heures avant l’heure de départ de l’excursion."
+    },
+    {
+      "t": "p",
+      "x": "A défaut, le passager sera tenu de régler son titre de transport dans l’intégralité et la Société ne sera tenue à aucun remboursement ni dédommagement."
+    },
+    {
+      "t": "p",
+      "x": "3.3-Annulation Groupe"
+    },
+    {
+      "t": "p",
+      "x": "Un groupe a la possibilité d’annuler sa réservation pour tout motif et à tout moment."
+    },
+    {
+      "t": "p",
+      "x": "Néanmoins, il ne pourra être remboursé ou exonéré du paiement de son ticket que si l’annulation est effectuée au moins 96h heures avant l’heure de départ de l’excursion."
+    },
+    {
+      "t": "h2",
+      "x": "Article 4 : Modalités de paiement"
+    },
+    {
+      "t": "p",
+      "x": "La compagnie accepte le paiement par e-transaction, par carte bancaire, chèques vacances ANCV ou en espèces."
+    },
+    {
+      "t": "p",
+      "x": "Les passagers peuvent régler leur ticket directement en ligne sur le site de la compagnie ou à la billetterie principale du port de Nice pendant les horaires d’ouverture."
+    },
+    {
+      "t": "p",
+      "x": "Ils peuvent également régler leur ticket lors de l’embarquement par cartes bancaires, chèques, chèques vacances ANCV, ou espèces."
+    },
+    {
+      "t": "p",
+      "x": "Une adresse électronique (courriel) valide est nécessaire au moment de la réservation, pour la réception de votre titre de transport dématérialisé. La validité de l’adresse électronique est de la responsabilité du client."
+    },
+    {
+      "t": "p",
+      "x": "Les titres de transport ne sont émis que contre paiement intégral."
+    },
+    {
+      "t": "p",
+      "x": "La monnaie n’est pas rendue sur les chèques vacances."
+    },
+    {
+      "t": "h2",
+      "x": "Article 5 : Validité et incessibilité des titres"
+    },
+    {
+      "t": "p",
+      "x": "Ils ne sont pas cessibles."
+    },
+    {
+      "t": "h2",
+      "x": "Article 6 : Embarquement et débarquement"
+    },
+    {
+      "t": "p",
+      "x": "Les passagers doivent se présenter devant la zone d’embarquement 30 minutes avant le départ."
+    },
+    {
+      "t": "p",
+      "x": "Aucun retard n’est accepté par la compagnie."
+    },
+    {
+      "t": "p",
+      "x": "En cas de retard, même muni d’un titre de transport, le passager n’aura aucun recours contre la société s’il ne peut embarquer."
+    },
+    {
+      "t": "p",
+      "x": "L’embarquement et le débarquement des passagers se fait en présence du capitaine, lequel dirige ses passagers et leur indique la marche à suivre pour monter et descendre à bord."
+    },
+    {
+      "t": "p",
+      "x": "Seuls les passagers ayant réservé leur place et présentant un titre de transport valide, sont habilités à embarquer."
+    },
+    {
+      "t": "p",
+      "x": "Le titre de transport devra être conservé en état par le passager pendant toute la durée du voyage."
+    },
+    {
+      "t": "p",
+      "x": "La compagnie se réserve le droit de refuser d’embarquer un passager ou un groupe de passagers se présentant à l’embarquement sans réservation ou sans titre de transport."
+    },
+    {
+      "t": "p",
+      "x": "Le Capitaine a, entre autres, toute compétence pour refuser l’embarquement à quiconque présentant une condition physique ou mentale ne lui permettant pas d’effectuer l’excursion ou à toute personne ayant absorbé des stupéfiants, hallucinogènes, ou alcool rendant son comportement dangereux vis-à-vis des autres passagers. Dans tous les cas énumérés ci-dessus, le passager n’aura pas le droit de se soustraire à sa responsabilité en cas de dommages causés à sa propre personne, au navire, aux biens et équipements, aux tiers ainsi qu’aux biens des tiers."
+    },
+    {
+      "t": "p",
+      "x": "6.2 – Etat de santé des passagers"
+    },
+    {
+      "t": "p",
+      "x": "Tout état de santé particulier doit être déclaré au moment de la réservation."
+    },
+    {
+      "t": "p",
+      "x": "Par ailleurs, tout passager présentant un handicap, un problème de santé avéré, ou des conditions physiques incompatibles avec la promenade proposée (femme enceinte, passager présentant un problème dorsal, personne à mobilité réduite ou présentant un handicap lourd, ou un cardiaque élevé etc.) est tenu de le signaler à la société au moment de la réservation, tel qu’indiqué à l’article 1."
+    },
+    {
+      "t": "p",
+      "x": "En cas de non-déclaration au moment de la réservation, le Capitaine peut refuser l’embarquement aux passagers dont l’état de santé n’est pas compatible avec l’excursion sans qu’il puisse être exigé de remboursement ou de dédommagement de quelque nature que ce soit de la part du passager."
+    },
+    {
+      "t": "p",
+      "x": "Le capitaine n’est pas tenu d’embarquer un passager qui n’aurait pas fait mention de son état dans ces conditions."
+    },
+    {
+      "t": "p",
+      "x": "Ce passager sera tout de même tenu de régler son billet et aucun remboursement ou dédommagement ne pourra être opéré."
+    },
+    {
+      "t": "p",
+      "x": "En outre, si le capitaine juge que l’état de santé ou les conditions physiques du passager qui s’est valablement signalé sont incompatibles avec la promenade au vue des conditions météorologiques du jour, il est en droit de refuser l’embarquement du passager."
+    },
+    {
+      "t": "p",
+      "x": "Le cas échéant, le passager sera remboursé en intégralité."
+    },
+    {
+      "t": "p",
+      "x": "6.3 – Accessibilité"
+    },
+    {
+      "t": "p",
+      "x": "Ce type de bateau est incompatible avec le transport de personnes à mobilité réduite ou présentant un handicap physique lourd. En cas de non-déclaration au moment de la réservation, le Capitaine a, entre autre, toute compétence pour refuser l’embarquement aux passagers dont le handicap n’est pas compatible avec l’excursion sans qu’il puisse être exigé de remboursement ou de dédommagement de quelque nature que ce soit, tel que défini à l’article 6.2."
+    },
+    {
+      "t": "p",
+      "x": "Les bicyclettes, les landaus, les poussettes même pliées, les équipements de motocycliste, ou autres matériels trop encombrant ne sont pas autorisés à bord et ne peuvent être embarqués."
+    },
+    {
+      "t": "h2",
+      "x": "Article 7 : Consignes de sécurité et responsabilité"
+    },
+    {
+      "t": "p",
+      "x": "Les passagers sont tenus de rester assis sur leurs sièges lors de la navigation."
+    },
+    {
+      "t": "p",
+      "x": "Ils ne pourront se déplacer à bord du navire que sur autorisation du capitaine."
+    },
+    {
+      "t": "p",
+      "x": "Les mineurs sont autorisés à bord s’ils sont accompagnés de leurs parents et demeurent sous la surveillance et la responsabilité pleine et entière de ces derniers."
+    },
+    {
+      "t": "p",
+      "x": "Les animaux sont interdits à bord."
+    },
+    {
+      "t": "p",
+      "x": "Les passagers s’engagent dans tous les cas à se soumettre au règlement établi par la compagnie Mandelieu Watersports à bord des navires, ainsi qu’à se soumettre aux ordres du Capitaine."
+    },
+    {
+      "t": "p",
+      "x": "En cas d’accident lié au non-respect par les passagers des consignes de sécurité, la Société ne saurait être tenue responsable des dommages qui pourraient survenir."
+    },
+    {
+      "t": "p",
+      "x": "Les passagers sont tenus de conserver leurs objets personnels avec eux."
+    },
+    {
+      "t": "p",
+      "x": "La compagnie n’est pas responsable des objets à bord, la dégradation des biens et effets personnels (bijoux, métaux précieux, papiers et documents personnels, appareils de reproduction du son ou de l’image, téléphones portables et lunettes. En cas de vol, perte ou détérioration de ceux-ci, aucun dédommagement, remboursement ou indemnité ne sera effectué."
+    },
+    {
+      "t": "h2",
+      "x": "Article 8 : Baignades"
+    },
+    {
+      "t": "p",
+      "x": "Néanmoins, elle propose des pauses baignades lors de ses excursions."
+    },
+    {
+      "t": "p",
+      "x": "La baignade sera effectuée sous la responsabilité des passagers."
+    },
+    {
+      "t": "p",
+      "x": "Le capitaine se réserve le droit d’annuler une pause baignade au regard des conditions météorologiques."
+    },
+    {
+      "t": "h2",
+      "x": "Article 10 : Règlementation du navire"
+    },
+    {
+      "t": "p",
+      "x": "Permis de navigation, renouvelé après contrôle annuel, attestant de la conformité du navire aux normes techniques relatives à la sécurité des navires à passagers (stabilité, flottabilité, solidité, prévention et extinction d’incendie, engins de sauvetage…)."
+    },
+    {
+      "t": "p",
+      "x": "Le capitaine dispose d’un Brevet de commandement et de chef Mécanicien."
+    },
+    {
+      "t": "p",
+      "x": "Ces Brevets impliquent également la possession d’une attestation de formation aux premiers secours, et d’un certificat de CGO (Certificat radio d’opérateur)."
+    },
+    {
+      "t": "p",
+      "x": "Chaque navigant est obligatoirement soumis à une visite médicale d’aptitude physique annuelle passée devant un médecin des gens de mer."
+    },
+    {
+      "t": "p",
+      "x": "Une assurance spéciale couvrant tous les passagers."
+    },
+    {
+      "t": "h2",
+      "x": "Article 11 : Groupes, Convention et Privatisation"
+    },
+    {
+      "t": "p",
+      "x": "La réservation d’une prestation de privatisation, ou pour un groupe, ne sera effective qu’après l’acceptation par le client du devis ainsi qu’après versement d’un acompte égale à 40% du montant totale de la prestation."
+    },
+    {
+      "t": "p",
+      "x": "Le paiement du montant restant se fera au plus tard avant l’embarquement."
+    },
+    {
+      "t": "p",
+      "x": "En cas d’annulation de la part du client, le montant de l’acompte reste dû à la société et le client ne pourra prétendre au remboursement de ceux-ci ni à aucun dédommagement."
+    },
+    {
+      "t": "p",
+      "x": "En cas d’annulation de la part de la société dans les conditions décrites à l’article 3.1 le remboursement de la totalité de la somme sera effectué au client."
+    },
+    {
+      "t": "p",
+      "x": "11.2 – Groupes et convention"
+    },
+    {
+      "t": "p",
+      "x": "Les tarifs préférentiels accordées au groupe, sont accordés pour un nombre égal au moins à 10 personnes."
+    },
+    {
+      "t": "p",
+      "x": "Le règlement du montant s’effectuera selon les modalités définis à l’article 11.1"
+    },
+    {
+      "t": "p",
+      "x": "Pour le remboursement s’appliquent les conditions d’annulation de la part de la société tels que définis à l’article 3.1. Ainsi que les conditions d’annulations de la part du client sont définies à l’article 3.3"
+    },
+    {
+      "t": "p",
+      "x": "Dans le cadre d’accord ou de convention établit entre la société Mandelieu Watersports et des partenaires, leurs adhérents ou clients pourront bénéficier de remises accordées par la société Mandelieu Watersports."
+    },
+    {
+      "t": "p",
+      "x": "A l’embarquement, les passagers devront justifier de documents prouvant du séjour ou de l’adhésion chez l’un de nos partenaires conventionnés, auquel cas le montant du ticket sera dû au tarif en vigueur dans son intégralité, sans aucun recours auprès de la société Mandelieu Watersports."
+    },
+    {
+      "t": "p",
+      "x": "L’établissement d’une convention ne saurait permettre, au personnes tiers et organismes tiers signataires, de se substituer aux conditions générales de ventes de la société Mandelieu Watersports."
+    },
+    {
+      "t": "h2",
+      "x": "Article 12 : Réclamations"
+    },
+    {
+      "t": "h2",
+      "x": "Formulaire de contact"
+    },
+    {
+      "t": "p",
+      "x": "Informations sur un paiement"
+    },
+    {
+      "t": "p",
+      "x": "EDITEUR : WA NAUTIQUE"
+    },
+    {
+      "t": "p",
+      "x": "FORME SOCIALE : SASU Société par actions simplifiée à associé unique"
+    },
+    {
+      "t": "p",
+      "x": "CAPITAL SOCIAL : 1 000, 00 €"
+    },
+    {
+      "t": "p",
+      "x": "RSC / SIREN : 829289081"
+    },
+    {
+      "t": "p",
+      "x": "TVA INTRACOMMUNAUTAIRE : FR03829289081"
+    },
+    {
+      "t": "p",
+      "x": "DIRECTEUR DE LA PUBLICATION : Monsieur Andy Winterhalter"
+    },
+    {
+      "t": "p",
+      "x": "CODE BANQUE (CIB) : 14607"
+    },
+    {
+      "t": "p",
+      "x": "Siège social : WA NAUTIQUE, 467 boulevard des Ecureuils"
+    },
+    {
+      "t": "p",
+      "x": "06210 Mandelieu la Napoule"
+    },
+    {
+      "t": "p",
+      "x": "contact@sun7evasion.com"
+    },
+    {
+      "t": "p",
+      "x": "+33 06 61 04 64 85"
+    },
+    {
+      "t": "p",
+      "x": "HEBERGEUR : OVH"
+    },
+    {
+      "t": "p",
+      "x": "SAS au capital de 10 174 560 €"
+    },
+    {
+      "t": "p",
+      "x": "Politique de confidentialité : https://sun7evasion.com/politique-de-confidentialite/"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/parachute-ascensionnel-couverture-mandelieu-watersports-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

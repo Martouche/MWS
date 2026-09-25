@@ -1,0 +1,686 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+    "title": "Wakesurf Leçon Adulte Mandelieu | Mandelieu WaterSports",
+    "description": "Découvrez le wakesurf leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Wakesurf Leçon Adulte Mandelieu | Mandelieu WaterSports",
+      "og:description": "Découvrez le wakesurf leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+      "og:url": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+      "og:image:width": "1000",
+      "og:image:height": "662",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+            "url": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+            "name": "Wakesurf Leçon Adulte Mandelieu | Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+            "datePublished": "2023-01-19T17:20:35+00:00",
+            "dateModified": "2025-08-01T14:02:53+00:00",
+            "description": "Découvrez le wakesurf leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+            "width": 1000,
+            "height": 662,
+            "caption": "wakesurf-mandelieu-watersports-théoule"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boutique",
+                "item": "https://www.mandelieu-watersports.com/boutique/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Wakesurf Leçon Adulte"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Accueil",
+                  "@id": "https://www.mandelieu-watersports.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Wakesurf",
+                  "@id": "https://www.mandelieu-watersports.com/categorie-produit/wakesurf/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Wakesurf Leçon Adulte",
+                  "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/"
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "@id": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#product",
+            "name": "Wakesurf Leçon Adulte",
+            "url": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+            "description": "Entre 3 et 10 ans\r\n\r\nPrix par personne*\r\n\r\nDescription\r\n\r\nAprès validation de votre commande,\r\nNous vous invitons à nous contacter au +33 06 65 48 06 06  afin de réserver vos dates.\r\n\r\n&amp;nbsp;",
+            "image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+            "sku": 32306,
+            "offers": [
+              {
+                "@type": "Offer",
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "55.00",
+                    "priceCurrency": "EUR",
+                    "validThrough": "2027-12-31"
+                  }
+                ],
+                "priceValidUntil": "2027-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/",
+                "seller": {
+                  "@type": "Organization",
+                  "name": "Mandelieu WaterSports",
+                  "url": "https://www.mandelieu-watersports.com"
+                },
+                "price": "55.00",
+                "priceCurrency": "EUR"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.00",
+              "reviewCount": 350
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Manon"
+                },
+                "reviewBody": "Perfect experience on the water!",
+                "datePublished": "2025-09-26T17:39:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Mia"
+                },
+                "reviewBody": "Primera clase de wakesurf, ¡me encantó!",
+                "datePublished": "2025-09-26T11:04:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Jules"
+                },
+                "reviewBody": "Muy buenos instructores y ambiente relajado.",
+                "datePublished": "2025-09-25T18:08:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Arthur"
+                },
+                "reviewBody": "Fun and helpful guidance for beginners.",
+                "datePublished": "2025-09-24T15:15:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Sarah"
+                },
+                "reviewBody": "Ich habe viel gelernt und es hat Spaß gemacht.",
+                "datePublished": "2025-09-24T09:46:00+02:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+      "alt": "wakesurf-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "h1",
+      "x": "Wakesurf Leçon Adulte"
+    },
+    {
+      "t": "p",
+      "x": "55,00 €"
+    },
+    {
+      "t": "p",
+      "x": "Entre 3 et 10 ans"
+    },
+    {
+      "t": "p",
+      "x": "Prix par personne*"
+    },
+    {
+      "t": "p",
+      "x": "Description",
+      "href": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-adulte/#Description"
+    },
+    {
+      "t": "p",
+      "x": "Après validation de votre commande, Nous vous invitons à nous contacter au +33 06 65 48 06 06 afin de réserver vos dates.",
+      "href": "tel:+336 65 48 06 06"
+    },
+    {
+      "t": "li",
+      "x": "Avis (350)",
+      "href": "#tab-reviews"
+    },
+    {
+      "t": "h2",
+      "x": "Description"
+    },
+    {
+      "t": "h2",
+      "x": "A partir de 10 ans"
+    },
+    {
+      "t": "p",
+      "x": "Un tour de wakesurf à Mandelieu, Théoule en toute sécurité !!!"
+    },
+    {
+      "t": "p",
+      "x": "Le Wakesurf est sans aucun doute un des sports de glisse aquatique les plus accessibles et les plus grisants. Dans une ambiance conviviale, de l’initiation au perfectionnement encadré par un moniteur brevet d’état, découvrez le Wakesurf."
+    },
+    {
+      "t": "p",
+      "x": "Un sport de glisse pour tous."
+    },
+    {
+      "t": "h4",
+      "x": "Transaction 100% sécurisée"
+    },
+    {
+      "t": "h4",
+      "x": "Réserver votre créneau"
+    },
+    {
+      "t": "h4",
+      "x": "100% remboursable"
+    },
+    {
+      "t": "h4",
+      "x": "Votre tour simple dans la baie de Mandelieu !"
+    },
+    {
+      "t": "p",
+      "x": "Profitez d’un tour de wakesurf avec un pilote professionnel."
+    },
+    {
+      "t": "p",
+      "x": "Le Ski-nautique et le Wakesurf se pratiquent avec un moniteur breveté d’état, le matin de préférence quand les conditions sont propices."
+    },
+    {
+      "t": "p",
+      "x": "Avant tout, Notre équipe technique assure le contrôle de l’équipement et des conditions nécessaires à sa mise en œuvre pour votre sécurité."
+    },
+    {
+      "t": "p",
+      "x": "En conclusion, vous voulez vivre des moments de folie en vous amusant, nous sommes là pour vous."
+    },
+    {
+      "t": "h2",
+      "x": "350 avis pour Wakesurf Leçon Adulte"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Sophie – 26 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Session intense mais vraiment fun."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Eva – 24 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Super cours de wakesurf, équipe au top !"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Sophie – 21 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Perfect experience on the water!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Mia – 20 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Nathan – 18 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Ich habe viel gelernt und es hat Spaß gemacht."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Nathan – 16 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "J’ai enfin réussi à me lever sur la planche !"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Léa – 15 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Toller Wakesurf-Unterricht, sehr professionell."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Olivier – 14 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Primera clase de wakesurf, ¡me encantó!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Eva – 14 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Coole Atmosphäre auf dem Boot."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Inès – 12 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Lina – 9 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "¡Gran momento sobre la tabla!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Inès – 1 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Great wakesurfing session, excellent instructors."
+    },
+    {
+      "t": "h2",
+      "x": "Produits similaires"
+    },
+    {
+      "t": "li",
+      "x": "Wakesurf Leçon Enfant 40,00 € Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/wakesurf-lecon-enfant/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+      "alt": "wakesurf-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "span",
+      "x": "40,00 €"
+    },
+    {
+      "t": "li",
+      "x": "Wakesurf Tour Simple 35,00 € Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/wakesurf-tour-simple/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+      "alt": "wakesurf-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "span",
+      "x": "35,00 €"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+      "alts": [
+        "wakesurf-mandelieu-watersports-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-600x397.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-300x199.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-768x508.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/wakesurf-mandelieu-watersports-theoule-150x150.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+    "title": "Ski Nautique Leçon Adulte Mandelieu | Mandelieu WaterSports",
+    "description": "Découvrez le ski nautique leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Ski Nautique Leçon Adulte Mandelieu | Mandelieu WaterSports",
+      "og:description": "Découvrez le ski nautique leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+      "og:url": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "og:image:width": "1600",
+      "og:image:height": "900",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+            "url": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+            "name": "Ski Nautique Leçon Adulte Mandelieu | Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "datePublished": "2023-01-19T17:31:27+00:00",
+            "dateModified": "2026-07-02T15:43:37+00:00",
+            "description": "Découvrez le ski nautique leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "width": 1600,
+            "height": 900,
+            "caption": "ski-nautique-cannes-mandelieu-watersports"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boutique",
+                "item": "https://www.mandelieu-watersports.com/boutique/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ski Nautique Leçon Adulte"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Accueil",
+                  "@id": "https://www.mandelieu-watersports.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Ski Nautique",
+                  "@id": "https://www.mandelieu-watersports.com/categorie-produit/ski-nautique/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Ski Nautique Leçon Adulte",
+                  "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/"
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "@id": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/#product",
+            "name": "Ski Nautique Leçon Adulte",
+            "url": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-adulte/",
+            "description": "Prix par leçon\r\n\r\n\r\n\r\n💡 Réserver par téléphone ?\r\n\r\nRéserver un créneau dans la matinée pour profiter d'une leçon de ski nautique,\r\nAppelez-nous au  +33 6 65 48 06 06  — pour plus d'informations.\r\n\r\n&amp;nbsp;\r\n\r\nRéserver en ligne\r\n\r\n&amp;nbsp;",
+            "image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+            "sku": 32308,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.00",
+              "reviewCount": 1140
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Laura"
+                },
+                "reviewBody": "Primera vez haciendo esquí acuático, ¡genial!",
+                "datePublished": "2025-09-28T10:29:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Antoine"
+                },
+                "reviewBody": "Aprendí rápido gracias al instructor.",
+                "datePublished": "2025-09-27T16:00:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Marc"
+                },
+                "reviewBody": "Schnell gelernt, viel Spaß gehabt!",
+                "datePublished": "2025-09-25T12:08:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Emma"
+                },
+                "reviewBody": "Felt safe and had a lot of fun.",
+                "datePublished": "2025-09-24T14:51:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anna"
+                },
+                "reviewBody": "Actividad divertida y formativa.",
+                "datePublished": "2025-09-24T13:53:00+02:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-cannes-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-mandelieu-watersports-jeune"
+    },
+    {
+      "t": "h1",
+      "x": "Ski Nautique Leçon Adulte"
+    },
+    {
+      "t": "p",
+      "x": "Prix par leçon"
+    },
+    {
+      "t": "p",
+      "x": "💡 Réserver par téléphone ?"
+    },
+    {
+      "t": "p",
+      "x": "Réserver un créneau dans la matinée pour profiter d’une leçon de ski nautique, Appelez-nous au +33 6 65 48 06 06 — pour plus d’informations.",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "p",
+      "x": "Réserver en ligne",
+      "href": "#resa"
+    },
+    {
+      "t": "li",
+      "x": "Description",
+      "href": "#tab-description"
+    },
+    {
+      "t": "li",
+      "x": "Avis (1140)",
+      "href": "#tab-reviews"
+    },
+    {
+      "t": "h2",
+      "x": "Description"
+    },
+    {
+      "t": "h2",
+      "x": "A partir de 10 ans"
+    },
+    {
+      "t": "p",
+      "x": "Un tour de ski nautique à Mandelieu, Théoule en toute sécurité !!!"
+    },
+    {
+      "t": "p",
+      "x": "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique."
+    },
+    {
+      "t": "p",
+      "x": "Cette activité vous procurera des sensations de glisse très rapidement, c’est le sport de glisse le plus rapide à assimiler !"
+    },
+    {
+      "t": "p",
+      "x": "Tracté par un bateau comme en wakeboard mais en position « de face » vous aurez le loisir de vous déplacer à l’arrière du bateau et après quelques coups d’essai de surfer la vague voire même de tenter des sauts en prenant appui sur celle-ci."
+    },
+    {
+      "t": "h4",
+      "x": "Transaction 100% sécurisée"
+    },
+    {
+      "t": "h4",
+      "x": "Réserver votre créneau"
+    },
+    {
+      "t": "h4",
+      "x": "100% remboursable"
+    },
+    {
+      "t": "h4",
+      "x": "Votre tour simple dans la baie de Mandelieu !"
+    },
+    {
+      "t": "p",
+      "x": "Profitez d’un tour de wakesurf avec un pilote professionnel."
+    },
+    {
+      "t": "p",
+      "x": "Le Ski-nautique et le Wakesurf se pratiquent avec un moniteur breveté d’état, le matin de préférence quand les conditions sont propices."
+    },
+    {
+      "t": "p",
+      "x": "Avant tout, Notre équipe technique assure le contrôle de l’équipement et des conditions nécessaires à sa mise en œuvre pour votre sécurité."
+    },
+    {
+      "t": "p",
+      "x": "En conclusion, vous voulez vivre des moments de folie en vous amusant, nous sommes là pour vous."
+    },
+    {
+      "t": "h2",
+      "x": "1140 avis pour Ski Nautique Leçon Adulte"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Julien – 10 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "My first time skiing on water – great coaching!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Lucas – 8 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Really helped me improve quickly."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Louis – 8 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Gute Atmosphäre und sichere Umgebung."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Alice – 5 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Moniteur très pro, j’ai progressé en une séance."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Louis – 4 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Emma – 3 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Sophie – 2 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Aprendí rápido gracias al instructor."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Laura – 2 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Louis – 1 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "h2",
+      "x": "Produits similaires"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique Leçon Enfant Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/ski-nautique-lecon-enfant/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-mandelieu-watersports-jeune"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique Tour Simple Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/ski-nautique-tour-simple/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "alt": "ski-nautique-cannes-mandelieu-watersports"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+      "alts": [
+        "ski-nautique-cannes-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-600x338.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-300x169.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-1024x576.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-768x432.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-1536x864.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-1320x743.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-cannes-mandelieu-watersports-150x150.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+      "alts": [
+        "ski-nautique-mandelieu-watersports-jeune"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-600x375.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-300x188.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-1024x640.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-768x480.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-1536x960.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-1320x825.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/ski-nautique-mandelieu-watersports-150x150.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

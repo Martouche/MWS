@@ -1,0 +1,940 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/randonnee-jet-ski/",
+    "title": "Randonnée Jet Ski Cannes Mandelieu | Mandelieu Watersports",
+    "description": "Venez découvrir la randonnée jet ski à Cannes, Mandelieu, Théoule avec vos amis ! Randonnée Jet Ski Cannes Mandelieu Watersports",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/randonnee-jet-ski/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Randonnée Jet Ski Cannes Mandelieu | Mandelieu Watersports",
+      "og:description": "Venez découvrir la randonnée jet ski à Cannes, Mandelieu, Théoule avec vos amis ! Randonnée Jet Ski Cannes Mandelieu Watersports",
+      "og:url": "https://www.mandelieu-watersports.com/randonnee-jet-ski/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg",
+      "og:image:width": "2560",
+      "og:image:height": "1440",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "12 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/",
+            "url": "https://www.mandelieu-watersports.com/randonnee-jet-ski/",
+            "name": "Randonnée Jet Ski Cannes Mandelieu | Mandelieu Watersports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg",
+            "datePublished": "2023-01-20T11:11:08+00:00",
+            "dateModified": "2026-05-07T08:46:59+00:00",
+            "description": "Venez découvrir la randonnée jet ski à Cannes, Mandelieu, Théoule avec vos amis ! Randonnée Jet Ski Cannes Mandelieu Watersports",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg",
+            "width": 2560,
+            "height": 1440,
+            "caption": "randonnée-jet-ski-cannes-mandelieu-théoule-watersports"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/randonnee-jet-ski/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "randonnée jet ski cannes mandelieu"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "h1",
+      "x": "RANDONNÉEJET SKI"
+    },
+    {
+      "t": "h2",
+      "x": "RANDONNÉES EN JET SKI SANS PERMIS !"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/video-media/jet-ski-video-mandelieu-watersports_2-scaled.jpeg",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1.png",
+      "alt": "jetski-jet-ski-cannes-mandelieu-watersports-théoule"
+    },
+    {
+      "t": "p",
+      "x": "Bienvenue chez Mandelieu Watersports, votre passerelle vers des randonnées en jet ski sans permis inoubliables dans la baie de Cannes – Mandelieu-Théoule ! Nous sommes ravis de vous présenter deux randonnées en jet ski uniques qui allient l’excitation des randonnées en jet ski sans permis à la splendeur des paysages méditerranéens."
+    },
+    {
+      "t": "p",
+      "x": "Préparez-vous à vibrer au rythme des vagues, à découvrir des criques secrètes et à vous immerger dans une aventure incomparable sur nos jet skis sans permis dernière génération."
+    },
+    {
+      "t": "p",
+      "x": "Encadré par des moniteurs agréés"
+    },
+    {
+      "t": "h2",
+      "x": "Réserver"
+    },
+    {
+      "t": "h3",
+      "x": "📞 Réserver par téléphone"
+    },
+    {
+      "t": "p",
+      "x": "Appelez-nous pour bloquer votre créneau sans payer en ligne."
+    },
+    {
+      "t": "p",
+      "x": "Téléphone : +33 06 65 48 06 06",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "p",
+      "x": "Confirmation immédiate selon disponibilités."
+    },
+    {
+      "t": "h3",
+      "x": "💳 Réserver en ligne"
+    },
+    {
+      "t": "p",
+      "x": "Choisissez votre activité, validez votre commande et payez en ligne."
+    },
+    {
+      "t": "p",
+      "x": "👉 Réglez un acompte pour valider votre réservation, le reste sera à payer sur place."
+    },
+    {
+      "t": "h4",
+      "x": "3 RANDONNÉES UNIQUES DANS UN CADRE EXCEPTIONNEL"
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE COUCHER DE SOLEIL (1H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/randonnee-jet-ski-sunset-couhe-de-soleil-mandleieu-watersports-cannes-theoule.png",
+      "alt": "randonnée-jet-ski-sunset-couhé-de-soleil-mandleieu-watersports-cannes-théoule"
+    },
+    {
+      "t": "li",
+      "x": "Criques secrètes, calanques, eaux turquoises ... le combo parfait pour une journée inoubliable ! Partez pour une randonnée inoubliable aux couleurs incroyables. Plus d'1 heure de bonheur ! Cap sur le massif de l'Esterel. • Montez seul ou à deux au même tarif ! • Accessible à partir de 16 ans."
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE DU MIDI (1H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png",
+      "alt": "randonnée-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing"
+    },
+    {
+      "t": "li",
+      "x": "Criques secrètes, calanques, eaux turquoises ... le combo parfait pour une journée inoubliable ! Partez pour une randonnée inoubliable quand le soleil est au zénith. Rendez vous à 11h30 pour un départ à midi. • Montez seul ou à deux au même tarif ! • Accessible à partir de 16 ans."
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE PETIT DÉJEUNER (2H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alt": "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Quel meilleur moyen de débuté sa journée qu'en prenant son petit déjeuner face à la mer avant de prendre le large en direction des îles de Lérins ? • Plus de 2 heures de bonheur ! Cap sur les îles de Lérins. • Montez seul ou à deux au même tarif ! • Accessible à partir de 16 ans."
+    },
+    {
+      "t": "h3",
+      "x": "Randonnée petit déjeuner - îles de Lérins et Massif de L'Esterel"
+    },
+    {
+      "t": "p",
+      "x": "Commencez votre journée en beauté avec un petit déjeuner face à la mer sur notre ponton avant de profiter d’une randonnée en jet ski aux îles de Lérins, dans le massif de l’Esterel et dans la baie de Cannes – Mandelieu !"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-chateau-scaled.jpg",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Avant toute chose, rejoignez-nous sur notre ponton face à la mer pour un petit déjeuner raffiné dans une atmosphère décontractée. Profitez de ce moment privilégié pour échanger des conseils avisés avec nos moniteurs expérimentés et créer des liens avec d’autres passionnés d’aventure. Quelle meilleur moyen de débuter la journée ?"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Avant toute chose, rejoignez-nous sur notre ponton face à la mer pour un petit déjeuner raffiné dans une atmosphère décontractée."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Après ce moment convivial, partez pour une aventure de deux heures qui vous garantira une déconnexion totale sur nos jet skis sans permis dernière génération. Montez à bord de votre jet ski et plongez dans les eaux cristallines entourant les îles de Lérins et le massif de l’Esterel. Laissez-vous envoûter par la clarté de l’eau turquoise et la sérénité des environs, le cadre idéal pour une promenade matinale inoubliable en jet ski."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Montez à bord de votre jet ski et plongez dans les eaux cristallines entourant les îles de Lérins et le massif de l’Esterel. Laissez-vous envoûter par la clarté de l’eau turquoise et la sérénité en jet ski."
+    },
+    {
+      "t": "p",
+      "x": "Cette randonnée en jet ski offre une fusion parfaite entre l’excitation du jet ski sans permis et la beauté naturelle des îles de Lérins. Explorez les contours de ces joyaux méditerranéens tout en ressentant le frisson de l’aventure. Laissez-vous guider par nos moniteurs qualifiés, qui vous assureront une expérience sûre et mémorable tout au long de votre randonnée en jet ski sans permis dans la baie de Cannes – Mandelieu – Théoule sur mer."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Laissez-vous guider par nos moniteurs qualifiés, qui vous assureront une expérience sûre et mémorable tout au long de votre randonnée en jet ski sans permis dans la baie de Cannes – Mandelieu – Théoule sur mer."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "Randonnée jet ski coucher de soleil - Massif de l'Esterel"
+    },
+    {
+      "t": "p",
+      "x": "Plongez dans une palette de couleurs éblouissantes avec notre Randonnée Jet Ski Coucher de Soleil dans le massif de l’Esterel. Cette excursion crépusculaire, d’une durée de plus d’une heure, promet une expérience sensorielle inégalée."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-sunset.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Imaginez-vous sur un jet ski, traversant les eaux calmes tandis que le soleil embrase le ciel et teinte l’horizon de nuances éclatantes. C’est exactement ce qui vous attend lors de cette randonnée en jet ski sans permis dans le Massif de l’Esterel, joyaux secret de la Côte d’Azur !"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Imaginez-vous sur un jet ski, traversant les eaux calmes alors que le soleil embrase le ciel et teinte l’horizon de nuances éclatantes."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Cette randonnée vous offre une opportunité unique d’explorer les mystérieux paysages et les criques cachées du massif de l’Estérel. Plongez- vous dans une ambiance calme et enchanteresse tout en découvrant les trésors naturels de la région lors de cette randonnée en jet ski. Laissez- vous porter par l’adrénaline du jet ski et créez des souvenirs impérissables au crépuscule."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Cette randonnée vous offre une opportunité unique d’explorer les mystérieux paysages et les criques cachées de l’Estérel. Plongez- vous dans une ambiance enchanteresse lors de cette randonnée en jet ski."
+    },
+    {
+      "t": "p",
+      "x": "Accessible dès l’âge de 16 ans, cette aventure peut être vécue en solo ou en duo, offrant ainsi une flexibilité totale. Tout ce dont vous avez besoin pour votre confort est inclus: carburant, équipement de qualité et assurance pour une escapade en toute sérénité. Alternez les moments de conduite de votre jet ski avec votre partenaire pour une expérience personnalisée."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/base-nautique-mandelieu-watersports-scaled.jpg",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Accessible dès l’âge de 16 ans, cette aventure peut être vécue en solo ou en duo, offrant ainsi une flexibilité totale. Tout ce dont vous avez besoin pour votre confort est inclus: carburant, équipement de qualité et assurance pour une escapade en toute sérénité."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-soleil-randonnee-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h4",
+      "x": "Avantage de la randonnée en jet ski"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/33-min.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/40-min.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/35-min.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/36-min.png",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/37-min.png",
+      "alt": ""
+    },
+    {
+      "t": "h3",
+      "x": "Quelle Randonnée Choisir ?"
+    },
+    {
+      "t": "p",
+      "x": "Chacune offre des avantages distincts, garantissant une expérience exceptionnelle, que ce soit au crépuscule dans le massif de l’Esterel ou au lever du soleil aux îles de Lérins."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alt": "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "La Randonnée Petit Déjeuner aux Îles de Lérins offre une expérience matinale revigorante ! Commencez votre journée avec un petit déjeuner sur notre ponton face à la mer. La balade en jet ski proche des îles de Lérins est un spectacle à couper le souffle. Cette option est parfaite pour ceux qui préfèrent une aventure stimulante. Cette option vous offre aussi le double de sensations puisqu’elle dure 1 heure de plus ce qui vous permet une déconnexion totale !"
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE MIDI (1H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png",
+      "alt": "randonnée-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-jet-ski-location-randonnee-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "La Randonnée Jet Ski du Midi dans le Massif de l’Esterel vous plonge au cœur d’une aventure ensoleillée entre mer turquoise et falaises volcaniques. Sous la lumière éclatante du soleil, partez explorer les criques cachées et les paysages sauvages de l’Esterel. Cette sortie dynamique et rafraîchissante est idéale pour faire le plein de sensations, profiter pleinement du cadre naturel, et partager un moment fort entre amis, en couple ou en famille."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/randonnee-jet-ski-sunset-couhe-de-soleil-mandleieu-watersports-cannes-theoule.png",
+      "alt": "randonnée-jet-ski-sunset-couhé-de-soleil-mandleieu-watersports-cannes-théoule"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "La Randonnée Coucher de Soleil dans le Massif de l’Esterel vous transporte dans un monde de couleurs captivantes et de paysages mystérieux. Les eaux calmes du crépuscule offrent une exploration détendue des criques secrètes du massif. Cette randonnée est parfaite pour ceux qui recherchent une expérience esthétiquement riche, idéale pour créer des souvenirs romantiques ou partager des moments spéciaux avec des amis."
+    },
+    {
+      "t": "p",
+      "x": "Réfléchissez à vos préférences personnelles, que ce soit l’amour pour les couleurs chaudes du soir ou l’énergie fraîche du matin, et choisissez la randonnée en jet ski qui résonne le plus avec votre sens de l’aventure."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    },
+    {
+      "t": "h4",
+      "x": "Nos Best Sellers :"
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE PETIT DEJEUNER (2H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alt": "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & JET-SKI*prix par personne"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alt": "pack-parachute-jet-ski-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute ascensionnel + jet ski : 30 mins d'activités ACTIVITÉE POUR 2 PERSONNES Le poids maximum pour voler en parachute est de 240kg (en vol seul à deux personnes) Jet-ski encadré par un moniteur sans permis bateau et en toute sécurité."
+    },
+    {
+      "t": "h3",
+      "x": "RANDONNÉE COUCHÉ DE SOLEIL (1H)"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png",
+      "alt": "jet-ski-best-seller-mandelieu-watersports-cannes-theoule"
+    },
+    {
+      "t": "h2",
+      "x": "Les Randonnées en jetski à Cannes, Mandelieu, Théoule"
+    },
+    {
+      "t": "li",
+      "x": "En direction de l’Esterel"
+    },
+    {
+      "t": "p",
+      "x": "Site volcanique remarquable du littoral de la Côte d’Azur, vous découvrirez le rouge flamboyant des roches plongeant dans le bleu intense de la mer, ces collines recouvertes de maquis, ces criques secrètes et ces impressionnantes calanques."
+    },
+    {
+      "t": "li",
+      "x": "En direction de l’archipel des îles de Lerins,"
+    },
+    {
+      "t": "p",
+      "x": "Vous découvrirez un cadre idyllique à la nature préservée, ou les piscines d’eau turquoise côtoient les pins parasols véritable poumon vert de la côte d’azur ! Ces deux iles offrent une collection unique alliant faune et flore ainsi qu’une histoire singulière mêlant les mystères du Masque de fer avec la quiétude des moines cisterciens."
+    },
+    {
+      "t": "p",
+      "x": "La majesté, la beauté et le calme de ces sites vous impressionneront."
+    },
+    {
+      "t": "p",
+      "x": "Si la chance est avec nous, vous aurez la chance de rencontrer les dauphins et les poisson-lune lors de nos pauses baignade dans la chaleur accueillante de la méditerranée."
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": ""
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-blanc-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/video-media/jet-ski-video-mandelieu-watersports_2-scaled.jpeg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/revslider/video-media/jet-ski-video-mandelieu-watersports_2-scaled.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1.png",
+      "alts": [
+        "jetski-jet-ski-cannes-mandelieu-watersports-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/7-min-1.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/randonnee-jet-ski-sunset-couhe-de-soleil-mandleieu-watersports-cannes-theoule.png",
+      "alts": [
+        "randonnée-jet-ski-sunset-couhé-de-soleil-mandleieu-watersports-cannes-théoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/randonnee-jet-ski-sunset-couhe-de-soleil-mandleieu-watersports-cannes-theoule.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png",
+      "alts": [
+        "randonnée-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png",
+      "alts": [
+        "jet-ski-randonnée-petit-dejeuner-best-seller-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-randonnee-petit-dejeuner-best-seller-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-chateau-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/randonnee-jet-ski-mandelieu-watersports-chateau-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-120x67.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-240x134.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-70x39.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-140x78.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-madelieu-watersports-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-mandelieu-watersports-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/petit-dejeuner-randonnee-jet-ski-mandelieu-watersports-1000x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-image-drone-mandelieu-watersports-1000x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-1000x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-sunset.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-sunset.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-120x67.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-240x134.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-70x39.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-140x78.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-soleil-levant-mandelieu-watersports-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports-1000x800.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports-1600x700.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/massif-esterel-randonnee-jet-ski-mandelieu-watersports-1782x779.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports-1000x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/base-nautique-mandelieu-watersports-scaled.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/base-nautique-mandelieu-watersports-scaled-500x400.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/base-nautique-mandelieu-watersports-scaled-1000x800.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-soleil-randonnee-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-soleil-randonnee-mandelieu-watersports-500x400.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-soleil-randonnee-mandelieu-watersports-1000x800.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/33-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/33-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/33-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/40-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/40-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/40-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/35-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/35-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/35-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/36-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/36-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/36-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/37-min.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/37-min-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/37-min-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-jet-ski-location-randonnee-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-jet-ski-location-randonnee-mandelieu-watersports-200x112.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/icone-jet-ski-location-randonnee-mandelieu-watersports-400x224.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alts": [
+        "pack-parachute-jet-ski-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png",
+      "alts": [
+        "jet-ski-best-seller-mandelieu-watersports-cannes-theoule"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/jet-ski-best-seller-mandelieu-watersports-cannes-theoule.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/groupe-randonnee-jet-ski-mandelieu-watersports-100x50.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jetski-mandelieu-theoule-watersports.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/cercle-bateau-jet-ski-randonnee-mandelieu-watersports.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/cercle-bateau-jet-ski-randonnee-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-video-mandelieu-watersports.mp4",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/jet-ski-video-mandelieu-watersports.mp4"
+      ],
+      "type": "video"
+    }
+  ]
+}

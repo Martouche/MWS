@@ -1,0 +1,481 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/nos-tarifs/",
+    "title": "Nos Tarifs Parachute, Jetski et activités | Mandelieu WaterSports",
+    "description": "Découvrez nos tarifs pour le parachute ascensionnel, la location et randonnée Jet Ski et d'autres activités à Mandelieu ! Mandelieu Watersports",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/nos-tarifs/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Nos Tarifs Parachute, Jetski et activités | Mandelieu WaterSports",
+      "og:description": "Découvrez nos tarifs pour le parachute ascensionnel, la location et randonnée Jet Ski et d'autres activités à Mandelieu ! Mandelieu Watersports",
+      "og:url": "https://www.mandelieu-watersports.com/nos-tarifs/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg",
+      "og:image:width": "2000",
+      "og:image:height": "1500",
+      "og:image:type": "image/jpeg",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/nos-tarifs/",
+            "url": "https://www.mandelieu-watersports.com/nos-tarifs/",
+            "name": "Nos Tarifs Parachute, Jetski et activités | Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/nos-tarifs/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/nos-tarifs/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg",
+            "datePublished": "2023-01-19T22:08:28+00:00",
+            "dateModified": "2023-05-11T10:41:59+00:00",
+            "description": "Découvrez nos tarifs pour le parachute ascensionnel, la location et randonnée Jet Ski et d'autres activités à Mandelieu ! Mandelieu Watersports",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/nos-tarifs/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/nos-tarifs/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/nos-tarifs/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg",
+            "width": 2000,
+            "height": 1500,
+            "caption": "randonnée-jet-ski-mandelieu-watersports-coucher-de-soleil"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/nos-tarifs/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Nos Tarifs"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "p",
+      "x": "Voici tous nos tarifs séparés comprenant : le parachute ascensionnel, la location et la randonnée Jet Ski, les bouées tractées, le Wakeboard, Wakesurf et Ski Nautique."
+    },
+    {
+      "t": "p",
+      "x": "En dehors de nos tarifs classiques, vous pouvez voir nos packs !"
+    },
+    {
+      "t": "p",
+      "x": "Pour RESERVER un créneau sur n’importe quelle activité ou pack, appelez nous au 06 65 48 06 06",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "h2",
+      "x": "Nos catégories"
+    },
+    {
+      "t": "h2",
+      "x": "Parachute ascensionnel"
+    },
+    {
+      "t": "h3",
+      "x": "TARIF ENFANTParachute ascensionnel"
+    },
+    {
+      "t": "li",
+      "x": "Entre 3 et 12 ans"
+    },
+    {
+      "t": "li",
+      "x": "Prix par personne"
+    },
+    {
+      "t": "li",
+      "x": "Le poids maximum pour voler en parachute est de 240kg (en vol duo ou jusqu'à 5 personnes)"
+    },
+    {
+      "t": "h3",
+      "x": "TARIF ADULTEParachute ascensionnel"
+    },
+    {
+      "t": "li",
+      "x": "Plus de 13 ans"
+    },
+    {
+      "t": "li",
+      "x": "Le poids maximum pour voler en parachute est de 240kg (en vol duo jusqu'à 5 personnes)"
+    },
+    {
+      "t": "h2",
+      "x": "Location et Randonnée Jet Ski"
+    },
+    {
+      "t": "h3",
+      "x": "Location Jet Ski30 minutes"
+    },
+    {
+      "t": "li",
+      "x": "Pas besoin de permis bateau"
+    },
+    {
+      "t": "li",
+      "x": "Prix par Jet Ski"
+    },
+    {
+      "t": "h3",
+      "x": "Location Jet Ski45 minutes"
+    },
+    {
+      "t": "h3",
+      "x": "Location Jet Ski1 heure"
+    },
+    {
+      "t": "h3",
+      "x": "Randonnée Coucher de soleil1 heure"
+    },
+    {
+      "t": "li",
+      "x": "Rendez vous à définir en fonction de la saison à la base nautique pour être briefé"
+    },
+    {
+      "t": "h3",
+      "x": "Randonnée du Midi1 heure"
+    },
+    {
+      "t": "li",
+      "x": "Rendez vous à 11h30 pour un départ à 12h"
+    },
+    {
+      "t": "h3",
+      "x": "Randonnée Petit Déjeuner2 heures"
+    },
+    {
+      "t": "li",
+      "x": "Rendez vous à 8h30 à la base nautique pour être briefé et parti à 9h"
+    },
+    {
+      "t": "h2",
+      "x": "Bouées tractées"
+    },
+    {
+      "t": "h3",
+      "x": "TARIF ENFANT"
+    },
+    {
+      "t": "li",
+      "x": "Entre 3 et 10 ans"
+    },
+    {
+      "t": "li",
+      "x": "Tractées par le bateau, les bouées vous apportent des sensations de vitesse… Fous rire en perspective ! Amusez-vous sur l’eau entre amis ou en famille…"
+    },
+    {
+      "t": "h3",
+      "x": "TARIF ADULTE"
+    },
+    {
+      "t": "li",
+      "x": "A partir de 10 ans"
+    },
+    {
+      "t": "h2",
+      "x": "Wakeboard"
+    },
+    {
+      "t": "h3",
+      "x": "TOUR SIMPLE"
+    },
+    {
+      "t": "li",
+      "x": "Tout âge"
+    },
+    {
+      "t": "li",
+      "x": "Le Ski-nautique et le Wake-board se pratiquent avec un moniteur breveté d’état.Le matin de préférence quand les conditions sont propices."
+    },
+    {
+      "t": "h3",
+      "x": "LEÇON ENFANT"
+    },
+    {
+      "t": "li",
+      "x": "Faîtes des progrès avec un monituer professionnel dès votre premier tour Fous rire en perspective ! Amusez vous sur l’eau tout en apprenant."
+    },
+    {
+      "t": "h3",
+      "x": "LEÇON ADULTE"
+    },
+    {
+      "t": "li",
+      "x": "A partir de 13 ans"
+    },
+    {
+      "t": "h3",
+      "x": "FORFAIT 10 TOURS"
+    },
+    {
+      "t": "li",
+      "x": "UNIQUEMENT SUR DEMANDE"
+    },
+    {
+      "t": "li",
+      "x": "Profitez d'acheter 10 tours pour avoir une réduction ! Amusez vous sur l’eau tout en apprenant."
+    },
+    {
+      "t": "h2",
+      "x": "Wakesurf"
+    },
+    {
+      "t": "h2",
+      "x": "Ski Nautique"
+    },
+    {
+      "t": "h2",
+      "x": "Nos Packs"
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & BOUÉE*"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png",
+      "alt": "pack-parachute-bouée-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel + Bouée : Un tour en parachute + un tour en bouée tractée"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids cumulé maximum pour voler en parachute est de 240kg (jusqu'à 5 personnes)"
+    },
+    {
+      "t": "h3",
+      "x": "VOL PARACHUTE & JET-SKI*"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alt": "pack-parachute-jet-ski-mandelieu-watersports"
+    },
+    {
+      "t": "li",
+      "x": "Parachute ascensionnel + jet ski : Un tour en parachute + 30 minutes de jet ski"
+    },
+    {
+      "t": "li",
+      "x": "ACTIVITÉE POUR 2 PERSONNES Le poids cumulé maximum pour voler en parachute est de 240kg (jusqu'à 5 personnes) Jet-ski encadré par un moniteur sans permis bateau et en toute sécurité."
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png",
+      "alts": [
+        "pack-parachute-bouée-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-bouee-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png",
+      "alts": [
+        "pack-parachute-jet-ski-mandelieu-watersports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/02/pack-parachute-jet-ski-mandelieu-watersports.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/01/randonnee-jet-ski-mandelieu-watersports-coucher-de-soleil.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/",
+    "title": "Bouée Tractée Enfant - Mandelieu WaterSports",
+    "description": "Découvrez le parachute ascensionnel 2 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Bouée Tractée Enfant - Mandelieu WaterSports",
+      "og:description": "Découvrez le parachute ascensionnel 2 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+      "og:url": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+      "og:image:width": "2560",
+      "og:image:height": "1440",
+      "og:image:type": "image/webp",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "2 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/",
+            "url": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/",
+            "name": "Bouée Tractée Enfant - Mandelieu WaterSports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+            "datePublished": "2023-01-18T17:35:13+00:00",
+            "dateModified": "2026-05-11T17:09:12+00:00",
+            "description": "Découvrez le parachute ascensionnel 2 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel Mandelieu",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+            "width": 2560,
+            "height": 1440
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boutique",
+                "item": "https://www.mandelieu-watersports.com/boutique/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Bouée Tractée Enfant"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "name": "Accueil",
+              "@id": "https://www.mandelieu-watersports.com"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "name": "Bouée",
+              "@id": "https://www.mandelieu-watersports.com/categorie-produit/bouee/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "name": "Bouée Tractée Enfant",
+              "@id": "https://www.mandelieu-watersports.com/produit/bouee-tractee-enfant/"
+            }
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+      "alt": "Bouée Tractée Enfant"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-scaled.jpeg",
+      "alt": "Bouée Tractée Enfant – Image 2"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-scaled.jpeg",
+      "alt": "Bouée Tractée Enfant – Image 3"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-scaled.jpeg",
+      "alt": "Bouée Tractée Enfant – Image 4"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-scaled.jpeg",
+      "alt": "Bouée Tractée Enfant – Image 5"
+    },
+    {
+      "t": "h1",
+      "x": "Bouée Tractée Enfant"
+    },
+    {
+      "t": "h2",
+      "x": "À partir de 20 €"
+    },
+    {
+      "t": "p",
+      "x": "Prix par personne*"
+    },
+    {
+      "t": "p",
+      "x": "Jusqu’à 8 personnes sur la bouée en même temps"
+    },
+    {
+      "t": "p",
+      "x": "Réservez votre session directement en ligne avec un acompte de 50% sécurisé. Le solde sera à régler sur place le jour de votre activité. Sous réserve de disponibilité de la base nautique."
+    },
+    {
+      "t": "p",
+      "x": "💡 Vous préférez réserver par téléphone ? Appelez-nous directement au +33 06 65 48 06 06 Nous pouvons bloquer votre créneau immédiatement.",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "p",
+      "x": "Réserver en ligne",
+      "href": "#resa"
+    },
+    {
+      "t": "li",
+      "x": "Description",
+      "href": "#tab-description"
+    },
+    {
+      "t": "li",
+      "x": "Avis (0)",
+      "href": "#tab-reviews"
+    },
+    {
+      "t": "h2",
+      "x": "Description"
+    },
+    {
+      "t": "p",
+      "x": "Envolez-vous pour de nouvelles sensations et admirez un panorama a 360° entre ciel et mer avec vos amis, vos enfants, vos parents."
+    },
+    {
+      "t": "p",
+      "x": "Décollage et retour en douceur sur le bateau, vous vous sentirez en sécurité."
+    },
+    {
+      "t": "p",
+      "x": "Un tour de bouée tractée à Mandelieu, Théoule en toute sécurité !!!"
+    },
+    {
+      "t": "p",
+      "x": "Vous rêvez de découvrir la baie de Mandelieu, les Issambres telle que vous ne l’avez jamais vu ?"
+    },
+    {
+      "t": "p",
+      "x": "Embarquer à bord d’un bateau plate-forme nouvelle génération, notre pilote expérimenté breveté d’état. Vous découvrirez, à bord du parachute ascensionnel, une vue à ocuper le souffle."
+    },
+    {
+      "t": "h4",
+      "x": "Transaction 100% sécurisée"
+    },
+    {
+      "t": "h4",
+      "x": "Pas de réservations"
+    },
+    {
+      "t": "h4",
+      "x": "100% remboursable"
+    },
+    {
+      "t": "h4",
+      "x": "Choisissez votre bouée en arrivant !"
+    },
+    {
+      "t": "p",
+      "x": "Nous vous proposons 2 types de bouées :"
+    },
+    {
+      "t": "p",
+      "x": "Une bouée « canapé » qui est plus facile et qui peut accueillir jusqu’à 8 personnes en même temps. Une bouée « plate », un peu plus physique et qui peut accueillir jusqu’à 6 personnes en même temps."
+    },
+    {
+      "t": "p",
+      "x": "Avant tout, Notre équipe technique assure le contrôle de l’équipement et des conditions nécessaires à sa mise en œuvre pour votre sécurité."
+    },
+    {
+      "t": "p",
+      "x": "En conclusion, vous voulez vivre des moments de folie en vous amusant, nous sommes là pour vous."
+    },
+    {
+      "t": "h2",
+      "x": "Avis"
+    },
+    {
+      "t": "p",
+      "x": "Il n’y a pas encore d’avis."
+    },
+    {
+      "t": "h2",
+      "x": "Produits similaires"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée Adulte Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/bouee-tractee-adulte/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-9.jpeg",
+      "alt": "Bouée Tractée Adulte"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled.webp",
+      "alts": [
+        "Bouée Tractée Enfant"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-600x338.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-300x169.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-1024x576.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-768x432.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-1536x864.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-2048x1152.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-200x200.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-150x150.webp",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-300x300.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp",
+      "alts": [
+        "Bouée Tractée Enfant"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/canape-tracte-mandelieu-watersports-1-scaled-scaled.webp"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 2"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-600x399.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-300x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-1024x681.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-768x511.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-1536x1022.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-2048x1363.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-200x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-150x150.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-300x300.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-scaled.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 2"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-2-scaled.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-600x399.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-300x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-1024x681.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-768x511.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-1536x1022.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-2048x1363.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-200x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-150x150.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-300x300.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-scaled.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-4-scaled.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-600x399.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-300x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-1024x681.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-768x511.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-1536x1022.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-2048x1363.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-200x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-150x150.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-300x300.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-scaled.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-12-scaled.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 5"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-600x399.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-300x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-1024x681.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-768x511.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-1536x1022.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-2048x1363.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-200x200.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-150x150.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-300x300.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-scaled.jpeg",
+      "alts": [
+        "Bouée Tractée Enfant – Image 5"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-7-scaled.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-9.jpeg",
+      "alts": [
+        "Bouée Tractée Adulte"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-9-300x300.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-9-150x150.jpeg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/bouee-tractee-mandelieu-watersports-cannes-theoule-activite-nautique-9-200x200.jpeg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}

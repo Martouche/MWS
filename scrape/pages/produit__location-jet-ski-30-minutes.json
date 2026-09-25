@@ -1,0 +1,892 @@
+{
+  "seo": {
+    "url": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+    "title": "Location Jet Ski 30 minutes Cannes Mandelieu | Watersports",
+    "description": "Louez un jet ski 30 minutes à Cannes, Mandleieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+    "og": {
+      "og:locale": "fr_FR",
+      "og:type": "article",
+      "og:title": "Location Jet Ski 30 minutes Cannes Mandelieu | Watersports",
+      "og:description": "Louez un jet ski 30 minutes à Cannes, Mandleieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+      "og:url": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+      "og:site_name": "Mandelieu WaterSports",
+      "og:image": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+      "og:image:width": "1001",
+      "og:image:height": "1251",
+      "og:image:type": "image/png",
+      "twitter:card": "summary_large_image",
+      "twitter:label1": "Durée de lecture estimée",
+      "twitter:data1": "3 minutes"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+            "url": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+            "name": "Location Jet Ski 30 minutes Cannes Mandelieu | Watersports",
+            "isPartOf": {
+              "@id": "https://www.mandelieu-watersports.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+            "datePublished": "2023-01-20T18:11:09+00:00",
+            "dateModified": "2026-05-11T17:09:12+00:00",
+            "description": "Louez un jet ski 30 minutes à Cannes, Mandleieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+            "breadcrumb": {
+              "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#breadcrumb"
+            },
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#primaryimage",
+            "url": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+            "contentUrl": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+            "width": 1001,
+            "height": 1251
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.mandelieu-watersports.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boutique",
+                "item": "https://www.mandelieu-watersports.com/boutique/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Location Jet Ski 30 minutes"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mandelieu-watersports.com/#website",
+            "url": "https://www.mandelieu-watersports.com/",
+            "name": "Mandelieu WaterSports",
+            "description": "Jet ski Parachute Ascensionnel Mandelieu",
+            "publisher": {
+              "@id": "https://www.mandelieu-watersports.com/#organization"
+            },
+            "alternateName": "MWatersports",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.mandelieu-watersports.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.mandelieu-watersports.com/#organization",
+            "name": "Mandelieu WaterSports",
+            "url": "https://www.mandelieu-watersports.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "fr-FR",
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/",
+              "url": "",
+              "contentUrl": "",
+              "caption": "Mandelieu WaterSports"
+            },
+            "image": {
+              "@id": "https://www.mandelieu-watersports.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org/",
+        "@graph": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Accueil",
+                  "@id": "https://www.mandelieu-watersports.com"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Jetski",
+                  "@id": "https://www.mandelieu-watersports.com/categorie-produit/jetski/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Location Jet Ski 30 minutes",
+                  "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/"
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "@id": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/#product",
+            "name": "Location Jet Ski 30 minutes",
+            "url": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+            "description": "Prix par jetski\r\nPièces d’identités obligatoires\r\n\r\n\r\n\r\n💡 Réserver par téléphone ?\r\n\r\nVenez quand vous voulez entre 9h et 19h pour la location de jet ski.\r\nAppelez-nous au  +33 6 65 48 06 06  — pour plus d'informations.\r\n\r\n&amp;nbsp;\r\n\r\nRéserver en ligne\r\n\r\n&amp;nbsp;",
+            "image": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+            "sku": 32357,
+            "offers": [
+              {
+                "@type": "Offer",
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "90.00",
+                    "priceCurrency": "EUR",
+                    "validThrough": "2027-12-31"
+                  }
+                ],
+                "priceValidUntil": "2027-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://www.mandelieu-watersports.com/produit/location-jet-ski-30-minutes/",
+                "seller": {
+                  "@type": "Organization",
+                  "name": "Mandelieu WaterSports",
+                  "url": "https://www.mandelieu-watersports.com"
+                },
+                "price": "90.00",
+                "priceCurrency": "EUR"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.00",
+              "reviewCount": 913
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Julien"
+                },
+                "reviewBody": "Génial ! Merci pour cette belle expérience nautique.",
+                "datePublished": "2025-11-03T10:37:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Dorothée"
+                },
+                "reviewBody": "Personnel très pro et ambiance géniale !",
+                "datePublished": "2025-11-01T16:25:00+01:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Patricia"
+                },
+                "reviewBody": "Génial ! Merci pour cette belle expérience nautique.",
+                "datePublished": "2025-10-02T02:25:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Maxime"
+                },
+                "reviewBody": "Sehr viel Spaß und gut organisiert.",
+                "datePublished": "2025-09-28T13:37:00+02:00"
+              },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "bestRating": "5",
+                  "ratingValue": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Emma"
+                },
+                "reviewBody": "Perfecto para un día de verano.",
+                "datePublished": "2025-09-28T12:08:00+02:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "redirigeVers": null
+  },
+  "blocs": [
+    {
+      "t": "li",
+      "x": "Accueil",
+      "href": "https://www.mandelieu-watersports.com/"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski",
+      "href": "https://www.mandelieu-watersports.com/randonnee-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Location Jetski",
+      "href": "https://www.mandelieu-watersports.com/location-jet-ski/"
+    },
+    {
+      "t": "li",
+      "x": "Parachute Ascensionnel",
+      "href": "https://www.mandelieu-watersports.com/parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Bouée Tractée",
+      "href": "https://www.mandelieu-watersports.com/bouee-tractee/"
+    },
+    {
+      "t": "li",
+      "x": "Wakeboard",
+      "href": "https://www.mandelieu-watersports.com/wakeboard/"
+    },
+    {
+      "t": "li",
+      "x": "Ski Nautique",
+      "href": "https://www.mandelieu-watersports.com/ski-nautique/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Packs",
+      "href": "https://www.mandelieu-watersports.com/nos-packs/"
+    },
+    {
+      "t": "li",
+      "x": "Nos Tarifs",
+      "href": "https://www.mandelieu-watersports.com/nos-tarifs/"
+    },
+    {
+      "t": "li",
+      "x": "Privatisation",
+      "href": "https://www.mandelieu-watersports.com/privatisation-parachute-ascensionnel/"
+    },
+    {
+      "t": "li",
+      "x": "Séminaire",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/seminaires/"
+    },
+    {
+      "t": "li",
+      "x": "EVJF",
+      "href": "https://www.mandelieu-watersports.com/evenement-evg-evgf-mandelieu-cannes/evjf/"
+    },
+    {
+      "t": "li",
+      "x": "Où Nous Trouver ?",
+      "href": "https://www.mandelieu-watersports.com/contact/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+      "alt": "Location Jet Ski 30 minutes"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-scaled.jpg",
+      "alt": "Location Jet Ski 30 minutes – Image 2"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg",
+      "alt": "Location Jet Ski 30 minutes – Image 3"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-scaled.jpg",
+      "alt": "Location Jet Ski 30 minutes – Image 4"
+    },
+    {
+      "t": "h1",
+      "x": "Location Jet Ski 30 minutes"
+    },
+    {
+      "t": "p",
+      "x": "90,00 €"
+    },
+    {
+      "t": "p",
+      "x": "💡 Réserver par téléphone ?"
+    },
+    {
+      "t": "p",
+      "x": "Venez quand vous voulez entre 9h et 19h pour la location de jet ski. Appelez-nous au +33 6 65 48 06 06 — pour plus d’informations.",
+      "href": "tel:+33665480606"
+    },
+    {
+      "t": "p",
+      "x": "Réserver en ligne",
+      "href": "#resa"
+    },
+    {
+      "t": "li",
+      "x": "Description",
+      "href": "#tab-description"
+    },
+    {
+      "t": "li",
+      "x": "Avis (913)",
+      "href": "#tab-reviews"
+    },
+    {
+      "t": "h2",
+      "x": "Description"
+    },
+    {
+      "t": "p",
+      "x": "Le jet-ski est un loisir qui ne manquera pas de faire le bonheur des amateurs des sensations fortes et de randonnées. Cette activité est accessible avec ou sans permis grâce à la présence de votre moniteur diplômé BPJEPS."
+    },
+    {
+      "t": "p",
+      "x": "Une location de jet ski à Mandelieu, Cannes en toute sécurité !!!"
+    },
+    {
+      "t": "p",
+      "x": "Seul, entre amis ou en famille, partez à la découverte de la magnifique baie de la Rague dans le cadre de nos initiations encadrée. Après un briefing pour vous faire connaitre la pratique et le maniement du scooter des mers par le moniteur diplômé d’Etat, vous serez équipé d’un gilet de sauvetage et vous pourrez débuter à votre rythme."
+    },
+    {
+      "t": "p",
+      "x": "Pour les plus sportifs vient le moment de mettre les gaz pour une montée d’adrénaline garantie lorsque vous bondissez sur le dos des vagues à toute vitesse."
+    },
+    {
+      "t": "h4",
+      "x": "Transaction 100% sécurisée"
+    },
+    {
+      "t": "h4",
+      "x": "Réserver votre créneau"
+    },
+    {
+      "t": "h4",
+      "x": "100% remboursable"
+    },
+    {
+      "t": "h4",
+      "x": "Baladez vous dans la baie de Cannes !"
+    },
+    {
+      "t": "p",
+      "x": "Un des plus beaux endroits à voir en Jet Ski."
+    },
+    {
+      "t": "p",
+      "x": "Les îles de Lérins sont aussi un lieu exceptionnel à voir mais seulement disponible pour une location d’une heure."
+    },
+    {
+      "t": "p",
+      "x": "Nous vous donnerons les meilleurs conseils pour que vous profitez au maximum de votre location de jet ski."
+    },
+    {
+      "t": "p",
+      "x": "Avant tout, Notre équipe technique assure le contrôle de l’équipement et des conditions nécessaires à sa mise en œuvre pour votre sécurité."
+    },
+    {
+      "t": "p",
+      "x": "En conclusion, vous voulez vivre des moments de folie en vous amusant, nous sommes là pour vous."
+    },
+    {
+      "t": "p",
+      "x": "Découvrez la baie de Cannes à coté de Mandelieu, à bord de nos jet skis neufs."
+    },
+    {
+      "t": "p",
+      "x": "Vous serez surpris de la beauté des lieux à coté de la base nautique."
+    },
+    {
+      "t": "p",
+      "x": "Le jet ski est encadré et accessible à tous, pour les enfants à partir de 4 ans (accompagnés d’un adulte)"
+    },
+    {
+      "t": "h2",
+      "x": "913 avis pour Location Jet Ski 30 minutes"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Olivier – 11 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Powerful jet ski, perfect guide."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Hugo – 10 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Fantastische Stunde auf dem Wasser!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Olivier – 9 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Jet ski puissant, encadrement parfait."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Léa – 8 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "¡Una hora increíble en el agua!"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Jules – 8 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "A must-do summer activity."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Nina – 7 juin 2020"
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Gabriel – 7 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Perfekt für einen Sommertag."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Lina – 3 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Muy divertido y bien organizado."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Léa – 2 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Leistungsstarker Jet-Ski, tolle Begleitung."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Gabriel – 1 juin 2020"
+    },
+    {
+      "t": "p",
+      "x": "Vraiment top, je recommande sans hésiter."
+    },
+    {
+      "t": "img",
+      "src": "https://secure.gravatar.com/avatar/?s=60&d=mm&r=g",
+      "alt": ""
+    },
+    {
+      "t": "p",
+      "x": "Lina – 1 juin 2020"
+    },
+    {
+      "t": "h2",
+      "x": "Produits similaires"
+    },
+    {
+      "t": "li",
+      "x": "Location Jet Ski 45 minutes 120,00 € Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/location-jet-ski-45-minutes/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-9.jpg",
+      "alt": "Location Jet Ski 45 minutes"
+    },
+    {
+      "t": "span",
+      "x": "120,00 €"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée du midi (1h) 130,00 € Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/randonnee-midi/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png",
+      "alt": "Randonnée du midi (1h)"
+    },
+    {
+      "t": "span",
+      "x": "130,00 €"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski Petit Déjeuner (2h) 200,00 € Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/randonnee-jet-ski-petit-dejeuner/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-8.jpg",
+      "alt": "Randonnée Jet Ski Petit Déjeuner (2h)"
+    },
+    {
+      "t": "span",
+      "x": "200,00 €"
+    },
+    {
+      "t": "li",
+      "x": "Randonnée Jet Ski Coucher de soleil (1h) 130,00 € Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/randonnee-jet-ski-coucher-de-soleil/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alt": "Randonnée Jet Ski Coucher de soleil (1h)"
+    },
+    {
+      "t": "li",
+      "x": "Location Jet Ski 1 heure 160,00 € Note 5.00 sur 5Choix des options",
+      "href": "https://www.mandelieu-watersports.com/produit/location-jet-ski-1-heure/"
+    },
+    {
+      "t": "img",
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/femme-location-jet-ski-1h-theoule-mandelieu-watersports.png",
+      "alt": "Location Jet Ski 1 heure"
+    },
+    {
+      "t": "span",
+      "x": "160,00 €"
+    }
+  ],
+  "medias": [
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/03/LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute-accueil-bandeau.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png",
+      "alts": [
+        "Mandelieu WaterSports"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/07/mandelieu-watersports-logo-visuel-55.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+      "alts": [
+        "Location Jet Ski 30 minutes"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-600x750.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-240x300.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-819x1024.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-768x960.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-200x200.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-150x150.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/produit-location-jet-ski-mandelieu-watersports-30-min-300x300.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 2"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-600x400.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-300x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1024x683.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-768x512.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1536x1025.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-2048x1366.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-scaled.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 2"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-600x900.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-200x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-683x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-768x1152.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-1024x1536.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-1365x2048.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 3"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-4-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-600x400.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-300x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-1024x683.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-768x512.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-1536x1024.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-2048x1365.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-200x200.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-300x300.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-scaled.jpg",
+      "alts": [
+        "Location Jet Ski 30 minutes – Image 4"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/location-jet-ski-cannes-theoule-mandelieu-watersports-mws-1-scaled.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-9.jpg",
+      "alts": [
+        "Location Jet Ski 45 minutes"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-9-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-9-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-9-200x200.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing.png",
+      "alts": [
+        "Randonnée du midi (1h)"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing-300x300.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing-150x150.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2025/07/randonnee-jet-ski-du-midi-mandelieu-cannes-watersport-go-pricing-200x200.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-8.jpg",
+      "alts": [
+        "Randonnée Jet Ski Petit Déjeuner (2h)"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-8-300x300.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-8-150x150.jpg",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/02/randonnee-jet-ski-cannes-mandelieu-watersports-theoule-mws-8-200x200.jpg"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports.png",
+      "alts": [
+        "Randonnée Jet Ski Coucher de soleil (1h)"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports-300x300.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports-150x150.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/1h-massif-esterel-randonnee-jet-ski-mandelieu-watersports-200x200.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/femme-location-jet-ski-1h-theoule-mandelieu-watersports.png",
+      "alts": [
+        "Location Jet Ski 1 heure"
+      ],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/femme-location-jet-ski-1h-theoule-mandelieu-watersports-300x300.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/femme-location-jet-ski-1h-theoule-mandelieu-watersports-150x150.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2024/01/femme-location-jet-ski-1h-theoule-mandelieu-watersports-200x200.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2026/07/logo-adrenactive-blanc-300x66.png"
+      ],
+      "type": "image"
+    },
+    {
+      "src": "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel.png",
+      "alts": [],
+      "variantes": [
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-32x32.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-192x192.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-180x180.png",
+        "https://www.mandelieu-watersports.com/wp-content/uploads/2023/12/cropped-mandelieu-watersport-identite-jet-ski-parachute-ascensionnel-270x270.png"
+      ],
+      "type": "image"
+    }
+  ]
+}
