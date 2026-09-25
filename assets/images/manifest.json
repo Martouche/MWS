@@ -1,0 +1,820 @@
+{
+ "video-accueil": {
+  "w": 1280,
+  "h": 728,
+  "duree": 12,
+  "poids": 1964745,
+  "poster": "poster-accueil"
+ },
+ "video-parachute": {
+  "w": 720,
+  "h": 1280,
+  "duree": 49,
+  "poids": 9421947,
+  "poster": "poster-video-parachute"
+ },
+ "video-jet-ski": {
+  "w": 1280,
+  "h": 728,
+  "duree": 18,
+  "poids": 3729767,
+  "poster": "poster-video-jet-ski"
+ },
+ "video-location-jet-ski": {
+  "w": 1280,
+  "h": 728,
+  "duree": 13,
+  "poids": 1282349,
+  "poster": "poster-video-location-jet-ski"
+ },
+ "parachute-ascensionnel-mandelieu": {
+  "w": 2560,
+  "h": 2048,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-trois-amies": {
+  "w": 8192,
+  "h": 5464,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-vol-ciel": {
+  "w": 8192,
+  "h": 5464,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-fou-rire": {
+  "w": 5464,
+  "h": 5464,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600
+  ]
+ },
+ "parachute-selfie-coucher-soleil": {
+  "w": 2048,
+  "h": 1536,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-atterrissage": {
+  "w": 2560,
+  "h": 1340,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-pilote": {
+  "w": 2560,
+  "h": 2048,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-bateau-amies": {
+  "w": 8158,
+  "h": 5441,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-famille": {
+  "w": 2560,
+  "h": 1964,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "parachute-deux-bateaux": {
+  "w": 1760,
+  "h": 990,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600
+  ]
+ },
+ "parachute-vol-4-personnes": {
+  "w": 1920,
+  "h": 1080,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   1920
+  ]
+ },
+ "parachute-carte-adulte": {
+  "w": 1025,
+  "h": 576,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "parachute-carte-enfant": {
+  "w": 1024,
+  "h": 576,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "jet-ski-duo-esterel": {
+  "w": 7950,
+  "h": 5303,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-duo-baie": {
+  "w": 7008,
+  "h": 4672,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-location-ponton": {
+  "w": 6721,
+  "h": 4481,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-randonnee-esterel": {
+  "w": 8192,
+  "h": 5464,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-randonnee-groupe": {
+  "w": 8192,
+  "h": 5464,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-randonnee-duo": {
+  "w": 8056,
+  "h": 5373,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-coucher-soleil": {
+  "w": 4284,
+  "h": 5712,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-sunset": {
+  "w": 2427,
+  "h": 1365,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-drone": {
+  "w": 2458,
+  "h": 1666,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "iles-lerins-saint-honorat": {
+  "w": 1920,
+  "h": 1078,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   1920
+  ]
+ },
+ "petit-dejeuner-ponton": {
+  "w": 2469,
+  "h": 1668,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "esterel-roches-rouges": {
+  "w": 1782,
+  "h": 1501,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600
+  ]
+ },
+ "jet-ski-calanque": {
+  "w": 1782,
+  "h": 1501,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600
+  ]
+ },
+ "jet-ski-chien-rambo": {
+  "w": 1561,
+  "h": 1172,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1561
+  ]
+ },
+ "jet-ski-chateau-napoule": {
+  "w": 2560,
+  "h": 1440,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-groupe-baie": {
+  "w": 2560,
+  "h": 1440,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "jet-ski-pilote": {
+  "w": 1403,
+  "h": 789,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1403
+  ]
+ },
+ "jet-ski-femme-pilote": {
+  "w": 1215,
+  "h": 683,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "jet-ski-portrait": {
+  "w": 1036,
+  "h": 1036,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "base-nautique": {
+  "w": 2560,
+  "h": 1440,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "accueil-base": {
+  "w": 2353,
+  "h": 1435,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "carte-randonnee-coucher-soleil": {
+  "w": 1031,
+  "h": 586,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-randonnee-petit-dejeuner": {
+  "w": 1031,
+  "h": 586,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-randonnee-midi": {
+  "w": 1031,
+  "h": 586,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-location-30": {
+  "w": 1031,
+  "h": 580,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-location-1h": {
+  "w": 1031,
+  "h": 580,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-pack-bouee": {
+  "w": 1031,
+  "h": 586,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "carte-pack-jet-ski": {
+  "w": 1031,
+  "h": 586,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "pack-parachute-bouee": {
+  "w": 1024,
+  "h": 1024,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "pack-parachute-jet-ski": {
+  "w": 1024,
+  "h": 1536,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "bouee-tractee-groupe": {
+  "w": 6048,
+  "h": 4024,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "bouee-tractee-joie": {
+  "w": 5710,
+  "h": 3799,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "bouee-tractee-vitesse": {
+  "w": 5789,
+  "h": 3852,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "bouee-canape": {
+  "w": 6048,
+  "h": 4024,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "bouee-tractee-mer": {
+  "w": 2560,
+  "h": 1705,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "bouee-tractee-famille": {
+  "w": 2560,
+  "h": 1703,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "ski-nautique": {
+  "w": 1920,
+  "h": 1200,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   1920
+  ]
+ },
+ "ski-nautique-baie": {
+  "w": 1600,
+  "h": 900,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600
+  ]
+ },
+ "ski-nautique-enfant": {
+  "w": 1216,
+  "h": 1216,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024
+  ]
+ },
+ "wakeboard": {
+  "w": 1000,
+  "h": 667,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1000
+  ]
+ },
+ "wakesurf": {
+  "w": 1000,
+  "h": 662,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1000
+  ]
+ },
+ "evjf": {
+  "w": 700,
+  "h": 466,
+  "largeurs": [
+   160,
+   320,
+   480,
+   700
+  ]
+ },
+ "seminaire": {
+  "w": 736,
+  "h": 490,
+  "largeurs": [
+   160,
+   320,
+   480,
+   736
+  ]
+ },
+ "privatisation-bateau": {
+  "w": 2560,
+  "h": 1964,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "gopro": {
+  "w": 150,
+  "h": 150,
+  "largeurs": [
+   150
+  ]
+ },
+ "poster-accueil": {
+  "w": 2534,
+  "h": 1440,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1600,
+   2048
+  ]
+ },
+ "poster-video-parachute": {
+  "w": 720,
+  "h": 1280,
+  "largeurs": [
+   160,
+   320,
+   480,
+   720
+  ]
+ },
+ "poster-video-jet-ski": {
+  "w": 1280,
+  "h": 728,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1280
+  ]
+ },
+ "poster-video-location-jet-ski": {
+  "w": 1280,
+  "h": 728,
+  "largeurs": [
+   160,
+   320,
+   480,
+   768,
+   1024,
+   1280
+  ]
+ },
+ "picto-jet-ski": {
+  "w": 112,
+  "h": 112,
+  "picto": true
+ },
+ "picto-confiance": {
+  "w": 112,
+  "h": 112,
+  "picto": true
+ },
+ "picto-parachute": {
+  "w": 112,
+  "h": 112,
+  "picto": true
+ },
+ "picto-bouee": {
+  "w": 112,
+  "h": 112,
+  "picto": true
+ },
+ "picto-glisse": {
+  "w": 112,
+  "h": 112,
+  "picto": true
+ },
+ "logo": {
+  "w": 249,
+  "h": 132,
+  "logo": true
+ },
+ "logo-blanc": {
+  "w": 249,
+  "h": 132,
+  "logo": true
+ },
+ "adrenactive": {
+  "w": 601,
+  "h": 133,
+  "logo": true
+ }
+}
