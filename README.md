@@ -73,13 +73,29 @@ sur toutes les pages testées ; performance 99–100 en desktop, 95–99 en mobi
   interaction ; carte Google chargée au clic ; Google Tag Manager chargé **uniquement
   après consentement**.
 
-## Mise en ligne
+## Mise en ligne sur OVH (remplacement de l’ancien WordPress)
 
-Déployer **le contenu de `dist/`** (jamais le dossier du projet).
+Le nouveau site n’écrase **jamais** le WordPress : il est envoyé dans un dossier à part,
+puis le domaine est rebasculé vers ce dossier. Retour arrière possible en un clic.
 
-1. `npm run verify` doit afficher 0 erreur.
-2. Hébergement Apache (OVH…) : envoyer `dist/` avec son `.htaccess` (HTTPS + www forcés,
-   301, en-têtes de sécurité, cache). Netlify / Vercel : `_redirects`, `_headers` et
-   `vercel.json` sont générés.
-3. Après bascule du DNS : soumettre `https://www.mandelieu-watersports.com/sitemap.xml`
-   dans la Search Console et surveiller le rapport « Pages » pendant quelques semaines.
+1. **Préparer** : copier `env-exemple.txt` en `.env` et y mettre les identifiants FTP
+   (espace client OVH → Hébergements → onglet « FTP - SSH »). Tester : `npm run deploy:essai`.
+2. **Recette (facultatif, conseillé)** : créer dans OVH → Hébergements → Multisite un
+   sous-domaine `recette.mandelieu-watersports.com` pointant vers le dossier `recette`
+   (SSL activé), puis `npm run deploy:recette`. Ce build est en noindex : Google ne
+   l’indexera pas. Tester réservations, liens, mobile.
+3. **Production** : `npm run deploy` → envoie le site dans le dossier `site-statique`.
+   Le site actuel n’est pas encore touché.
+4. **Bascule** : OVH → Hébergements → Multisite → `mandelieu-watersports.com` **et**
+   `www.mandelieu-watersports.com` → Modifier → dossier racine `site-statique`
+   (quelques minutes de propagation). **Retour arrière** : remettre `www`.
+5. **Après la bascule** : vérifier `https://www.mandelieu-watersports.com/`, une fiche
+   produit (calendrier), `/shop/` (doit rediriger vers `/nos-tarifs/`) et
+   `https://mandelieu-watersports.com/` (doit rediriger vers www). Puis Search Console :
+   soumettre `/sitemap.xml` et suivre le rapport « Pages » quelques semaines.
+6. Garder le dossier `www` (WordPress) et sa base de données au moins 1 à 2 mois avant de
+   les supprimer. Les e-mails @mandelieu-watersports.com ne sont pas concernés.
+
+Le domaine canonique reste **www.mandelieu-watersports.com**, comme sur l’ancien site :
+`mandelieu-watersports.com` redirige en 301 vers la version www, HTTPS partout.
+Netlify / Vercel restent possibles : `_redirects`, `_headers` et `vercel.json` sont générés.

@@ -10,10 +10,16 @@
     "build": "node build.mjs",
     "test": "node build.mjs --test",
     "verify": "node build.mjs && node tools/verifier.mjs",
-    "start": "node build.mjs && node serveur.mjs"
+    "start": "node build.mjs && node serveur.mjs",
+    "deploy:essai": "node build.mjs && node tools/verifier.mjs && node deploy-ftp.mjs --essai",
+    "deploy:recette": "node build.mjs --test && node deploy-ftp.mjs --recette",
+    "deploy": "node build.mjs && node tools/verifier.mjs && node deploy-ftp.mjs"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
+    "basic-ftp": "^6.2.1",
     "cheerio": "^1.2.0",
     "esbuild": "^0.28.2",
     "sharp": "^0.35.4"

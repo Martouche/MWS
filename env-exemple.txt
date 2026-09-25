@@ -1,0 +1,15 @@
+# Identifiants FTP OVH — copier ce fichier en .env et le remplir.
+# .env n'est jamais versionné (voir .gitignore) : ne le partagez pas.
+# Valeurs : espace client OVH → Web Cloud → Hébergements → votre hébergement
+#           → onglet « FTP - SSH » (serveur FTP, login ; mot de passe à définir).
+
+FTP_HOTE=ftp.clusterXXX.hosting.ovh.net
+FTP_UTILISATEUR=votre-login-ftp
+FTP_MOTDEPASSE=votre-mot-de-passe
+
+# Dossiers sur l'hébergement (jamais /www, où tourne le WordPress actuel) :
+FTP_DOSSIER=site-statique
+FTP_DOSSIER_RECETTE=recette
+
+# FTPS (chiffré). Passer à false seulement si la connexion échoue.
+FTP_SECURISE=true

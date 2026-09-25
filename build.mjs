@@ -151,12 +151,14 @@ ErrorDocument 404 /404.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # HTTPS + www : une seule version du site pour Google
-  RewriteCond %{HTTPS} !=on [OR]
-  RewriteCond %{HTTP_HOST} !^www\\. [NC]
+  # Domaine nu → www (version indexée par Google depuis toujours), en HTTPS
+  RewriteCond %{HTTP_HOST} ^${new URL(site.domaine).hostname.replace(/^www\./, "").replace(/\./g, "\\.")}$ [NC]
+  RewriteRule ^(.*)$ ${site.domaine}/$1 [R=301,L]
+  # HTTPS partout (le sous-domaine de recette garde son nom)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTP_HOST} !^localhost [NC]
-  RewriteCond %{HTTP_HOST} ^(?:www\\.)?(.+)$ [NC]
-  RewriteRule ^(.*)$ https://www.%1/$1 [R=301,L]
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_headers.c>
