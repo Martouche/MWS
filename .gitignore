@@ -1,0 +1,26 @@
+# Dépendances
+node_modules/
+
+# Généré à chaque build : c'est ce dossier qu'on déploie, jamais versionné
+dist/
+
+# Originaux téléchargés depuis l'ancien WordPress (≈ 370 Mo) :
+# retéléchargeables avec `npm run scrape`, puis optimisés dans assets/
+medias-source/
+
+# HTML brut de l'ancien site et extractions intermédiaires (régénérables)
+scrape/raw/
+scrape/txt/
+
+# Outils locaux
+.claude/
+.lighthouseci/
+*.log
+
+# Secrets
+.env
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini

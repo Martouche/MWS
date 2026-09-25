@@ -1,0 +1,21 @@
+{
+  "name": "mandelieu-watersports",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site statique Mandelieu Watersports — parachute ascensionnel, jet ski, bouée tractée à Mandelieu-la-Napoule",
+  "scripts": {
+    "scrape": "node tools/scraper.mjs",
+    "medias": "node tools/medias.mjs",
+    "build": "node build.mjs",
+    "test": "node build.mjs --test",
+    "verify": "node build.mjs && node tools/verifier.mjs",
+    "start": "node build.mjs && node serveur.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "cheerio": "^1.2.0",
+    "esbuild": "^0.28.2",
+    "sharp": "^0.35.4"
+  }
+}
