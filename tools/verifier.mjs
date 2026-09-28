@@ -53,6 +53,12 @@ ok(`${conservees} URLs conservées à l'identique, ${redirigees} redirigées en 
 console.log("\n2. Balises SEO, images, liens, données structurées");
 const vus = new Map();
 let nImg = 0, titresModifies = [];
+// Titles volontairement modifiés et validés (URL → title attendu). Si l'un
+// d'eux change encore, il réapparaîtra dans la liste « à valider ».
+const TITRES_VALIDES = {
+  "/evenement-evg-evgf-mandelieu-cannes/evjf/": "EVJF Mandelieu Cannes | Enterrement vie de jeune fille - Watersports",
+  "/evenement-evg-evgf-mandelieu-cannes/seminaires/": "Séminaire Mandelieu Théoule | Mandelieu Watersports - séminaire",
+};
 for (const f of htmls) {
   const html = await readFile(f, "utf8");
   const u = urlDe(f);
@@ -66,7 +72,7 @@ for (const f of htmls) {
   if (h1 !== 1) ko(`${u} — ${h1} H1`);
   if (vus.has(titre)) warn(`title dupliqué : ${vus.get(titre)} et ${u}`); else vus.set(titre, u);
   const ancien = titresAnciens.get(u);
-  if (ancien && ancien.title && ancien.title.replace(/&#039;/g, "'").replace(/&amp;/g, "&") !== titre.replace(/&#039;/g, "'").replace(/&amp;/g, "&")) titresModifies.push(`${u}\n      avant : ${ancien.title}\n      après : ${titre}`);
+  if (TITRES_VALIDES[u] !== titre && ancien && ancien.title && ancien.title.replace(/&#039;/g, "'").replace(/&amp;/g, "&") !== titre.replace(/&#039;/g, "'").replace(/&amp;/g, "&")) titresModifies.push(`${u}\n      avant : ${ancien.title}\n      après : ${titre}`);
 
   for (const img of html.match(/<img\b[^>]*>/g) || []) {
     nImg++;
