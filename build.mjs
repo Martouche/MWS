@@ -162,9 +162,15 @@ ErrorDocument 404 /404.html
   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
+# Tout autre domaine que le domaine officiel (domaine de test sur le même
+# hébergement, adresse technique OVH…) est servi en noindex : le même dossier
+# peut ainsi être testé puis basculé en production sans risque de doublon Google.
+SetEnvIfNoCase Host "^(www\\.)?${new URL(site.domaine).hostname.replace(/^www\./, "").replace(/\./g, "\\.")}$" DOMAINE_OFFICIEL
+
 <IfModule mod_headers.c>
 ${Object.entries(ENTETES).map(([k, v]) => `  Header always set ${k} "${v}"`).join("\n")}
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Robots-Tag "noindex, nofollow" env=!DOMAINE_OFFICIEL
 ${TEST ? '  Header always set X-Robots-Tag "noindex, nofollow"\n' : ""}  <FilesMatch "\\.(webp|avif|png|jpg|svg|ico|mp4|woff2|js)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
