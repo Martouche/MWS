@@ -34,6 +34,9 @@ Fonctionnel — chargé uniquement sur les pages de réservation.
 ### Carte Google Maps
 Chargée uniquement lorsque vous cliquez sur « Afficher la carte » sur la page Contact.
 - Partage de données : Google Ireland Ltd.
+### Avis Google
+Les avis clients sont chargés depuis Google (Places API) lorsque vous atteignez la section « Avis clients ». Aucun cookie n’est déposé ; votre adresse IP est transmise à Google pour cette requête. Les avis sont mémorisés 6 heures dans le stockage local de votre navigateur (« mws-avis-google »).
+- Partage de données : Google Ireland Ltd.
 ## 7. Consentement
 Lorsque vous visitez notre site web pour la première fois, nous vous montrons un bandeau avec une explication sur les cookies. Dès que vous cliquez sur « Accepter », vous nous autorisez à utiliser les cookies de mesure d’audience décrits dans la présente politique. En cliquant sur « Refuser », aucun cookie de mesure d’audience n’est déposé. Vous pouvez modifier votre choix à tout moment grâce au lien « Gérer les cookies » en bas de chaque page.
 ## 8. Activer/désactiver et supprimer les cookies

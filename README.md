@@ -50,6 +50,28 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
   Le build échoue si un même pictogramme apparaît deux fois dans un bloc.
 - **Une nouvelle photo** → la déposer dans `medias-source/`, la déclarer dans
   `lib/medias.mjs` (texte alternatif obligatoire), puis `npm run medias`.
+  (`npm run medias -- --force` régénère toutes les photos ; les vidéos ne sont
+  réencodées qu'avec `--videos`.)
+
+## Avis Google en direct
+
+La section « Avis clients » affiche la note moyenne et les derniers avis de la fiche
+Google, chargés par le navigateur via la **Places API (New)** et mis en cache 6 h. Tant
+que la configuration est vide, elle affiche les avis enregistrés dans `content/avis.mjs`.
+
+1. [console.cloud.google.com](https://console.cloud.google.com) → créer un projet,
+   activer la facturation, puis activer **Places API (New)**.
+2. Identifiants → Créer une clé API → *Restrictions* : « Référents HTTP » =
+   `https://www.mandelieu-watersports.com/*` et `https://mandelieu-watersports.com/*`,
+   API autorisée = **Places API (New)** uniquement.
+3. Trouver le Place ID de la fiche avec le *Place ID Finder* de Google
+   (developers.google.com/maps/documentation/places/web-service/place-id).
+4. Renseigner `avisGoogle: { cleApi: "…", placeId: "…" }` dans `content/site.mjs`,
+   puis `npm run deploy`.
+
+Google renvoie au maximum 5 avis (les plus pertinents), affichés du plus récent au plus
+ancien. Une requête par visiteur toutes les 6 h : prévoir un plafond de quota journalier
+dans la console Google Cloud par sécurité.
 
 ## SEO — zéro perte de trafic
 

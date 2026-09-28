@@ -770,19 +770,19 @@
    1280
   ]
  },
- "logo": {
-  "w": 249,
-  "h": 132,
-  "logo": true
- },
- "logo-blanc": {
-  "w": 249,
-  "h": 132,
-  "logo": true
- },
  "adrenactive": {
   "w": 601,
   "h": 133,
+  "logo": true
+ },
+ "logo-horizontal": {
+  "w": 805,
+  "h": 160,
+  "logo": true
+ },
+ "logo-horizontal-blanc": {
+  "w": 805,
+  "h": 160,
   "logo": true
  }
 }

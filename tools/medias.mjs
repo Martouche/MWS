@@ -57,8 +57,8 @@ async function photos(manifeste) {
       const base = sharp(src, { limitInputPixels: false }).rotate().resize({ width: l, withoutEnlargement: true });
       const webp = join(IMG, `${cle}-${l}.webp`);
       const avif = join(IMG, `${cle}-${l}.avif`);
-      if (aFaire(webp)) await base.clone().webp({ quality: 76, effort: 5 }).toFile(webp);
-      if (aFaire(avif)) await base.clone().avif({ quality: 50, effort: 4 }).toFile(avif);
+      if (aFaire(webp)) await base.clone().webp({ quality: 82, effort: 5 }).toFile(webp);
+      if (aFaire(avif)) await base.clone().avif({ quality: 60, effort: 4 }).toFile(avif);
       if (l === uniques[uniques.length - 1]) apres += await taille(webp);
     }
     manifeste[cle] = { w: W, h: H, largeurs: uniques };
@@ -67,7 +67,14 @@ async function photos(manifeste) {
 }
 
 async function logosEtFavicons(manifeste) {
+  // Logo principal (clair et blanc) : recomposé en haute définition par tools/logo.mjs.
+  await exec(process.execPath, [join(racine, "tools", "logo.mjs")]);
+  for (const cle of ["logo-horizontal", "logo-horizontal-blanc"]) {
+    const { width, height } = await sharp(join(IMG, `${cle}.png`)).metadata();
+    manifeste[cle] = { w: width, h: height, logo: true };
+  }
   for (const [cle, l] of Object.entries(logos)) {
+    if (cle.startsWith("logo")) continue;
     const src = join(SRC, l.src);
     const { width, height } = await sharp(src).metadata();
     const png = join(IMG, `${cle}.png`);
@@ -112,7 +119,7 @@ async function traiterVideos(manifeste) {
     if (!existsSync(src)) { console.warn(`  ! ${cle} : source introuvable`); continue; }
     const out = join(VID, `${cle}.mp4`);
     const echelle = v.portrait ? "scale=-2:'min(1280,ih)'" : "scale='min(1280,iw)':-2";
-    if (aFaire(out)) {
+    if (!existsSync(out) || process.argv.includes("--videos")) { // vidéos : réencodées seulement avec --videos
       await exec("ffmpeg", [
         "-y", "-i", src, "-an",
         "-vf", `${echelle},fps=30`,

@@ -95,7 +95,7 @@ const CSP = [
   "font-src 'self' data: https://webservice.lagenza.fr https://*.lagenza.fr https://*.resactivity.com https://cdn.jsdelivr.net",
   "img-src 'self' data: blob: https:",
   "media-src 'self'",
-  "connect-src 'self' https://webservice.lagenza.fr https://*.lagenza.fr https://*.resactivity.com https://*.ingest.sentry.io https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com",
+  "connect-src 'self' https://places.googleapis.com https://webservice.lagenza.fr https://*.lagenza.fr https://*.resactivity.com https://*.ingest.sentry.io https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com",
   "frame-src https://webservice.lagenza.fr https://*.lagenza.fr https://*.resactivity.com https://www.google.com https://www.googletagmanager.com",
   "frame-ancestors 'none'",
   "base-uri 'self'",

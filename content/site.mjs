@@ -49,6 +49,13 @@ export const site = {
   // consentement (bandeau cookies), jamais avant.
   gtm: ["GTM-5MLCCH8", "GTM-P7DLK2XP"],
 
+  // Avis Google en direct (Places API New), chargés par le navigateur. Tant que
+  // ces deux valeurs sont vides, le site affiche les avis de content/avis.mjs.
+  // cleApi : clé « navigateur » restreinte (référents HTTP = votre domaine,
+  //          API = Places API (New) uniquement) — elle est visible dans le code.
+  // placeId : identifiant de la fiche (outil « Place ID Finder » de Google).
+  avisGoogle: { cleApi: "", placeId: "" },
+
   // Force le HTTPS et le www dans le .htaccess généré.
   forcerHttps: true,
   hote: "www",

@@ -68,8 +68,7 @@
   var hero = $('#hero');
   if (hero && $('.tabs', hero)) {
     var slides = $$('.hero__slide', hero), tabs = $$('.tab', hero);
-    var bar = $('.progress__bar', hero), cur = $('[data-current]', hero);
-    var DURATION = 6500, i = 0, auto = !reduce, suspendu = false, pret = false, timer, anim;
+    var DURATION = 6500, i = 0, auto = !reduce, suspendu = false, pret = false, timer;
 
     var videosActives = function () {
       if (!pret) return;
@@ -80,15 +79,13 @@
       slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
       tabs.forEach(function (t, k) { t.setAttribute('aria-selected', k === i); t.tabIndex = k === i ? 0 : -1; });
       if (focus) tabs[i].focus();
-      cur.textContent = '0' + (i + 1);
       videosActives();
       restart();
     };
     // Défilement automatique, suspendu au survol et au focus clavier (lecture du texte).
     var restart = function () {
-      clearTimeout(timer); if (anim) anim.cancel();
-      if (!auto || suspendu) { bar.style.transform = 'scaleX(0)'; return; }
-      anim = bar.animate([{ transform: 'scaleX(0)' }, { transform: 'scaleX(1)' }], { duration: DURATION, easing: 'linear', fill: 'forwards' });
+      clearTimeout(timer);
+      if (!auto || suspendu) return;
       timer = setTimeout(function () { go(i + 1); }, DURATION);
     };
     var suspendre = function (v) { suspendu = v; restart(); };
@@ -115,7 +112,7 @@
       x0 = null;
     });
     document.addEventListener('visibilitychange', function () {
-      if (document.hidden) { clearTimeout(timer); if (anim) anim.pause(); slides.forEach(function (s) { videoFond($('.hero__video', s), false); }); }
+      if (document.hidden) { clearTimeout(timer); slides.forEach(function (s) { videoFond($('.hero__video', s), false); }); }
       else { videosActives(); restart(); }
     });
     apresChargement(function () { pret = true; videosActives(); });
@@ -246,6 +243,56 @@
       var iov = new IntersectionObserver(function (en) { en.forEach(function (e) { if (e.isIntersecting) { poser(e.target); iov.unobserve(e.target); } }); }, { rootMargin: '500px 0px' });
       videos.forEach(function (v) { iov.observe(v); });
     } else videos.forEach(poser);
+  }
+
+  /* ---------- Avis Google en direct (Places API New) ----------
+     Chargés à l'approche de la section, mis en cache 6 h ; en cas d'échec
+     (clé absente, quota, réseau), les avis enregistrés restent affichés. */
+  var avis = $('[data-avis-live]');
+  if (avis) {
+    var CLE_AVIS = 'mws-avis-google', TTL = 6 * 3600 * 1000;
+    var afficherAvis = function (d) {
+      if (d.rating) {
+        $('[data-avis-note]', avis).textContent = d.rating.toFixed(1).replace('.', ',') + '/5';
+        var et = $('[data-avis-etoiles]', avis);
+        et.style.setProperty('--note', d.rating);
+        et.setAttribute('aria-label', 'Note Google : ' + d.rating.toFixed(1).replace('.', ',') + ' sur 5');
+      }
+      if (d.userRatingCount) $('[data-avis-total]', avis).innerHTML = 'Basée sur <strong>' + d.userRatingCount + ' avis</strong> Google';
+      if (d.googleMapsUri) $('[data-avis-lien]', avis).href = d.googleMapsUri;
+      var liste = (d.reviews || []).filter(function (r) { return r.text && r.text.text; })
+        .sort(function (a, b) { return (b.publishTime || '').localeCompare(a.publishTime || ''); });
+      if (!liste.length) return;
+      var ul = $('[data-avis-liste]', avis);
+      ul.textContent = '';
+      liste.forEach(function (r) {
+        var li = document.createElement('li'), bq = document.createElement('blockquote');
+        var p = document.createElement('p'); p.textContent = '« ' + r.text.text + ' »';
+        var pied = document.createElement('footer');
+        var et = document.createElement('span'); et.className = 'reviews__mini';
+        et.textContent = '★★★★★'.slice(0, Math.round(r.rating || 5)); et.setAttribute('aria-label', (r.rating || 5) + ' sur 5');
+        pied.appendChild(et);
+        var auteur = r.authorAttribution || {};
+        var nom = document.createElement(auteur.uri ? 'a' : 'span');
+        nom.textContent = auteur.displayName || 'Client Google';
+        if (auteur.uri) { nom.href = auteur.uri; nom.rel = 'noopener'; nom.target = '_blank'; }
+        pied.appendChild(nom);
+        if (r.relativePublishTimeDescription) pied.appendChild(document.createTextNode(' · ' + r.relativePublishTimeDescription));
+        bq.appendChild(p); bq.appendChild(pied); li.appendChild(bq); ul.appendChild(li);
+      });
+    };
+    var chargerAvis = function () {
+      try { var c = JSON.parse(localStorage.getItem(CLE_AVIS)); if (c && Date.now() - c.t < TTL) return afficherAvis(c.d); } catch (e) {}
+      fetch('https://places.googleapis.com/v1/places/' + encodeURIComponent(avis.dataset.place) + '?languageCode=fr', {
+        headers: { 'X-Goog-Api-Key': avis.dataset.cle, 'X-Goog-FieldMask': 'rating,userRatingCount,reviews,googleMapsUri' }
+      }).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function (d) { try { localStorage.setItem(CLE_AVIS, JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} afficherAvis(d); })
+        .catch(function () {});
+    };
+    if ('IntersectionObserver' in window) {
+      var ioa = new IntersectionObserver(function (en) { if (en[0].isIntersecting) { ioa.disconnect(); chargerAvis(); } }, { rootMargin: '800px 0px' });
+      ioa.observe(avis);
+    } else chargerAvis();
   }
 
   /* ---------- Carte Google Maps chargée au clic ---------- */
