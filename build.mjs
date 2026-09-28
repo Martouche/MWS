@@ -34,6 +34,7 @@ function toutesLesPages() {
     ...Object.keys(activites).map((k) => [activite(k), "0.9"]),
     [P.tarifs(), "0.9"],
     [P.packs(), "0.8"],
+    [P.reservation(), "0.7"],
     ...produits.map((p) => [fiche(p), "0.7"]),
     [P.evenements(), "0.6"],
     [P.evjf(), "0.6"],

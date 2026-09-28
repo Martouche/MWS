@@ -723,13 +723,6 @@
    2048
   ]
  },
- "gopro": {
-  "w": 150,
-  "h": 150,
-  "largeurs": [
-   150
-  ]
- },
  "poster-accueil": {
   "w": 2534,
   "h": 1440,
@@ -776,31 +769,6 @@
    1024,
    1280
   ]
- },
- "picto-jet-ski": {
-  "w": 112,
-  "h": 112,
-  "picto": true
- },
- "picto-confiance": {
-  "w": 112,
-  "h": 112,
-  "picto": true
- },
- "picto-parachute": {
-  "w": 112,
-  "h": 112,
-  "picto": true
- },
- "picto-bouee": {
-  "w": 112,
-  "h": 112,
-  "picto": true
- },
- "picto-glisse": {
-  "w": 112,
-  "h": 112,
-  "picto": true
  },
  "logo": {
   "w": 249,

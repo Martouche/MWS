@@ -7,7 +7,6 @@
 //
 // Lit medias-source/ (rempli par tools/scraper.mjs) et produit :
 //   assets/images/<cle>-<largeur>.avif|webp   photos, plusieurs largeurs
-//   assets/images/<picto>.webp               pictogrammes ronds 112 px
 //   assets/images/<logo>.png|webp            logos (transparence conservée)
 //   assets/videos/<cle>.mp4 + poster         vidéos H.264 720p via ffmpeg
 //   static/favicon-*.png, favicon.ico
@@ -23,7 +22,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import sharp from "sharp";
 
-import { medias, pictos, logos, videos, LARGEURS } from "../lib/medias.mjs";
+import { medias, logos, videos, LARGEURS } from "../lib/medias.mjs";
 
 const exec = promisify(execFile);
 const racine = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -65,24 +64,6 @@ async function photos(manifeste) {
     manifeste[cle] = { w: W, h: H, largeurs: uniques };
     console.log(`  ✓ ${cle.padEnd(34)} ${W}×${H} → ${uniques.join(", ")}`);
   }
-}
-
-async function pictogrammes(manifeste) {
-  for (const [cle, f] of Object.entries(pictos)) {
-    const src = join(SRC, f);
-    const out = join(IMG, `${cle}.webp`);
-    if (aFaire(out)) {
-      const { width, height } = await sharp(src).metadata();
-      const c = Math.min(width, height);
-      await sharp(src)
-        .extract({ left: Math.round((width - c) / 2), top: Math.round((height - c) / 2), width: c, height: c })
-        .resize(112, 112)
-        .webp({ quality: 85 })
-        .toFile(out);
-    }
-    manifeste[cle] = { w: 112, h: 112, picto: true };
-  }
-  console.log(`  ✓ ${Object.keys(pictos).length} pictogrammes`);
 }
 
 async function logosEtFavicons(manifeste) {
@@ -173,7 +154,6 @@ await traiterVideos(manifeste);
 await postersVideos(manifeste);
 console.log("\nPhotos");
 await photos(manifeste);
-await pictogrammes(manifeste);
 await logosEtFavicons(manifeste);
 
 await writeFile(cheminManifeste, JSON.stringify(manifeste, null, 1));

@@ -5,11 +5,11 @@
 // ---------------------------------------------------------------------------
 
 const AVANTAGES_JET_SKI = [
-  { titre: "Liberté totale", texte: "Nos jet skis sont accessibles sans permis ! Pilotez sans tracas administratifs." },
-  { titre: "Le meilleur tarif", texte: "Seul ou à deux sur un jet ski, le prix reste le même : vous êtes doublement gagnants !" },
-  { titre: "Équipements de qualité", texte: "L’équipement pour votre confort et votre sécurité est inclus." },
-  { titre: "Cadre exceptionnel", texte: "Vous découvrez la baie de Théoule depuis la mer et, qui sait, peut-être croiserez-vous des dauphins ?" },
-  { titre: "On s’adapte à vous !", texte: "Sortie en duo ou en groupe : nos différentes formules vous offrent une flexibilité totale." },
+  { titre: "Liberté totale", texte: "Nos jet skis sont accessibles sans permis ! Pilotez sans tracas administratifs.", icone: "sansPermis" },
+  { titre: "Le meilleur tarif", texte: "Seul ou à deux sur un jet ski, le prix reste le même : vous êtes doublement gagnants !", icone: "etiquette" },
+  { titre: "Équipements de qualité", texte: "L’équipement pour votre confort et votre sécurité est inclus.", icone: "gilet" },
+  { titre: "Cadre exceptionnel", texte: "Vous découvrez la baie de Théoule depuis la mer et, qui sait, peut-être croiserez-vous des dauphins ?", icone: "paysage" },
+  { titre: "On s’adapte à vous !", texte: "Sortie en duo ou en groupe : nos différentes formules vous offrent une flexibilité totale.", icone: "reglage" },
 ];
 
 export const activites = {
@@ -36,29 +36,29 @@ export const activites = {
     essentiel: {
       titre: "L’essentiel",
       items: [
-        ["Dès 3 ans", "Accessible aux enfants accompagnés d’un adulte."],
-        ["Jusqu’à 5 sous la voile", "Volez à deux, trois, quatre ou cinq, dans la limite de 240 kg cumulés."],
-        ["Pilote breveté d’État", "Une équipe professionnelle vous équipe et vous accompagne à chaque étape."],
-        ["Pas de vertige", "Aucun contact direct avec le sol : la sensation de vertige n’existe pas. Pas besoin de savoir nager."],
+        ["Dès 3 ans", "Accessible aux enfants accompagnés d’un adulte.", "enfant"],
+        ["Jusqu’à 5 sous la voile", "Volez à deux, trois, quatre ou cinq, dans la limite de 240 kg cumulés.", "parachute"],
+        ["Pilote breveté d’État", "Une équipe professionnelle vous équipe et vous accompagne à chaque étape.", "medaille"],
+        ["Pas de vertige", "Aucun contact direct avec le sol : la sensation de vertige n’existe pas. Pas besoin de savoir nager.", "nuage"],
       ],
     },
     comment: {
       titre: "Comment ça marche ?",
       etapes: [
-        { titre: "Le briefing", texte: "À votre arrivée sur la base nautique, un briefing vous explique le fonctionnement du parachute et la réglementation sur l’eau." },
-        { titre: "À bord", texte: "Vous embarquez sur notre bateau de parachute ascensionnel dernier cri. Ambiance musicale et sourires garantis, entre les mains d’un pilote expérimenté et breveté d’État." },
-        { titre: "Décollage !", texte: "Vous vous envolez à deux, trois, quatre ou cinq depuis la plateforme du bateau. Vos mains restent libres pour profiter de chaque instant, puis vous atterrissez en douceur à bord." },
+        { titre: "Le briefing", texte: "À votre arrivée sur la base nautique, un briefing vous explique le fonctionnement du parachute et la réglementation sur l’eau.", icone: "briefing" },
+        { titre: "À bord", texte: "Vous embarquez sur notre bateau de parachute ascensionnel dernier cri. Ambiance musicale et sourires garantis, entre les mains d’un pilote expérimenté et breveté d’État.", icone: "bateau" },
+        { titre: "Décollage !", texte: "Vous vous envolez à deux, trois, quatre ou cinq depuis la plateforme du bateau. Vos mains restent libres pour profiter de chaque instant, puis vous atterrissez en douceur à bord.", icone: "envol" },
       ],
     },
     avantages: {
       titre: "Avantages du parachute ascensionnel",
       intro: "Chez Mandelieu Watersports, nous sommes déterminés à rendre votre vol inoubliable. Voici ce que vous apprécierez :",
       items: [
-        { titre: "Liberté totale", texte: "Vous volez comme un oiseau au-dessus de la baie de Cannes – Mandelieu – Théoule-sur-Mer !" },
-        { titre: "Pas de vertige !", texte: "Déconnexion totale garantie, sans vertige : vous n’avez aucun contact direct avec le sol." },
-        { titre: "Équipements de qualité", texte: "Votre confort et votre sécurité sont garantis par notre équipe de professionnels." },
-        { titre: "Cadre exceptionnel", texte: "La baie de Cannes – Mandelieu – Théoule-sur-Mer vue du ciel. Qui dit mieux ?" },
-        { titre: "On s’adapte à vous !", texte: "En duo ou en groupe, nos différentes formules vous offrent une flexibilité totale." },
+        { titre: "Liberté totale", texte: "Vous volez comme un oiseau au-dessus de la baie de Cannes – Mandelieu – Théoule-sur-Mer !", icone: "oiseau" },
+        { titre: "Pas de vertige !", texte: "Déconnexion totale garantie, sans vertige : vous n’avez aucun contact direct avec le sol.", icone: "nuage" },
+        { titre: "Équipements de qualité", texte: "Votre confort et votre sécurité sont garantis par notre équipe de professionnels.", icone: "gilet" },
+        { titre: "Cadre exceptionnel", texte: "La baie de Cannes – Mandelieu – Théoule-sur-Mer vue du ciel. Qui dit mieux ?", icone: "paysage" },
+        { titre: "On s’adapte à vous !", texte: "En duo ou en groupe, nos différentes formules vous offrent une flexibilité totale.", icone: "reglage" },
       ],
     },
     sections: [
@@ -109,18 +109,18 @@ export const activites = {
     essentiel: {
       titre: "L’essentiel",
       items: [
-        ["Sans permis bateau", "Nos machines sont puissantes et faciles à manœuvrer, même pour les novices."],
-        ["Seul ou à deux", "Le prix reste le même, que vous soyez un ou deux sur le jet ski."],
-        ["Tout compris", "Carburant, équipement et assurance inclus."],
-        ["Pièce d’identité", "Obligatoire pour tous les conducteurs, avec ou sans réservation. Autorisation parentale pour les moins de 16 ans."],
+        ["Sans permis bateau", "Nos machines sont puissantes et faciles à manœuvrer, même pour les novices.", "sansPermis"],
+        ["Seul ou à deux", "Le prix reste le même, que vous soyez un ou deux sur le jet ski.", "duo"],
+        ["Tout compris", "Carburant, équipement et assurance inclus.", "carburant"],
+        ["Pièce d’identité", "Obligatoire pour tous les conducteurs, avec ou sans réservation. Autorisation parentale pour les moins de 16 ans.", "identite"],
       ],
     },
     comment: {
       titre: "Comment ça marche ?",
       etapes: [
-        { titre: "Le briefing", texte: "À votre arrivée sur la base nautique, un briefing vous explique le fonctionnement de la machine et la réglementation sur l’eau." },
-        { titre: "C’est parti !", texte: "Vous partez sur votre jet ski, carburant, équipement et assurance compris, pour 30 minutes, 45 minutes ou 1 heure de navigation libre." },
-        { titre: "Pièces d’identité", texte: "Accessible à partir de 16 ans (autorisation parentale obligatoire pour les mineurs). Pièces d’identité obligatoires pour tous les conducteurs !" },
+        { titre: "Le briefing", texte: "À votre arrivée sur la base nautique, un briefing vous explique le fonctionnement de la machine et la réglementation sur l’eau.", icone: "briefing" },
+        { titre: "C’est parti !", texte: "Vous partez sur votre jet ski, carburant, équipement et assurance compris, pour 30 minutes, 45 minutes ou 1 heure de navigation libre.", icone: "jetski" },
+        { titre: "Pièces d’identité", texte: "Accessible à partir de 16 ans (autorisation parentale obligatoire pour les mineurs). Pièces d’identité obligatoires pour tous les conducteurs !", icone: "identite" },
       ],
     },
     avantages: {
@@ -256,10 +256,10 @@ export const activites = {
     essentiel: {
       titre: "L’essentiel",
       items: [
-        ["Dès 3 ans", "Encadrée et accessible à tous, les enfants accompagnés d’un adulte."],
-        ["Jusqu’à 8 personnes", "Choisissez la bouée que vous préférez en arrivant : canapé (8 places) ou plate (6 places)."],
-        ["Vitesse adaptée", "Notre équipe de professionnels vous conduit à votre allure, en toute sécurité."],
-        ["Matériel contrôlé", "Notre équipe technique vérifie l’équipement et les conditions de mer avant chaque sortie."],
+        ["Dès 3 ans", "Encadrée et accessible à tous, les enfants accompagnés d’un adulte.", "enfant"],
+        ["Jusqu’à 8 personnes", "Choisissez la bouée que vous préférez en arrivant : canapé (8 places) ou plate (6 places).", "bouee"],
+        ["Vitesse adaptée", "Notre équipe de professionnels vous conduit à votre allure, en toute sécurité.", "vitesse"],
+        ["Matériel contrôlé", "Notre équipe technique vérifie l’équipement et les conditions de mer avant chaque sortie.", "controle"],
       ],
     },
     sections: [
@@ -300,9 +300,9 @@ export const activites = {
     essentiel: {
       titre: "Pourquoi le wakeboard chez nous ?",
       items: [
-        ["Des sensations uniques", "Le wakeboard procure des sensations de glisse très rapidement. Les sessions sont privilégiées le matin, sur une mer calme."],
-        ["Des conseils de qualité", "Votre pilote est un vrai pro de la glisse : il vous donne les clés pour sortir de l’eau, puis pour maîtriser de nouveaux tricks."],
-        ["Forfait 10 tours", "299 € uniquement sur demande : idéal pour progresser toute la saison."],
+        ["Des sensations uniques", "Le wakeboard procure des sensations de glisse très rapidement. Les sessions sont privilégiées le matin, sur une mer calme.", "glisse"],
+        ["Des conseils de qualité", "Votre pilote est un vrai pro de la glisse : il vous donne les clés pour sortir de l’eau, puis pour maîtriser de nouveaux tricks.", "conseil"],
+        ["Forfait 10 tours", "299 € uniquement sur demande : idéal pour progresser toute la saison.", "repetition"],
       ],
     },
     sections: [
@@ -343,9 +343,9 @@ export const activites = {
     essentiel: {
       titre: "Pourquoi le ski nautique chez nous ?",
       items: [
-        ["Pas de limite d’âge", "Un sport de glisse pour tous, de l’initiation au perfectionnement."],
-        ["Moniteur diplômé d’État", "Dans une ambiance conviviale, votre pilote vous guide dès le premier tour."],
-        ["Forfait 10 tours", "299 € uniquement sur demande : idéal pour progresser toute la saison."],
+        ["Pas de limite d’âge", "Un sport de glisse pour tous, de l’initiation au perfectionnement.", "enfant"],
+        ["Moniteur diplômé d’État", "Dans une ambiance conviviale, votre pilote vous guide dès le premier tour.", "medaille"],
+        ["Forfait 10 tours", "299 € uniquement sur demande : idéal pour progresser toute la saison.", "repetition"],
       ],
     },
     sections: [

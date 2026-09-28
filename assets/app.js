@@ -47,38 +47,58 @@
     if (drawer.classList.contains('is-open')) { setMenu(false); burger.focus(); }
   });
 
+  /* ---------- Vidéos d'arrière-plan du hero (autoplay, muettes, en boucle) ----------
+     La photo reste dessous (affiche + repli) ; la vidéo n'est téléchargée
+     qu'après le chargement de la page, et jamais en mode « animations réduites ». */
+  var videoFond = function (v, jouer) {
+    if (!v || reduce) return;
+    if (!jouer) { v.pause(); return; }
+    if (!v.getAttribute('src')) v.src = v.dataset.videoSrc;
+    var p = v.play(); if (p && p.catch) p.catch(function () {});
+  };
+  $$('.hero__video').forEach(function (v) {
+    v.addEventListener('playing', function () { v.classList.add('is-playing'); });
+  });
+  var apresChargement = function (fn) {
+    if (document.readyState === 'complete') setTimeout(fn, 300);
+    else window.addEventListener('load', function () { setTimeout(fn, 300); });
+  };
+
   /* ---------- Hero : slider à onglets (accueil) ---------- */
   var hero = $('#hero');
   if (hero && $('.tabs', hero)) {
     var slides = $$('.hero__slide', hero), tabs = $$('.tab', hero);
-    var bar = $('.progress__bar', hero), cur = $('[data-current]', hero), toggle = $('[data-action="toggle"]', hero);
-    var DURATION = 6500, i = 0, playing = !reduce, timer, anim;
+    var bar = $('.progress__bar', hero), cur = $('[data-current]', hero);
+    var DURATION = 6500, i = 0, auto = !reduce, suspendu = false, pret = false, timer, anim;
 
+    var videosActives = function () {
+      if (!pret) return;
+      slides.forEach(function (s, k) { videoFond($('.hero__video', s), k === i); });
+    };
     var go = function (n, focus) {
       i = (n + slides.length) % slides.length;
       slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
       tabs.forEach(function (t, k) { t.setAttribute('aria-selected', k === i); t.tabIndex = k === i ? 0 : -1; });
       if (focus) tabs[i].focus();
       cur.textContent = '0' + (i + 1);
+      videosActives();
       restart();
     };
+    // Défilement automatique, suspendu au survol et au focus clavier (lecture du texte).
     var restart = function () {
       clearTimeout(timer); if (anim) anim.cancel();
-      if (!playing) { bar.style.transform = 'scaleX(0)'; return; }
+      if (!auto || suspendu) { bar.style.transform = 'scaleX(0)'; return; }
       anim = bar.animate([{ transform: 'scaleX(0)' }, { transform: 'scaleX(1)' }], { duration: DURATION, easing: 'linear', fill: 'forwards' });
       timer = setTimeout(function () { go(i + 1); }, DURATION);
     };
-    var setPlaying = function (p) {
-      playing = p;
-      $('[data-icon="pause"]', toggle).toggleAttribute('hidden', !p);
-      $('[data-icon="play"]', toggle).toggleAttribute('hidden', p);
-      toggle.setAttribute('aria-label', p ? 'Mettre en pause le diaporama' : 'Lire le diaporama');
-      restart();
-    };
+    var suspendre = function (v) { suspendu = v; restart(); };
+    hero.addEventListener('mouseenter', function () { suspendre(true); });
+    hero.addEventListener('mouseleave', function () { suspendre(false); });
+    hero.addEventListener('focusin', function () { suspendre(true); });
+    hero.addEventListener('focusout', function (e) { if (!hero.contains(e.relatedTarget)) suspendre(false); });
     hero.addEventListener('click', function (e) {
       var t = e.target.closest('.tab'); if (t) { go(tabs.indexOf(t)); return; }
       var b = e.target.closest('[data-action]'); if (!b) return;
-      if (b.dataset.action === 'toggle') setPlaying(!playing);
       if (b.dataset.action === 'next') go(i + 1);
       if (b.dataset.action === 'prev') go(i - 1);
     });
@@ -94,8 +114,15 @@
       if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(dx < 0 ? i + 1 : i - 1);
       x0 = null;
     });
-    document.addEventListener('visibilitychange', function () { if (document.hidden) { clearTimeout(timer); if (anim) anim.pause(); } else restart(); });
-    setPlaying(playing);
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { clearTimeout(timer); if (anim) anim.pause(); slides.forEach(function (s) { videoFond($('.hero__video', s), false); }); }
+      else { videosActives(); restart(); }
+    });
+    apresChargement(function () { pret = true; videosActives(); });
+    restart();
+  } else {
+    // Hero de page : une seule vidéo éventuelle.
+    apresChargement(function () { $$('.hero__video').forEach(function (v) { videoFond(v, true); }); });
   }
 
   /* ---------- Ancres internes : les sections hors écran ont un rendu différé
@@ -108,6 +135,30 @@
     aller(); requestAnimationFrame(function () { requestAnimationFrame(aller); });
     history.replaceState(null, '', a.getAttribute('href'));
   });
+
+  /* ---------- Galerie des fiches produit : la miniature cliquée remplace la grande photo ---------- */
+  var galerie = $('[data-galerie]');
+  if (galerie) {
+    var vignettes = $$('.pdp__thumb');
+    vignettes.forEach(function (b) {
+      b.addEventListener('click', function () {
+        if (b.classList.contains('is-active')) return;
+        vignettes.forEach(function (x) { var on = x === b; x.classList.toggle('is-active', on); x.setAttribute('aria-pressed', on); });
+        var img = $('img', galerie), srcs = $$('source', galerie);
+        var remplacer = function () {
+          srcs.forEach(function (so) { so.srcset = so.type === 'image/avif' ? b.dataset.avif : b.dataset.webp; });
+          img.src = b.dataset.src; img.alt = b.dataset.alt; img.width = +b.dataset.w; img.height = +b.dataset.h;
+        };
+        if (reduce) { remplacer(); return; }
+        galerie.classList.add('is-changing');
+        setTimeout(function () {
+          remplacer();
+          var fin = function () { requestAnimationFrame(function () { galerie.classList.remove('is-changing'); }); };
+          if (img.decode) img.decode().then(fin, fin); else img.onload = fin;
+        }, 200);
+      });
+    });
+  }
 
   /* ---------- Onglets de réservation (ARIA tabs) ---------- */
   var btabs = $$('.btab'), bpanels = $$('.bpanel');

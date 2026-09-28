@@ -42,6 +42,12 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
 - **Un tarif, un texte, un horaire** → `content/`, puis `npm run verify`.
 - **Ajouter une activité** → une entrée dans `content/produits.mjs` (slug, prix, `resaId`
   Resamare, images). Page, carte tarif, sitemap et données structurées suivent.
+- **Vidéo de fond dans le hero** → déposer la vidéo dans `medias-source/`, la déclarer dans
+  `videos` de `lib/medias.mjs`, lancer `npm run medias`, puis ajouter `video: "<clé>"` à une
+  diapositive de `SLIDES` (`lib/pages/accueil.mjs`) ou à un `heroPage()`. Elle est jouée
+  sans contrôles (autoplay, muette, en boucle) par-dessus la photo, qui sert d’affiche.
+- **Pictogrammes** → `lib/icones.mjs` ; chaque point fort en déclare un (`[titre, texte, "jetski"]`).
+  Le build échoue si un même pictogramme apparaît deux fois dans un bloc.
 - **Une nouvelle photo** → la déposer dans `medias-source/`, la déclarer dans
   `lib/medias.mjs` (texte alternatif obligatoire), puis `npm run medias`.
 
