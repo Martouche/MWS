@@ -14,7 +14,8 @@ const SOURCES = {
   "logo-horizontal": "2024__03__LOGOS_ORANGE_GRIS-mandelieu-watersports-jet-ski-parachute.png",
   "logo-horizontal-blanc": "2024__03__LOGOS_ORANGE_BLANC-mandelieu-watersports-jet-ski-parachute.png",
 };
-const HAUTEUR = 160; // px du fichier final (affiché ~30-36 px : net jusqu'en 4x)
+const HAUTEUR = 160;
+const EXPORT = 96; // hauteur du fichier final : 3× l.affichage (31-33 px)
 
 /** Découpe une bande [haut, bas[ au plus près des pixels visibles (alpha). */
 async function decoupe(buf, [haut, bas]) {
@@ -60,8 +61,11 @@ for (const [cle, fichier] of Object.entries(SOURCES)) {
   const W = x2 + m2.width;
   const out = sharp({ create: { width: W, height: HAUTEUR, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
     .composite([{ input: e, left: 0, top: 0 }, { input: t1, left: x1, top: y1 }, { input: t2, left: x2, top: y2 }]);
-  const png = await out.png({ compressionLevel: 9, palette: true }).toBuffer();
-  await sharp(png).toFile(join(racine, "assets", "images", `${cle}.png`));
-  await sharp(png).webp({ quality: 92, alphaQuality: 100 }).toFile(join(racine, "assets", "images", `${cle}.webp`));
+  // Composé en 160 px de haut, exporté en 96 px : 3× la taille affichée dans
+  // l'en-tête (31-33 px), net partout et ~5 fois plus léger.
+  const brut = await out.png().toBuffer();
+  const final = await sharp(brut).resize({ height: EXPORT, kernel: "lanczos3" }).png().toBuffer();
+  await sharp(final).png({ compressionLevel: 9, palette: true, quality: 90 }).toFile(join(racine, "assets", "images", `${cle}.png`));
+  await sharp(join(racine, "assets", "images", `${cle}.png`)).webp({ lossless: true, effort: 6 }).toFile(join(racine, "assets", "images", `${cle}.webp`));
   console.log(`✓ ${cle} ${W}×${HAUTEUR}`);
 }

@@ -62,12 +62,13 @@ const TITRES_VALIDES = {
 for (const f of htmls) {
   const html = await readFile(f, "utf8");
   const u = urlDe(f);
-  const titre = (html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "";
-  const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "";
+  const texte = (t) => t.replace(/&amp;/g, "&").replace(/&#039;|&apos;/g, "'").replace(/&quot;/g, '"');
+  const titre = texte((html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "");
+  const desc = texte((html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "");
   const canon = (html.match(/<link rel="canonical" href="([^"]*)"/) || [])[1] || "";
   const h1 = (html.match(/<h1[\s>]/g) || []).length;
-  if (!titre) ko(`${u} — pas de <title>`); else if (titre.length > 70) warn(`${u} — title de ${titre.length} caractères`);
-  if (!desc) ko(`${u} — pas de meta description`); else if (desc.length > 170) warn(`${u} — description de ${desc.length} caractères`);
+  if (!titre) ko(`${u} — pas de <title>`); else if (titre.length > 60) warn(`${u} — title de ${titre.length} caractères`);
+  if (!desc) ko(`${u} — pas de meta description`); else if (desc.length > 155) warn(`${u} — description de ${desc.length} caractères`);
   if (!canon && u !== "/404.html") ko(`${u} — pas de canonical`);
   if (h1 !== 1) ko(`${u} — ${h1} H1`);
   if (vus.has(titre)) warn(`title dupliqué : ${vus.get(titre)} et ${u}`); else vus.set(titre, u);
@@ -98,9 +99,11 @@ for (const f of htmls) {
 }
 ok(`${htmls.length} pages, ${nImg} images contrôlées (alt + dimensions)`);
 
-console.log("\n3. Titles modifiés par rapport à l'ancien site (à valider)");
-titresModifies.forEach((t) => console.log("  · " + t));
-if (!titresModifies.length) ok("aucun");
+// Les titles ont été réécrits pour le SEO local (septembre 2026) : la comparaison
+// détaillée avec l'ancien site n'est affichée qu'à la demande.
+console.log("\n3. Titles par rapport à l'ancien site");
+if (process.argv.includes("--titres")) titresModifies.forEach((t) => console.log("  · " + t));
+else ok(`${titresModifies.length} title(s) réécrit(s) — détail : node tools/verifier.mjs --titres`);
 
 console.log(`\n${erreurs ? "✗" : "✓"} ${erreurs} erreur(s), ${alertes} alerte(s)\n`);
 process.exit(erreurs ? 1 : 0);

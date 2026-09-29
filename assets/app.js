@@ -15,7 +15,10 @@
     header.classList.toggle('is-scrolled', y > 40);
     if (mcta) mcta.classList.toggle('is-visible', y > 480);
   };
-  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  // Lecture de scrollY différée au « load » : au démarrage, elle forcerait un
+  // calcul de mise en page complet avant le premier affichage (tâche longue).
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('load', onScroll);
 
   /* ---------- Dropdown Activités ---------- */
   var ddBtn = $('[data-dropdown]'), ddPanel = $('#dd-activites');
@@ -245,6 +248,40 @@
     } else videos.forEach(poser);
   }
 
+  /* ---------- Carrousel d'avis : boutons précédent / suivant + barre de progression ---------- */
+  function majNavAvis() {
+    $$('.reviews').forEach(function (r) {
+      var ul = $('[data-avis-liste]', r), nav = $('[data-avis-nav]', r);
+      if (!ul || !nav) return;
+      var deborde = ul.scrollWidth > ul.clientWidth + 4;
+      nav.hidden = !deborde;
+      if (!deborde) return;
+      var ratio = ul.clientWidth / ul.scrollWidth;
+      var pos = ul.scrollLeft / (ul.scrollWidth - ul.clientWidth);
+      var c = $('[data-avis-curseur]', r);
+      c.style.width = (ratio * 100) + '%';
+      c.style.transform = 'translateX(' + (pos * (1 / ratio - 1) * 100) + '%)';
+      $('[data-avis-prec]', r).disabled = ul.scrollLeft < 4;
+      $('[data-avis-suiv]', r).disabled = pos > 0.99;
+    });
+  }
+  $$('.reviews').forEach(function (r) {
+    var ul = $('[data-avis-liste]', r);
+    if (!ul || !$('[data-avis-nav]', r)) return;
+    var pas = function (sens) {
+      var li = $('li', ul), w = li ? li.getBoundingClientRect().width + 12 : ul.clientWidth;
+      ul.scrollBy({ left: sens * w, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    $('[data-avis-prec]', r).addEventListener('click', function () { pas(-1); });
+    $('[data-avis-suiv]', r).addEventListener('click', function () { pas(1); });
+    ul.addEventListener('scroll', majNavAvis, { passive: true });
+    // La section a un rendu différé (content-visibility) : mesure à son affichage.
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (en) { if (en[0].isIntersecting) majNavAvis(); }, { rootMargin: '200px 0px' }).observe(r);
+  });
+  // Pas de mesure immédiate : elle forcerait un calcul de mise en page complet
+  // pendant le chargement (tâche longue). L'observateur mesure après le rendu.
+  window.addEventListener('resize', majNavAvis);
+
   /* ---------- Avis Google en direct (Places API New) ----------
      Chargés à l'approche de la section, mis en cache 6 h ; en cas d'échec
      (clé absente, quota, réseau), les avis enregistrés restent affichés. */
@@ -258,7 +295,7 @@
         et.style.setProperty('--note', d.rating);
         et.setAttribute('aria-label', 'Note Google : ' + d.rating.toFixed(1).replace('.', ',') + ' sur 5');
       }
-      if (d.userRatingCount) $('[data-avis-total]', avis).innerHTML = 'Basée sur <strong>' + d.userRatingCount + ' avis</strong> Google';
+      if (d.userRatingCount) $('[data-avis-total]', avis).innerHTML = 'Basée sur <strong>' + d.userRatingCount.toLocaleString('fr-FR') + ' avis</strong> Google';
       if (d.googleMapsUri) $('[data-avis-lien]', avis).href = d.googleMapsUri;
       var liste = (d.reviews || []).filter(function (r) { return r.text && r.text.text; })
         .sort(function (a, b) { return (b.publishTime || '').localeCompare(a.publishTime || ''); });
@@ -280,6 +317,7 @@
         if (r.relativePublishTimeDescription) pied.appendChild(document.createTextNode(' · ' + r.relativePublishTimeDescription));
         bq.appendChild(p); bq.appendChild(pied); li.appendChild(bq); ul.appendChild(li);
       });
+      ul.scrollLeft = 0; majNavAvis();
     };
     var chargerAvis = function () {
       try { var c = JSON.parse(localStorage.getItem(CLE_AVIS)); if (c && Date.now() - c.t < TTL) return afficherAvis(c.d); } catch (e) {}

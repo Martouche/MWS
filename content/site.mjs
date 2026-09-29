@@ -3,6 +3,18 @@
 // adresse : tout le site (pages, pied de page, données structurées) suit.
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// AVIS GOOGLE EN DIRECT (Places API New) — les deux seules valeurs à renseigner.
+// API_KEY : clé Google Cloud restreinte (référents HTTP = votre domaine,
+//           API autorisée = « Places API (New) » uniquement) ; elle est visible
+//           dans le code de la page, c'est normal pour une clé « navigateur ».
+// GOOGLE_PLACE_ID : identifiant de la fiche Mandelieu Watersports (Port de la
+//           Rague), trouvé avec l'outil « Place ID Finder » de Google.
+// Vides → le site affiche les valeurs par défaut de content/avis.mjs.
+// ---------------------------------------------------------------------------
+export const API_KEY = "";
+export const GOOGLE_PLACE_ID = "";
+
 export const site = {
   nom: "Mandelieu Watersports",
   nomCourt: "Mandelieu WaterSports",
@@ -49,12 +61,8 @@ export const site = {
   // consentement (bandeau cookies), jamais avant.
   gtm: ["GTM-5MLCCH8", "GTM-P7DLK2XP"],
 
-  // Avis Google en direct (Places API New), chargés par le navigateur. Tant que
-  // ces deux valeurs sont vides, le site affiche les avis de content/avis.mjs.
-  // cleApi : clé « navigateur » restreinte (référents HTTP = votre domaine,
-  //          API = Places API (New) uniquement) — elle est visible dans le code.
-  // placeId : identifiant de la fiche (outil « Place ID Finder » de Google).
-  avisGoogle: { cleApi: "", placeId: "" },
+  // Avis Google en direct : voir API_KEY et GOOGLE_PLACE_ID en haut du fichier.
+  avisGoogle: { cleApi: API_KEY, placeId: GOOGLE_PLACE_ID },
 
   // Force le HTTPS et le www dans le .htaccess généré.
   forcerHttps: true,

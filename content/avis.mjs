@@ -1,8 +1,11 @@
-// Avis Google affichés par le widget Trustindex de l’ancien site (rendus en HTML
-// statique : aucun script tiers). Mettre à jour à la main de temps en temps.
+// Avis Google affichés PAR DÉFAUT : avant la réponse de l’API, ou si elle n’est pas
+// configurée / indisponible. Note et nombre relevés sur la fiche Google Business
+// Profile (à mettre à jour de temps en temps) ; avis repris de l’ancien site.
+// Dès que API_KEY et GOOGLE_PLACE_ID sont renseignés (content/site.mjs), tout est
+// remplacé en direct par les données de Google.
 export const avisGoogle = {
-  resume: "Excellent",
-  nombre: 408,
+  note: 4.9,
+  nombre: 1477,
   // Fiche Google Maps de la base nautique (identifiant repris de la carte de l’ancien site).
   lien: "https://www.google.com/maps?cid=4863753912622905510",
   avis: [

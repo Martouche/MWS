@@ -776,13 +776,13 @@
   "logo": true
  },
  "logo-horizontal": {
-  "w": 805,
-  "h": 160,
+  "w": 483,
+  "h": 96,
   "logo": true
  },
  "logo-horizontal-blanc": {
-  "w": 805,
-  "h": 160,
+  "w": 483,
+  "h": 96,
   "logo": true
  }
 }

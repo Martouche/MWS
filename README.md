@@ -66,7 +66,7 @@ que la configuration est vide, elle affiche les avis enregistrés dans `content/
    API autorisée = **Places API (New)** uniquement.
 3. Trouver le Place ID de la fiche avec le *Place ID Finder* de Google
    (developers.google.com/maps/documentation/places/web-service/place-id).
-4. Renseigner `avisGoogle: { cleApi: "…", placeId: "…" }` dans `content/site.mjs`,
+4. Renseigner `API_KEY` et `GOOGLE_PLACE_ID` en tête de `content/site.mjs`,
    puis `npm run deploy`.
 
 Google renvoie au maximum 5 avis (les plus pertinents), affichés du plus récent au plus

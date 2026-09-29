@@ -5,7 +5,7 @@
 //          la réservation se fait par téléphone.
 // note   : note et nombre d'avis affichés par l'ancienne boutique WooCommerce,
 //          repris à l'identique pour conserver les étoiles dans Google.
-// title / description : balises SEO de l'ancienne page (coquilles corrigées).
+// title / description : balises SEO (≤ 60 et ≤ 155 caractères, activité + lieu + prix + appel à l'action).
 // ---------------------------------------------------------------------------
 
 export const categories = {
@@ -61,8 +61,8 @@ export const produits = [
     resaId: "2003",
     note: { valeur: 5, nombre: 152 },
     images: ["parachute-vol-ciel", "parachute-trois-amies", "parachute-atterrissage"],
-    title: "Parachute Ascensionnel - Mandelieu WaterSports",
-    description: "Découvrez le parachute ascensionnel jusqu'à 5 personnes à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du parachute ascensionnel.",
+    title: "Vol Parachute Ascensionnel Adulte à Mandelieu",
+    description: "Parachute Ascensionnel à Mandelieu, près de Cannes et Théoule : vue sur la baie de Cannes et les îles de Lérins. 50 € par personne. Réservez en ligne !",
     accroche: "Envolez-vous jusqu’à 5 personnes en même temps et admirez un panorama à 360° entre ciel et mer.",
     texte: [
       "Envolez-vous pour de nouvelles sensations et admirez un panorama à 360° entre ciel et mer avec vos amis, vos enfants, vos parents. Décollage et retour en douceur sur le bateau : vous vous sentirez en sécurité.",
@@ -81,8 +81,8 @@ export const produits = [
     resaId: "2003",
     note: { valeur: 5, nombre: 220 },
     images: ["parachute-famille", "parachute-carte-enfant", "parachute-fou-rire"],
-    title: "Parachute Ascensionnel Enfant - Mandelieu WaterSports",
-    description: "Le parachute ascensionnel pour les enfants de 3 à 12 ans à Mandelieu, Théoule. Un vol en famille, jusqu'à 5 personnes sous la même voile, en toute sécurité.",
+    title: "Parachute Ascensionnel Enfant à Mandelieu – Cannes",
+    description: "Parachute Ascensionnel Enfant à Mandelieu, près de Cannes : vue sur la baie de Cannes et les îles de Lérins. 40 € par personne. Réservez en ligne !",
     accroche: "Un premier vol inoubliable pour les enfants de 3 à 12 ans, accompagnés d’un adulte.",
     texte: [
       "Envolez-vous en famille pour de nouvelles sensations et admirez un panorama à 360° entre ciel et mer. Décollage et retour en douceur sur la plateforme du bateau : les enfants se sentent en sécurité du début à la fin.",
@@ -105,8 +105,8 @@ export const produits = [
     resaId: "2005",
     note: { valeur: 5, nombre: 912 },
     images: ["carte-location-30", "jet-ski-duo-baie", "jet-ski-pilote"],
-    title: "Location Jet Ski 30 minutes Cannes Mandelieu | Watersports",
-    description: "Louez un jet ski 30 minutes à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+    title: "Location Jet Ski 30 minutes à Mandelieu – Cannes",
+    description: "Location Jet Ski 30 minutes à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 90 € par jet ski. Réservez en ligne !",
     accroche: "Trente minutes de navigation libre dans la baie de Mandelieu, sans permis bateau. Seul ou à deux, même tarif.",
     texte: [
       "Le jet ski ne manquera pas de faire le bonheur des amateurs de sensations fortes. L’activité est accessible avec ou sans permis grâce à la présence de votre moniteur diplômé BPJEPS.",
@@ -130,8 +130,8 @@ export const produits = [
     age: "Dès 16 ans",
     resaId: "2006",
     images: ["jet-ski-location-ponton", "jet-ski-duo-esterel", "jet-ski-femme-pilote"],
-    title: "Location Jet Ski 45 minutes Cannes Mandelieu | Watersports",
-    description: "Louez un jet ski 45 minutes à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+    title: "Location Jet Ski 45 minutes à Mandelieu – Cannes",
+    description: "Location Jet Ski 45 minutes à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 120 € par jet ski. Réservez en ligne !",
     accroche: "Doublez le plaisir avec 45 minutes de jet ski sans permis, seul ou à deux au même tarif.",
     texte: [
       "Optez pour une session de 45 minutes, idéale pour décupler les sensations fortes au tarif le plus avantageux, seul ou à deux sur votre jet ski sans permis.",
@@ -156,8 +156,8 @@ export const produits = [
     resaId: "2007",
     note: { valeur: 5, nombre: 897 },
     images: ["carte-location-1h", "jet-ski-femme-pilote", "jet-ski-duo-esterel"],
-    title: "Location Jet Ski 1 heure Cannes Mandelieu | Watersports",
-    description: "Louez un jet ski 1h à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu et Cannes",
+    title: "Location Jet Ski 1 heure à Mandelieu – Cannes",
+    description: "Location Jet Ski 1 heure à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 160 € par jet ski. Réservez en ligne !",
     accroche: "Une heure de liberté en jet ski sans permis, jusqu’aux îles de Lérins. Seul ou à deux, même tarif.",
     texte: [
       "Le jet ski ne manquera pas de faire le bonheur des amateurs de sensations fortes. L’activité est accessible avec ou sans permis grâce à la présence de votre moniteur diplômé BPJEPS.",
@@ -185,8 +185,8 @@ export const produits = [
     note: { valeur: 5, nombre: 688 },
     bestSeller: true,
     images: ["jet-ski-coucher-soleil", "carte-randonnee-coucher-soleil", "jet-ski-sunset"],
-    title: "Randonnée Jet Ski Coucher de soleil (1h) Cannes Mandelieu",
-    description: "Randonnée coucher de soleil jet ski à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu",
+    title: "Randonnée Jet Ski Coucher de soleil (1h) Mandelieu Cannes",
+    description: "Randonnée Jet Ski Coucher de soleil (1h) à Mandelieu, près de Cannes : jet ski sans permis encadré par un moniteur. 130 € par jet ski. Réservez en ligne !",
     accroche: "Criques secrètes, calanques, eaux turquoises… et le soleil qui embrase l’Esterel.",
     sousTitre: "Randonnée jet ski coucher de soleil – Massif de l’Esterel",
     texte: [
@@ -210,8 +210,8 @@ export const produits = [
     resaId: "2001",
     note: { valeur: 5, nombre: 1467 },
     images: ["carte-randonnee-midi", "jet-ski-randonnee-esterel", "esterel-roches-rouges"],
-    title: "Randonnée du midi (1h) Cannes Mandelieu",
-    description: "Randonnée midi jet ski à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu",
+    title: "Randonnée Jet Ski du Midi (1h) à Mandelieu – Cannes",
+    description: "Randonnée du midi (1h) à Mandelieu, près de Cannes et Théoule : jet ski sans permis encadré par un moniteur. 130 € par jet ski. Réservez en ligne !",
     accroche: "L’Esterel sous le soleil de midi : falaises rouges, criques sauvages et pause baignade.",
     sousTitre: "Randonnée jet ski midi – Massif de l’Esterel",
     texte: [
@@ -236,8 +236,8 @@ export const produits = [
     note: { valeur: 5, nombre: 428 },
     bestSeller: true,
     images: ["carte-randonnee-petit-dejeuner", "petit-dejeuner-ponton", "iles-lerins-saint-honorat"],
-    title: "Randonnée Jet Ski Petit Déjeuner (2h) Cannes Mandelieu",
-    description: "Randonnée petit déjeuner jet ski à Cannes, Mandelieu. Venez entre amis, en couple ou en famille profiter de la baie de Cannes en jet ski à Mandelieu",
+    title: "Randonnée Jet Ski Petit Déjeuner (2h) à Mandelieu – Cannes",
+    description: "Randonnée Jet Ski Petit Déjeuner (2h) à Mandelieu, près de Cannes : jet ski sans permis encadré par un moniteur. 200 € par jet ski. Réservez en ligne !",
     accroche: "Petit déjeuner face à la mer, puis deux heures de jet ski vers les îles de Lérins.",
     sousTitre: "Randonnée jet ski petit déjeuner – Îles de Lérins et massif de l’Esterel",
     texte: [
@@ -260,8 +260,8 @@ export const produits = [
     age: "À partir de 10 ans",
     resaId: "2008",
     images: ["bouee-tractee-groupe", "bouee-tractee-vitesse", "bouee-canape"],
-    title: "Bouée Tractée Adulte - Mandelieu WaterSports",
-    description: "La bouée tractée adulte à Mandelieu, Théoule : jusqu'à 8 personnes sur la bouée, fous rires et sensations de vitesse entre amis ou en famille.",
+    title: "Bouée Tractée Adulte à Mandelieu – Cannes",
+    description: "Bouée Tractée Adulte à Mandelieu, près de Cannes et Théoule : jusqu’à 8 personnes, sans réservation. 25 € par personne. Réservez en ligne !",
     accroche: "Jusqu’à 8 personnes en même temps sur la bouée. Accrochez-vous bien, ça va secouer !",
     texte: [
       "Tractée par le bateau, la bouée vous apporte des sensations de vitesse et d’adrénaline intenses. Fous rires en perspective entre amis, en famille, pour un anniversaire ou un enterrement de vie de célibataire.",
@@ -282,8 +282,8 @@ export const produits = [
     age: "Entre 3 et 10 ans",
     resaId: "2008",
     images: ["bouee-tractee-famille", "bouee-tractee-joie", "bouee-tractee-mer"],
-    title: "Bouée Tractée Enfant - Mandelieu WaterSports",
-    description: "La bouée tractée pour les enfants de 3 à 10 ans à Mandelieu, Théoule. Vitesse adaptée, bateau piloté par un professionnel : fous rires garantis en famille.",
+    title: "Bouée Tractée Enfant à Mandelieu – Cannes",
+    description: "Bouée Tractée Enfant à Mandelieu, près de Cannes et Théoule : jusqu’à 8 personnes, sans réservation. 20 € par personne. Réservez en ligne !",
     accroche: "Les enfants adorent : vitesse adaptée à leur âge, fous rires garantis.",
     texte: [
       "Tractée par le bateau, la bouée procure des sensations de vitesse… adaptées aux plus jeunes. Notre pilote règle son allure au groupe pour que chacun profite en toute sécurité.",
@@ -306,8 +306,8 @@ export const produits = [
     age: "Tout âge",
     resaId: "2048",
     images: ["wakeboard", "wakesurf"],
-    title: "Wakeboard Tour Simple Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakeboard tour simple à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakeboard à Mandelieu, Théoule",
+    title: "Wakeboard Tour Simple à Mandelieu – Cannes",
+    description: "Wakeboard Tour Simple à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 35 € par personne. Réservez en ligne !",
     accroche: "Un tour de wakeboard derrière le bateau, avec un pilote professionnel.",
     texte: [
       "Tracté par un bateau comme en ski nautique, mais en position « de côté » (comme en snowboard ou en skateboard), vous surfez la vague après quelques essais, voire tentez des sauts en prenant appui sur celle-ci.",
@@ -325,8 +325,8 @@ export const produits = [
     resaId: "2049",
     note: { valeur: 5, nombre: 320 },
     images: ["wakeboard", "ski-nautique-enfant"],
-    title: "Wakeboard Leçon Enfant Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakeboard leçon enfant à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakeboard à Mandelieu, Théoule",
+    title: "Wakeboard Leçon Enfant à Mandelieu – Cannes",
+    description: "Wakeboard Leçon Enfant à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 45 € par personne. Réservez en ligne !",
     accroche: "Des progrès dès le premier tour avec un moniteur professionnel.",
     texte: [
       "Faites des progrès avec un moniteur professionnel dès votre premier tour. Il donne aux jeunes riders les clés pour sortir de l’eau, trouver l’équilibre et prendre confiance.",
@@ -344,8 +344,8 @@ export const produits = [
     resaId: "2049",
     note: { valeur: 5, nombre: 320 },
     images: ["wakeboard", "wakesurf"],
-    title: "Wakeboard Leçon Adulte Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakeboard leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakeboard à Mandelieu, Théoule",
+    title: "Wakeboard Leçon Adulte à Mandelieu – Cannes",
+    description: "Wakeboard Leçon Adulte à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 55 € par personne. Réservez en ligne !",
     accroche: "Initiation ou perfectionnement : un moniteur breveté d’État rien que pour vous.",
     texte: [
       "Débutant, vous apprenez à sortir de l’eau et à tenir la vague. Plus avancé, votre pilote vous aide à maîtriser de nouveaux tricks.",
@@ -363,8 +363,8 @@ export const produits = [
     unite: "par personne",
     age: "Tout âge",
     images: ["wakesurf", "wakeboard"],
-    title: "Wakesurf Tour Simple Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakesurf tour simple à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+    title: "Wakesurf Tour Simple à Mandelieu – Cannes",
+    description: "Wakesurf Tour Simple à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 35 € par personne. Réservez par téléphone !",
     accroche: "Surfez la vague du bateau, sans corde, dans la baie de Mandelieu.",
     texte: [
       "Tracté par un bateau puis lâché sur sa vague, vous surfez à l’arrière du bateau en position « de côté ». Après quelques essais, vous tenez la vague, voire tentez des sauts.",
@@ -382,8 +382,8 @@ export const produits = [
     age: "Entre 3 et 10 ans",
     note: { valeur: 5, nombre: 153 },
     images: ["wakesurf", "wakeboard"],
-    title: "Wakesurf Leçon Enfant Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakesurf leçon enfant à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+    title: "Wakesurf Leçon Enfant à Mandelieu – Cannes",
+    description: "Wakesurf Leçon Enfant à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 40 € par personne. Réservez par téléphone !",
     accroche: "Une leçon de wakesurf adaptée aux enfants, avec un moniteur breveté d’État.",
     texte: [
       "Faites des progrès avec un moniteur professionnel dès le premier tour. Il accompagne les enfants pas à pas pour se lever sur la planche et glisser dans le sillage du bateau.",
@@ -401,8 +401,8 @@ export const produits = [
     age: "À partir de 13 ans",
     note: { valeur: 5, nombre: 350 },
     images: ["wakesurf", "wakeboard"],
-    title: "Wakesurf Leçon Adulte Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le wakesurf leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du wakesurf à Mandelieu, Théoule",
+    title: "Wakesurf Leçon Adulte à Mandelieu – Cannes",
+    description: "Wakesurf Leçon Adulte à Mandelieu, près de Cannes et Théoule : avec moniteur breveté d’État. 55 € par personne. Réservez par téléphone !",
     accroche: "Initiation ou perfectionnement au wakesurf avec un moniteur breveté d’État.",
     texte: [
       "Tracté par un bateau comme en ski nautique mais en position « de côté », vous apprenez à vous déplacer sur la vague à l’arrière du bateau, puis à la surfer sans corde.",
@@ -422,8 +422,8 @@ export const produits = [
     age: "Tout âge",
     resaId: "2048",
     images: ["ski-nautique", "ski-nautique-baie"],
-    title: "Ski Nautique Tour Simple Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le ski nautique tour simple à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+    title: "Ski Nautique Tour Simple à Mandelieu – Cannes",
+    description: "Ski Nautique Tour Simple à Mandelieu, près de Cannes et Théoule : avec moniteur diplômé d’État. 35 € par personne. Réservez en ligne !",
     accroche: "Un tour de ski nautique dans la baie de Mandelieu, avec un pilote professionnel.",
     texte: [
       "Dès vos premiers tours, découvrez des sensations de glisse uniques avec le ski nautique : c’est le sport de glisse le plus rapide à assimiler !",
@@ -441,8 +441,8 @@ export const produits = [
     resaId: "2049",
     note: { valeur: 5, nombre: 730 },
     images: ["ski-nautique-enfant", "ski-nautique"],
-    title: "Ski Nautique Leçon Enfant Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le ski nautique leçon enfant à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+    title: "Ski Nautique Leçon Enfant à Mandelieu – Cannes",
+    description: "Ski Nautique Leçon Enfant à Mandelieu, près de Cannes et Théoule : avec moniteur diplômé d’État. 45 € par leçon. Réservez en ligne !",
     accroche: "Le ski nautique, le plus instinctif des sports de glisse : idéal pour débuter jeune.",
     texte: [
       "Dès les premiers tours, les enfants découvrent des sensations de glisse uniques : le ski nautique est le sport de glisse le plus rapide à assimiler.",
@@ -460,8 +460,8 @@ export const produits = [
     resaId: "2049",
     note: { valeur: 5, nombre: 1140 },
     images: ["ski-nautique-baie", "ski-nautique"],
-    title: "Ski Nautique Leçon Adulte Mandelieu | Mandelieu WaterSports",
-    description: "Découvrez le ski nautique leçon adulte à Mandelieu, Théoule. Venez entre amis, en couple ou en famille profiter du ski nautique à Mandelieu, Théoule",
+    title: "Ski Nautique Leçon Adulte à Mandelieu – Cannes",
+    description: "Ski Nautique Leçon Adulte à Mandelieu, près de Cannes et Théoule : avec moniteur diplômé d’État. 55 € par personne. Réservez en ligne !",
     accroche: "De l’initiation au perfectionnement : progressez avec un moniteur diplômé d’État.",
     texte: [
       "Le ski nautique procure des sensations de glisse très rapidement car l’activité est très instinctive. Débutant, votre pilote vous donne les clés pour sortir de l’eau ; plus avancé, il vous aide à maîtriser de nouvelles figures.",
@@ -482,8 +482,8 @@ export const produits = [
     resaId: "2030",
     note: { valeur: 5, nombre: 889 },
     images: ["pack-parachute-bouee", "carte-pack-bouee", "bouee-tractee-groupe"],
-    title: "Pack Parachute Ascensionnel - Bouée Tractée | Mandelieu Théoule",
-    description: "Découvrez le parachute ascensionnel et la bouée tractée à Mandelieu, Théoule. Profitez du pack parachute & bouée tractée à Mandelieu Watersports",
+    title: "Pack Parachute Ascensionnel – Bouée Tractée Mandelieu Cannes",
+    description: "Pack Parachute Ascensionnel – Bouée Tractée à Mandelieu, près de Cannes : pour 2 personnes, au meilleur prix. 65 € par personne. Réservez en ligne !",
     accroche: "Un tour en parachute + un tour en bouée tractée : 30 minutes d’activités au meilleur prix.",
     texte: [
       "Envolez-vous pour de nouvelles sensations et admirez un panorama à 360° entre ciel et mer, puis accrochez-vous bien aux poignées : la bouée tractée va secouer !",
@@ -504,8 +504,8 @@ export const produits = [
     note: { valeur: 5, nombre: 800 },
     bestSeller: true,
     images: ["pack-parachute-jet-ski", "carte-pack-jet-ski", "jet-ski-duo-baie"],
-    title: "Pack Parachute Ascensionnel - Jet Ski - Mandelieu WaterSports",
-    description: "Découvrez le parachute ascensionnel et le jet ski à Mandelieu, Théoule. Venez entre amis, en couple, en famille profiter du pack parachute & jetski Mandelieu",
+    title: "Pack Parachute Ascensionnel – Jet Ski à Mandelieu – Cannes",
+    description: "Pack Parachute Ascensionnel – Jet Ski à Mandelieu, près de Cannes et Théoule : pour 2 personnes, au meilleur prix. 85 € par personne. Réservez en ligne !",
     accroche: "Un tour en parachute + 30 minutes de jet ski sans permis : le combo parfait.",
     texte: [
       "Envolez-vous pour de nouvelles sensations et admirez un panorama à 360° entre ciel et mer, puis prenez les commandes d’un jet ski sans permis pour 30 minutes, encadré par un moniteur.",

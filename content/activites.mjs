@@ -15,10 +15,10 @@ const AVANTAGES_JET_SKI = [
 export const activites = {
   "parachute-ascensionnel": {
     url: "/parachute-ascensionnel/",
-    title: "Parachute ascensionnel Mandelieu | Mandelieu Watersports",
-    description: "Venez découvrir la pratique du parachute ascensionnel Mandelieu avec vos amis ! Parachute ascensionnel Mandelieu Watersports",
+    title: "Parachute Ascensionnel Mandelieu – Cannes, Théoule",
+    description: "Vol en parachute ascensionnel à Mandelieu, face à la baie de Cannes et aux îles de Lérins. Jusqu’à 5 personnes, dès 3 ans, dès 40 €. Réservez en ligne !",
     nom: "Parachute ascensionnel",
-    h1: "Parachute ascensionnel à Mandelieu – Théoule",
+    h1: "Parachute ascensionnel à Mandelieu, Cannes & Théoule",
     kicker: "Envolez-vous avec nous !",
     tagline: "Baie de Cannes · Mandelieu · Théoule-sur-Mer",
     hero: "parachute-ascensionnel-mandelieu",
@@ -26,10 +26,11 @@ export const activites = {
     categories: ["parachute"],
     intro: {
       eyebrow: "Une expérience sensationnelle",
-      titre: "Parachute ascensionnel Mandelieu Théoule, une expérience sensationnelle !",
+      titre: "Vol en parachute ascensionnel dans la baie de Cannes",
       textes: [
         "Bienvenue à Mandelieu Watersports, où le ciel devient votre terrain de jeu. Envolez-vous au-dessus des eaux scintillantes de la baie de Mandelieu, Cannes et Théoule-sur-Mer : ce n’est pas pour rien que parachute ascensionnel rime avec sensationnel !",
-        "Admirez un panorama à 360° entre ciel et mer. Vous découvrirez la baie comme vous ne l’avez jamais vue, entre le majestueux massif de l’Esterel et les îles de Lérins.",
+        "Admirez une vue panoramique à 360° entre ciel et mer. Vous découvrirez la baie comme vous ne l’avez jamais vue, entre le majestueux massif de l’Esterel et les îles de Lérins.",
+        "Envol depuis le bateau, vol en duo, en trio ou jusqu’à 5 personnes : notre base nautique de Mandelieu-la-Napoule est à 5 minutes de Théoule-sur-Mer et à un quart d’heure de Cannes.",
       ],
       image: "parachute-vol-ciel",
     },
@@ -64,7 +65,7 @@ export const activites = {
     sections: [
       {
         eyebrow: "Informations utiles",
-        titre: "Parachute ascensionnel à Mandelieu Théoule, le ciel est votre terrain de jeu",
+        titre: "Parachute ascensionnel à Théoule et Mandelieu : le ciel est votre terrain de jeu",
         textes: [
           "Le parachute ascensionnel chez Mandelieu Watersports vous offre le ciel ! Ressentez la liberté de flotter au-dessus des eaux turquoise de la Méditerranée sans contraintes, sans vertige et sans besoin de savoir nager.",
           "Accessible à tous à partir de 3 ans (accompagné d’un adulte). Décollage et atterrissage en douceur directement depuis la plateforme du bateau.",
@@ -73,7 +74,7 @@ export const activites = {
       },
       {
         eyebrow: "Sécurité",
-        titre: "Des pilotes brevetés d’État",
+        titre: "Des pilotes brevetés d’État, du golfe de la Napoule aux îles de Lérins",
         textes: [
           "Nos pilotes de parachute ascensionnel, expérimentés et brevetés d’État, vous accompagnent à chaque étape de cette aventure palpitante.",
           "Nos équipes assurent un contrôle rigoureux de l’équipement pour garantir votre confort et votre sécurité. L’ambiance sera au rendez-vous sur le bateau ! Réservation conseillée.",
@@ -88,10 +89,10 @@ export const activites = {
 
   "location-jet-ski": {
     url: "/location-jet-ski/",
-    title: "Location Jet Ski à Cannes Mandelieu | Mandelieu Watersports",
-    description: "Venez découvrir la pratique du jet ski en location à Cannes, Mandelieu avec vos amis ! Location Jet ski Cannes Mandelieu Watersports",
+    title: "Location Jet Ski sans permis Mandelieu – Cannes",
+    description: "Location de jet ski sans permis à Mandelieu, à 15 min de Cannes : 30 min, 45 min ou 1 h dès 90 €, seul ou à deux. Moniteur diplômé. Réservez en ligne !",
     nom: "Location jet ski",
-    h1: "Location jet ski sans permis à Cannes – Mandelieu",
+    h1: "Location jet ski sans permis à Mandelieu, Cannes & Théoule",
     kicker: "Plaisir illimité à Mandelieu – Théoule !",
     tagline: "Sans permis · Encadré par des moniteurs agréés",
     hero: "jet-ski-duo-baie",
@@ -99,10 +100,11 @@ export const activites = {
     categories: ["jetski"],
     intro: {
       eyebrow: "Location jet ski sans permis",
-      titre: "Location jet ski sans permis : plaisir illimité à Mandelieu – Théoule !",
+      titre: "Jet ski sans permis à Mandelieu : plaisir illimité jusqu’à Théoule et Cannes",
       textes: [
         "Bienvenue chez Mandelieu Watersports, votre port d’attache pour la location de jet ski sans permis ! Vous rêvez de ressentir l’adrénaline des vagues sans les tracas d’un permis ? Notre location de jet ski sans permis est la réponse.",
         "Plongez dans un monde de vitesse et de fun, où chaque virage et chaque éclaboussure vous rapprochent de la liberté absolue.",
+        "Pas besoin de permis côtier : après un briefing avec un moniteur diplômé d’État, vous pilotez votre jet ski en navigation libre dans le golfe de la Napoule. Idéal pour un baptême de jet ski !",
       ],
       image: "jet-ski-location-ponton",
     },
@@ -131,7 +133,7 @@ export const activites = {
     sections: [
       {
         eyebrow: "Vivez la vitesse sans contraintes",
-        titre: "Nos locations de jet ski sans permis à Mandelieu – Théoule – Cannes",
+        titre: "Nos locations de jet ski à Mandelieu, Théoule-sur-Mer et Cannes",
         textes: [
           "Louez votre jet ski sans permis pour 30 minutes, 45 minutes ou 1 heure de navigation libre depuis la plage de la Rague.",
           "La location de jet ski sans permis vous offre la liberté de naviguer sur les eaux turquoise de la Méditerranée sans les contraintes administratives d’un permis. Nos machines sont puissantes et faciles à manœuvrer : une conduite agréable, même pour les novices.",
@@ -155,10 +157,10 @@ export const activites = {
 
   "randonnee-jet-ski": {
     url: "/randonnee-jet-ski/",
-    title: "Randonnée Jet Ski Cannes Mandelieu | Mandelieu Watersports",
-    description: "Venez découvrir la randonnée jet ski à Cannes, Mandelieu, Théoule avec vos amis ! Randonnée Jet Ski Cannes Mandelieu Watersports",
+    title: "Randonnée Jet Ski Baie de Cannes, Lérins & Esterel",
+    description: "Rando jet ski sans permis au départ de Mandelieu : baie de Cannes, îles de Lérins, calanques de l’Esterel. Encadrée par un moniteur, dès 130 €. Réservez !",
     nom: "Randonnée jet ski",
-    h1: "Randonnée jet ski à Cannes – Mandelieu",
+    h1: "Randonnée jet ski dans la baie de Cannes, depuis Mandelieu",
     kicker: "Randonnées en jet ski sans permis !",
     tagline: "Îles de Lérins · Massif de l’Esterel",
     hero: "jet-ski-randonnee-esterel",
@@ -167,7 +169,7 @@ export const activites = {
     tarifsTitre: "3 randonnées uniques dans un cadre exceptionnel",
     intro: {
       eyebrow: "Encadré par des moniteurs agréés",
-      titre: "Des randonnées en jet ski sans permis inoubliables",
+      titre: "Rando jet ski encadrée : baie de Cannes, Lérins et Esterel",
       textes: [
         "Bienvenue chez Mandelieu Watersports, votre passerelle vers des randonnées en jet ski sans permis inoubliables dans la baie de Cannes – Mandelieu – Théoule ! Nos randonnées allient l’excitation du jet ski à la splendeur des paysages méditerranéens.",
         "Préparez-vous à vibrer au rythme des vagues, à découvrir des criques secrètes et à vous immerger dans une aventure incomparable sur nos jet skis sans permis dernière génération.",
@@ -182,7 +184,7 @@ export const activites = {
     sections: [
       {
         eyebrow: "Randonnée petit déjeuner",
-        titre: "Îles de Lérins et massif de l’Esterel",
+        titre: "Petit déjeuner puis cap sur les îles de Lérins et l’Esterel",
         textes: [
           "Commencez votre journée en beauté avec un petit déjeuner face à la mer sur notre ponton. Profitez de ce moment privilégié pour échanger avec nos moniteurs expérimentés et rencontrer d’autres passionnés d’aventure.",
           "Partez ensuite pour deux heures de déconnexion totale : plongez dans les eaux cristallines qui entourent les îles de Lérins et le massif de l’Esterel. Une fusion parfaite entre l’excitation du jet ski sans permis et la beauté naturelle des îles.",
@@ -192,7 +194,7 @@ export const activites = {
       },
       {
         eyebrow: "Randonnée coucher de soleil",
-        titre: "Le massif de l’Esterel au crépuscule",
+        titre: "Coucher de soleil sur le massif de l’Esterel, face à Théoule",
         textes: [
           "Plongez dans une palette de couleurs éblouissantes. Imaginez-vous sur un jet ski, traversant les eaux calmes tandis que le soleil embrase le ciel et teinte l’horizon de nuances éclatantes.",
           "Explorez les paysages mystérieux et les criques cachées de l’Esterel, joyau secret de la Côte d’Azur. Accessible dès 16 ans, en solo ou en duo : carburant, équipement et assurance inclus.",
@@ -203,7 +205,7 @@ export const activites = {
       },
       {
         eyebrow: "Randonnée du midi",
-        titre: "L’Esterel sous le soleil au zénith",
+        titre: "Rando du midi : les calanques de Théoule-sur-Mer au zénith",
         textes: [
           "La randonnée du midi vous plonge au cœur d’une aventure ensoleillée entre mer turquoise et falaises volcaniques. Explorez les criques cachées et les paysages sauvages de l’Esterel sous une lumière éclatante.",
           "Une sortie dynamique et rafraîchissante, idéale pour faire le plein de sensations entre amis, en couple ou en famille. Rendez-vous à 11 h 30 pour un départ à midi.",
@@ -222,7 +224,7 @@ export const activites = {
       ],
     },
     destinations: {
-      titre: "Les randonnées en jet ski à Cannes, Mandelieu, Théoule",
+      titre: "Nos itinéraires de rando jet ski entre Cannes, Mandelieu et Théoule",
       items: [
         { titre: "En direction de l’Esterel", texte: "Site volcanique remarquable de la Côte d’Azur : le rouge flamboyant des roches plonge dans le bleu intense de la mer, entre collines de maquis, criques secrètes et calanques impressionnantes." },
         { titre: "En direction des îles de Lérins", texte: "Un cadre idyllique à la nature préservée, où les piscines d’eau turquoise côtoient les pins parasols, entre les mystères du Masque de fer et la quiétude des moines cisterciens." },
@@ -235,10 +237,10 @@ export const activites = {
 
   "bouee-tractee": {
     url: "/bouee-tractee/",
-    title: "Bouées tractées Mandelieu - Théoule | Mandelieu Watersports",
-    description: "Tracté par le bateau, la bouée tractée procure des sensations de vitesse ! Amusez-vous entre amis ou en famille à Mandelieu, Théoule",
+    title: "Bouée Tractée Mandelieu – Cannes, Théoule-sur-Mer",
+    description: "Bouée tractée et canapé à Mandelieu, près de Cannes et Théoule : jusqu’à 8 personnes, dès 20 €, sans réservation. Fous rires entre amis ou en famille !",
     nom: "Bouée tractée",
-    h1: "Les bouées tractées à Mandelieu – Théoule",
+    h1: "Bouée tractée à Mandelieu, près de Cannes & Théoule",
     kicker: "Accrochez-vous bien, ça va secouer !",
     tagline: "Bouée · Canapé tracté · Jusqu’à 8 personnes",
     hero: "bouee-tractee-groupe",
@@ -246,7 +248,7 @@ export const activites = {
     categories: ["bouee"],
     intro: {
       eyebrow: "Vous aimez les sensations fortes ?",
-      titre: "Fous rires en perspective sur Mandelieu, Théoule !",
+      titre: "Fous rires en perspective dans le golfe de la Napoule !",
       textes: [
         "Disponible sans réservation : venez directement nous voir à la base nautique pour faire de la bouée tractée. Le fun sera au rendez-vous !",
         "Tractée par le bateau, la bouée vous apporte des sensations de vitesse et d’adrénaline intenses. Vous aimerez cette activité entouré de vos amis, en famille, pour un anniversaire ou un enterrement de vie de garçon ou de jeune fille.",
@@ -278,10 +280,10 @@ export const activites = {
 
   wakeboard: {
     url: "/wakeboard/",
-    title: "Wakeboard Mandelieu, Théoule - Mandelieu WaterSports",
-    description: "Dès vos premiers tours de wakeboard découvrez des sensations de glisse uniques ! Amateur ou professionnel, le wakeboard à Mandelieu, Théoule.",
+    title: "Wakeboard & Wakesurf Mandelieu – Théoule, Cannes",
+    description: "Wakeboard et wakesurf à Mandelieu, près de Théoule et Cannes : tour dès 35 €, leçons avec moniteur breveté d’État, sur mer calme le matin. Réservez !",
     nom: "Wakeboard",
-    h1: "Wakeboard à Mandelieu – Théoule",
+    h1: "Wakeboard & wakesurf à Mandelieu – Théoule",
     kicker: "Des sensations de glisse uniques",
     tagline: "Initiation · Perfectionnement · Moniteur breveté d’État",
     hero: "wakeboard",
@@ -290,7 +292,7 @@ export const activites = {
     tarifsTitre: "Wakeboard & wakesurf : nos tarifs",
     intro: {
       eyebrow: "Session glisse",
-      titre: "Dès vos premiers tours, découvrez le wakeboard",
+      titre: "Wakeboard dans le golfe de la Napoule : dès vos premiers tours",
       textes: [
         "Tracté par un bateau comme en ski nautique, mais en position « de côté » (comme en snowboard ou en skateboard), vous surfez la vague après quelques essais, voire tentez des sauts en prenant appui sur celle-ci.",
         "Le wakeboard est sans aucun doute un des sports de glisse aquatique les plus accessibles. Dans une ambiance conviviale, de l’initiation au perfectionnement, encadré par un moniteur breveté d’État : un sport de glisse pour tous.",
@@ -322,8 +324,8 @@ export const activites = {
 
   "ski-nautique": {
     url: "/ski-nautique/",
-    title: "Ski Nautique Mandelieu, Théoule | Mandelieu WaterSports",
-    description: "Dès vos premiers tours découvrez des sensations de glisse unique avec le ski nautique. Amateur ou professionnel, le ski nautique à Mandelieu.",
+    title: "Ski Nautique Mandelieu – Théoule, Cannes | Cours & Tours",
+    description: "Ski nautique à Mandelieu, près de Théoule et Cannes : tour dès 35 €, leçons enfant et adulte avec moniteur diplômé d’État, sans limite d’âge. Réservez !",
     nom: "Ski nautique",
     h1: "Ski nautique à Mandelieu – Théoule",
     kicker: "Le sport de glisse le plus rapide à assimiler",
@@ -333,7 +335,7 @@ export const activites = {
     categories: ["ski"],
     intro: {
       eyebrow: "Session glisse",
-      titre: "Découvrez le ski nautique dès le plus jeune âge",
+      titre: "Ski nautique à Mandelieu, dès le plus jeune âge",
       textes: [
         "Dès vos premiers tours, découvrez des sensations de glisse uniques avec le ski nautique. L’activité est très instinctive : c’est le sport de glisse le plus rapide à assimiler !",
         "Tracté par un bateau comme en wakeboard, mais en position « de face », vous skiez la vague après quelques essais, voire tentez des sauts en prenant appui sur celle-ci.",
