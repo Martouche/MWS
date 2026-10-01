@@ -52,12 +52,26 @@
 
   /* ---------- Vidéos d'arrière-plan du hero (autoplay, muettes, en boucle) ----------
      La photo reste dessous (affiche + repli) ; la vidéo n'est téléchargée
-     qu'après le chargement de la page, et jamais en mode « animations réduites ». */
-  var videoFond = function (v, jouer) {
-    if (!v || reduce) return;
+     qu'après le chargement de la page, et jamais en mode « animations réduites »,
+     en économie de données ou sur connexion lente (la photo reste alors seule).
+     Écran en portrait (téléphone) : version verticale ; sinon version paysage 16:9. */
+  var cnx = navigator.connection || {};
+  var sansVideo = reduce || !!cnx.saveData || /2g|3g/.test(cnx.effectiveType || '');
+  var mqPortrait = window.matchMedia('(max-aspect-ratio: 1/1)');
+  var sourceVideo = function (v) { return (mqPortrait.matches && v.dataset.videoPortrait) || v.dataset.videoSrc; };
+  var charger = function (v) { var src = sourceVideo(v); if (v.getAttribute('src') !== src) v.src = src; };
+  var videoFond = function (v, jouer, auDebut) {
+    if (!v || sansVideo) return;
     if (!jouer) { v.pause(); return; }
-    if (!v.getAttribute('src')) v.src = v.dataset.videoSrc;
+    charger(v);
+    if (auDebut && v.currentTime) v.currentTime = 0;
     var p = v.play(); if (p && p.catch) p.catch(function () {});
+  };
+  // Mise en mémoire tampon sans lecture : la vidéo démarre sans attente à la sélection.
+  var precharger = function (v) {
+    if (!v || sansVideo || v.getAttribute('src')) return;
+    v.autoplay = false; // sinon l'attribut autoplay la lancerait en arrière-plan
+    v.preload = 'auto'; charger(v);
   };
   $$('.hero__video').forEach(function (v) {
     v.addEventListener('playing', function () { v.classList.add('is-playing'); });
@@ -71,26 +85,49 @@
   var hero = $('#hero');
   if (hero && $('.tabs', hero)) {
     var slides = $$('.hero__slide', hero), tabs = $$('.tab', hero);
-    var DURATION = 6500, i = 0, auto = !reduce, suspendu = false, pret = false, timer;
+    // Une diapositive vidéo reste affichée plus longtemps qu'une photo.
+    var DURATION = 6500, DUREE_VIDEO = 12000, i = 0, auto = !reduce, suspendu = false, pret = false, visible = true, timer;
+    var videoDe = function (k) { return $('.hero__video', slides[k]); };
 
-    var videosActives = function () {
+    var videosActives = function (auDebut) {
       if (!pret) return;
-      slides.forEach(function (s, k) { videoFond($('.hero__video', s), k === i); });
+      slides.forEach(function (s, k) { videoFond(videoDe(k), k === i && visible, auDebut && k === i); });
+    };
+    var prechargerSuivante = function () {
+      for (var k = 1; k < slides.length; k++) { var v = videoDe((i + k) % slides.length); if (v) { precharger(v); return; } }
     };
     var go = function (n, focus) {
       i = (n + slides.length) % slides.length;
       slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
       tabs.forEach(function (t, k) { t.setAttribute('aria-selected', k === i); t.tabIndex = k === i ? 0 : -1; });
       if (focus) tabs[i].focus();
-      videosActives();
+      videosActives(true);
       restart();
     };
     // Défilement automatique, suspendu au survol et au focus clavier (lecture du texte).
     var restart = function () {
       clearTimeout(timer);
       if (!auto || suspendu) return;
-      timer = setTimeout(function () { go(i + 1); }, DURATION);
+      timer = setTimeout(function () { go(i + 1); }, videoDe(i) && !sansVideo ? DUREE_VIDEO : DURATION);
     };
+    // Dès qu'une vidéo tourne, la suivante se charge en arrière-plan.
+    slides.forEach(function (s, k) {
+      var v = videoDe(k);
+      if (v) v.addEventListener('playing', function () { setTimeout(prechargerSuivante, 1500); });
+    });
+    // Hors écran : vidéo en pause (processeur et batterie épargnés).
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (e) { visible = e[0].isIntersecting; videosActives(); }).observe(hero);
+    }
+    // Rotation du téléphone : bascule entre les versions portrait et paysage.
+    var bascule = function () {
+      slides.forEach(function (s, k) {
+        var v = videoDe(k);
+        if (v && v.getAttribute('src') && v.getAttribute('src') !== sourceVideo(v)) { v.classList.remove('is-playing'); charger(v); }
+      });
+      videosActives();
+    };
+    if (mqPortrait.addEventListener) mqPortrait.addEventListener('change', bascule);
     var suspendre = function (v) { suspendu = v; restart(); };
     hero.addEventListener('mouseenter', function () { suspendre(true); });
     hero.addEventListener('mouseleave', function () { suspendre(false); });

@@ -118,18 +118,33 @@ async function traiterVideos(manifeste) {
     const src = join(SRC, v.src);
     if (!existsSync(src)) { console.warn(`  ! ${cle} : source introuvable`); continue; }
     const out = join(VID, `${cle}.mp4`);
-    const echelle = v.portrait ? "scale=-2:'min(1280,ih)'" : "scale='min(1280,iw)':-2";
-    if (!existsSync(out) || process.argv.includes("--videos")) { // vidéos : réencodées seulement avec --videos
-      await exec("ffmpeg", [
-        "-y", "-i", src, "-an",
-        "-vf", `${echelle},fps=30`,
-        "-c:v", "libx264", "-preset", "slow", "-crf", "28", "-profile:v", "high", "-pix_fmt", "yuv420p",
-        "-movflags", "+faststart", out,
-      ], { maxBuffer: 1 << 26 });
+    const refaire = (f) => !existsSync(f) || process.argv.includes("--videos"); // réencodées seulement avec --videos
+    // Extrait éventuel (-ss avant -i : recherche rapide, -t : durée).
+    const extrait = [...(v.debut ? ["-ss", String(v.debut)] : []), "-i", src, ...(v.fin ? ["-t", String(v.fin - (v.debut || 0))] : [])];
+    const debit = v.debit || "1600k";
+    const h264 = (vf, { crf = 26, plafond } = {}) => [
+      "-y", ...extrait, "-an", "-vf", vf,
+      "-c:v", "libx264", "-preset", "slow", "-crf", String(crf), "-profile:v", "high", "-pix_fmt", "yuv420p",
+      ...(plafond ? ["-maxrate", plafond, "-bufsize", String(parseInt(plafond) * 2) + "k"] : []),
+      "-g", "50", "-movflags", "+faststart",
+    ];
+    if (v.hero) {
+      // Paysage : bande 16:9 découpée dans la vidéo verticale, sans agrandissement.
+      // Position verticale de la bande : fixe, ou par plan (expression évaluée à chaque image, t = 0 au début de l'extrait).
+      const y = v.cadrages
+        ? "'" + v.cadrages.slice(1).reduce((e, [t, c]) => `if(gte(t,${(t - (v.debut || 0)).toFixed(2)}),${c},${e})`, String(v.cadrages[0][1])) + "'"
+        : (v.cadrageY ?? 0.5);
+      if (refaire(out)) await exec("ffmpeg", [...h264(`crop=iw:trunc(iw*9/16/2)*2:0:(ih-oh)*${y},scale='min(1280,iw)':-2:flags=lanczos,fps=25`, { plafond: debit }), out], { maxBuffer: 1 << 26 });
+      const outP = join(VID, `${cle}-portrait.mp4`);
+      if (refaire(outP)) await exec("ffmpeg", [...h264("scale=-2:'min(1280,ih)':flags=lanczos,fps=25", { plafond: debit }), outP], { maxBuffer: 1 << 26 });
+    } else if (refaire(out)) {
+      const echelle = v.portrait ? "scale=-2:'min(1280,ih)'" : "scale='min(1280,iw)':-2";
+      await exec("ffmpeg", [...h264(`${echelle},fps=30`, { crf: 28 }), out], { maxBuffer: 1 << 26 });
     }
-    // Poster : image extraite à 1 s, puis passée dans la chaîne photo.
+    // Poster : image extraite à 1 s, puis passée dans la chaîne photo. Les vidéos du
+    // hero n'en ont pas besoin : la photo de la diapositive, dessous, en tient lieu.
     const poster = join(SRC, `poster-${cle}.jpg`);
-    if (!v.poster && aFaire(poster)) {
+    if (!v.poster && !v.hero && aFaire(poster)) {
       await exec("ffmpeg", ["-y", "-ss", "1", "-i", out, "-frames:v", "1", "-q:v", "3", poster]);
     }
     const { stdout } = await exec("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration", "-of", "json", out]);
@@ -137,9 +152,10 @@ async function traiterVideos(manifeste) {
     manifeste[cle] = {
       w: p.streams[0].width, h: p.streams[0].height,
       duree: Math.round(+p.format.duration), poids: await taille(out),
-      poster: v.poster || `poster-${cle}`,
+      ...(v.hero ? {} : { poster: v.poster || `poster-${cle}` }),
+      ...(v.hero ? { portrait: `${cle}-portrait`, poidsPortrait: await taille(join(VID, `${cle}-portrait.mp4`)) } : {}),
     };
-    console.log(`  ✓ ${cle.padEnd(24)} ${mo(await taille(src))} → ${mo(await taille(out))}`);
+    console.log(`  ✓ ${cle.padEnd(24)} ${mo(await taille(src))} → ${mo(await taille(out))}${v.hero ? ` + portrait ${mo(manifeste[cle].poidsPortrait)}` : ""}`);
   }
 }
 

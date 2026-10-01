@@ -43,9 +43,13 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
 - **Ajouter une activité** → une entrée dans `content/produits.mjs` (slug, prix, `resaId`
   Resamare, images). Page, carte tarif, sitemap et données structurées suivent.
 - **Vidéo de fond dans le hero** → déposer la vidéo dans `medias-source/`, la déclarer dans
-  `videos` de `lib/medias.mjs`, lancer `npm run medias`, puis ajouter `video: "<clé>"` à une
-  diapositive de `SLIDES` (`lib/pages/accueil.mjs`) ou à un `heroPage()`. Elle est jouée
-  sans contrôles (autoplay, muette, en boucle) par-dessus la photo, qui sert d’affiche.
+  `videos` de `lib/medias.mjs` avec `hero: true` (extrait `debut`/`fin`, cadrage `cadrageY` ou
+  plan par plan `cadrages`), lancer `npm run medias -- --videos`, puis ajouter `video: "<clé>"`
+  à une diapositive de `SLIDES` (`lib/pages/accueil.mjs`). Deux fichiers sont produits depuis
+  un reel vertical : paysage 16:9 (écrans larges) et portrait 720×1280 (téléphones), < 5 Mo
+  chacun. Lecture sans contrôles (autoplay, muette, en boucle, playsinline) par-dessus la photo,
+  qui sert d’affiche et de repli (économie de données, connexion lente, animations réduites).
+  La vidéo de la diapositive suivante est préchargée ; pause automatique hors écran.
 - **Pictogrammes** → `lib/icones.mjs` ; chaque point fort en déclare un (`[titre, texte, "jetski"]`).
   Le build échoue si un même pictogramme apparaît deux fois dans un bloc.
 - **Une nouvelle photo** → la déposer dans `medias-source/`, la déclarer dans

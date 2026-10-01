@@ -116,6 +116,8 @@ body.menu-open{overflow:hidden}
 .hero__slide.is-active img{transform:scale(1)}
 .hero__video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s ease;pointer-events:none}
 .hero__video.is-playing{opacity:1}
+/* Vidéo : image en mouvement, voile clair renforcé sous le titre (contraste WCAG du texte sombre) */
+.hero__slide--video::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(236,244,253,.6) 0%,rgba(236,244,253,.45) 38%,rgba(236,244,253,0) 64%)}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(236,244,253,.9) 0%,rgba(236,244,253,.5) 28%,transparent 50%)}
 .hero__content{text-align:center;padding:118px var(--gutter) 0;max-width:980px}
 .hero__kicker{font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:var(--c-primary);margin:0 0 14px}

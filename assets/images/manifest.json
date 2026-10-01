@@ -810,5 +810,21 @@
    1600,
    2048
   ]
+ },
+ "hero-jet-ski": {
+  "w": 1080,
+  "h": 606,
+  "duree": 23,
+  "poids": 4658340,
+  "portrait": "hero-jet-ski-portrait",
+  "poidsPortrait": 4780755
+ },
+ "hero-parachute": {
+  "w": 1080,
+  "h": 606,
+  "duree": 28,
+  "poids": 4722093,
+  "portrait": "hero-parachute-portrait",
+  "poidsPortrait": 5078410
  }
 }
