@@ -142,12 +142,12 @@ export const activites = {
       },
       {
         eyebrow: "Pour tous les amoureux d’adrénaline",
-        titre: "Si Rambo y arrive, vous aussi !",
+        titre: "Débutant ou pilote confirmé, lancez-vous !",
         textes: [
-          "Le jet ski est accessible à tous à partir de 4 ans (accompagnés d’un adulte). Nos sessions sont conçues pour vous plonger dans un univers de sensations fortes, où la baie de Mandelieu – Théoule devient votre terrain de jeu. Débutant ou pilote expert, après tout, si notre mascotte Rambo y arrive…",
+          "Le jet ski est accessible à tous à partir de 4 ans (accompagnés d’un adulte). Nos sessions sont conçues pour vous plonger dans un univers de sensations fortes, où la baie de Mandelieu – Théoule devient votre terrain de jeu. Débutant ou pilote expert, chacun trouve son rythme.",
           "Nos moniteurs expérimentés vous accompagnent à chaque étape : briefing détaillé pour une prise en main en toute confiance et conseils avisés pour profiter au mieux de votre location.",
         ],
-        image: "jet-ski-chien-rambo",
+        image: "jet-ski-location-amies",
         inverse: true,
       },
     ],

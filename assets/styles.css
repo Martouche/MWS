@@ -151,8 +151,8 @@ body.menu-open{overflow:hidden}
 .card{position:relative;border-radius:32px;overflow:hidden;min-height:440px;background:var(--ocean);isolation:isolate;box-shadow:var(--shadow)}
 .card__bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
 .card:hover .card__bg{transform:scale(1.05)}
-.card::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(12,29,74,.55) 0%,transparent 32%,transparent 42%,rgba(12,29,74,.85) 100%)}
-.card__link{position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;color:#fff}
+.card::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(12,29,74,.6) 0%,rgba(12,29,74,.12) 26%,transparent 38%,rgba(12,29,74,.35) 55%,rgba(12,29,74,.82) 78%,rgba(12,29,74,.92) 100%)}
+.card__link{position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;color:#fff;text-shadow:0 1px 12px rgba(12,29,74,.45)}
 .card__title{font-size:clamp(22px,2.6vw,28px);line-height:1.15;font-weight:700;letter-spacing:-.02em;margin:0 0 16px;max-width:14ch}
 .card__arrow{width:40px;height:40px;border-radius:50%;border:1.5px solid #fff;display:grid;place-items:center;transition:background .3s,color .3s}
 .card__arrow svg{width:16px}
@@ -186,6 +186,12 @@ body.menu-open{overflow:hidden}
 .ticks strong{color:var(--c-ink);font-weight:600}
 .price-card p.desc{margin:0 0 12px;color:var(--c-ink-soft);font-size:14.5px}
 .price-card .btn{margin-top:auto;align-self:flex-start}
+/* Packs : photo entière, fondue vers le blanc de la carte */
+.price-card--fondu{background:#fff}
+.price-card--fondu .price-card__media{aspect-ratio:3/4;background:#fff}
+.price-card--fondu .price-card__media img{object-position:var(--cadrage,50% 50%)}
+.price-card--fondu .price-card__media::after{content:"";position:absolute;inset:auto 0 0;height:22%;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 92%);pointer-events:none}
+.price-card--fondu .price-card__body{margin-top:-28px;position:relative;padding-top:0}
 .or{width:60px;height:60px;border-radius:50%;background:var(--c-ink);color:#fff;display:grid;place-items:center;font-weight:700;letter-spacing:.08em;margin:0 auto}
 .bestsellers{margin-top:clamp(48px,7vw,80px)}
 .bestsellers > h3{font-size:clamp(22px,3vw,28px);font-weight:700;letter-spacing:-.02em;margin:0 0 20px}
@@ -265,6 +271,7 @@ body.menu-open{overflow:hidden}
 /* ========== TABLETTE ========== */
 @media (min-width:640px){
   .cards{grid-template-columns:repeat(2,1fr)}
+  .cards .card:last-child:nth-child(odd){grid-column:1/-1;min-height:400px}
   .tabbar{padding:10px 14px}
   .tab{flex-direction:row;text-align:left;gap:10px;padding:6px 12px 6px 6px;font-size:12.5px}
   .tab img{width:64px;aspect-ratio:auto;height:44px;flex:none}
@@ -303,6 +310,7 @@ body.menu-open{overflow:hidden}
   .activities__head{grid-template-columns:1fr 1fr;align-items:end;gap:48px}
   .cards{grid-template-columns:1.25fr 1fr}
   .cards .card:nth-child(4n+2),.cards .card:nth-child(4n+3){min-height:480px}
+  .cards .card:last-child:nth-child(odd){min-height:420px}
   .bs-grid{grid-template-columns:repeat(3,1fr)}
   .footer__grid{grid-template-columns:1.3fr 1fr 1fr 1.2fr}
 }
