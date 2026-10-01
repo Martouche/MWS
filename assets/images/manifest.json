@@ -812,19 +812,21 @@
   ]
  },
  "hero-jet-ski": {
-  "w": 1080,
-  "h": 606,
-  "duree": 23,
-  "poids": 4658340,
+  "w": 1440,
+  "h": 810,
+  "duree": 12,
+  "poids": 4551619,
+  "dureeExacte": 11.68,
   "portrait": "hero-jet-ski-portrait",
-  "poidsPortrait": 4780755
+  "poidsPortrait": 3053772
  },
  "hero-parachute": {
-  "w": 1080,
-  "h": 606,
-  "duree": 28,
-  "poids": 4722093,
+  "w": 1440,
+  "h": 810,
+  "duree": 13,
+  "poids": 5026201,
+  "dureeExacte": 12.92,
   "portrait": "hero-parachute-portrait",
-  "poidsPortrait": 5078410
+  "poidsPortrait": 3407749
  }
 }

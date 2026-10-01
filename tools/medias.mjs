@@ -121,7 +121,7 @@ async function traiterVideos(manifeste) {
     const refaire = (f) => !existsSync(f) || process.argv.includes("--videos"); // réencodées seulement avec --videos
     // Extrait éventuel (-ss avant -i : recherche rapide, -t : durée).
     const extrait = [...(v.debut ? ["-ss", String(v.debut)] : []), "-i", src, ...(v.fin ? ["-t", String(v.fin - (v.debut || 0))] : [])];
-    const debit = v.debit || "1600k";
+    const crf = v.hero ? 20 : 26;
     const h264 = (vf, { crf = 26, plafond } = {}) => [
       "-y", ...extrait, "-an", "-vf", vf,
       "-c:v", "libx264", "-preset", "slow", "-crf", String(crf), "-profile:v", "high", "-pix_fmt", "yuv420p",
@@ -134,9 +134,9 @@ async function traiterVideos(manifeste) {
       const y = v.cadrages
         ? "'" + v.cadrages.slice(1).reduce((e, [t, c]) => `if(gte(t,${(t - (v.debut || 0)).toFixed(2)}),${c},${e})`, String(v.cadrages[0][1])) + "'"
         : (v.cadrageY ?? 0.5);
-      if (refaire(out)) await exec("ffmpeg", [...h264(`crop=iw:trunc(iw*9/16/2)*2:0:(ih-oh)*${y},scale='min(1280,iw)':-2:flags=lanczos,fps=25`, { plafond: debit }), out], { maxBuffer: 1 << 26 });
+      if (refaire(out)) await exec("ffmpeg", [...h264(`crop=iw:trunc(iw*9/16/2)*2:0:(ih-oh)*${y},scale=1440:810:flags=lanczos,unsharp=5:5:0.5:5:5:0,fps=25`, { crf, plafond: v.debit || "3000k" }), out], { maxBuffer: 1 << 26 });
       const outP = join(VID, `${cle}-portrait.mp4`);
-      if (refaire(outP)) await exec("ffmpeg", [...h264("scale=-2:'min(1280,ih)':flags=lanczos,fps=25", { plafond: debit }), outP], { maxBuffer: 1 << 26 });
+      if (refaire(outP)) await exec("ffmpeg", [...h264("scale=-2:'min(1280,ih)':flags=lanczos,fps=25", { crf: crf + 1, plafond: v.debitPortrait || "2000k" }), outP], { maxBuffer: 1 << 26 });
     } else if (refaire(out)) {
       const echelle = v.portrait ? "scale=-2:'min(1280,ih)'" : "scale='min(1280,iw)':-2";
       await exec("ffmpeg", [...h264(`${echelle},fps=30`, { crf: 28 }), out], { maxBuffer: 1 << 26 });
@@ -153,7 +153,7 @@ async function traiterVideos(manifeste) {
       w: p.streams[0].width, h: p.streams[0].height,
       duree: Math.round(+p.format.duration), poids: await taille(out),
       ...(v.hero ? {} : { poster: v.poster || `poster-${cle}` }),
-      ...(v.hero ? { portrait: `${cle}-portrait`, poidsPortrait: await taille(join(VID, `${cle}-portrait.mp4`)) } : {}),
+      ...(v.hero ? { dureeExacte: +(+p.format.duration).toFixed(2), portrait: `${cle}-portrait`, poidsPortrait: await taille(join(VID, `${cle}-portrait.mp4`)) } : {}),
     };
     console.log(`  ✓ ${cle.padEnd(24)} ${mo(await taille(src))} → ${mo(await taille(out))}${v.hero ? ` + portrait ${mo(manifeste[cle].poidsPortrait)}` : ""}`);
   }

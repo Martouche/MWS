@@ -85,8 +85,8 @@
   var hero = $('#hero');
   if (hero && $('.tabs', hero)) {
     var slides = $$('.hero__slide', hero), tabs = $$('.tab', hero);
-    // Une diapositive vidéo reste affichée plus longtemps qu'une photo.
-    var DURATION = 6500, DUREE_VIDEO = 12000, i = 0, auto = !reduce, suspendu = false, pret = false, visible = true, timer;
+    // Une diapositive vidéo reste affichée le temps de sa vidéo (~12 s), une photo 6,5 s.
+    var DURATION = 6500, FONDU = 700, i = 0, auto = !reduce, suspendu = false, pret = false, visible = true, timer;
     var videoDe = function (k) { return $('.hero__video', slides[k]); };
 
     var videosActives = function (auDebut) {
@@ -108,12 +108,21 @@
     var restart = function () {
       clearTimeout(timer);
       if (!auto || suspendu) return;
-      timer = setTimeout(function () { go(i + 1); }, videoDe(i) && !sansVideo ? DUREE_VIDEO : DURATION);
+      var v = videoDe(i), d = DURATION;
+      if (v && !sansVideo) {
+        // Fin calée sur la vidéo (le fondu se termine avec elle) ; tant qu'elle n'a pas
+        // démarré, délai de sécurité : l'événement « playing » relance le calcul.
+        d = !v.paused && v.duration ? Math.max(1500, (v.duration - v.currentTime) * 1000 - FONDU) : DURATION + 1500;
+      }
+      timer = setTimeout(function () { go(i + 1); }, d);
     };
     // Dès qu'une vidéo tourne, la suivante se charge en arrière-plan.
     slides.forEach(function (s, k) {
       var v = videoDe(k);
-      if (v) v.addEventListener('playing', function () { setTimeout(prechargerSuivante, 1500); });
+      if (v) v.addEventListener('playing', function () {
+        if (k === i) restart();
+        setTimeout(prechargerSuivante, 1500);
+      });
     });
     // Hors écran : vidéo en pause (processeur et batterie épargnés).
     if ('IntersectionObserver' in window) {
