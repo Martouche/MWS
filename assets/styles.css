@@ -190,10 +190,23 @@ body.menu-open{overflow:hidden}
 .price-card .btn{margin-top:auto;align-self:flex-start}
 /* Packs : photo entière, fondue vers le blanc de la carte */
 .price-card--fondu{background:#fff}
-.price-card--fondu .price-card__media{aspect-ratio:3/4;background:#fff}
-.price-card--fondu .price-card__media img{object-position:var(--cadrage,50% 50%)}
-.price-card--fondu .price-card__media::after{content:"";position:absolute;inset:auto 0 0;height:22%;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 92%);pointer-events:none}
-.price-card--fondu .price-card__body{margin-top:-28px;position:relative;padding-top:0}
+/* Mobile et tablette (packs l’un sous l’autre) : 4:3, le haut du parachute est rogné et le
+   texte resserré pour que chaque carte tienne dans l'écran. Desktop (côte à côte) : portrait 3:4. */
+.price-card--fondu .price-card__media{aspect-ratio:4/3;background:#fff}
+@media (max-width:859px){
+  .price-card--fondu .price-card__body{margin-top:-14px;padding-bottom:22px}
+  .price-card--fondu .price{margin-bottom:12px}
+  .price-card--fondu .price strong{font-size:38px}
+  .price-card--fondu .ticks{gap:7px;font-size:14px;margin-bottom:18px}
+}
+.price-card--fondu .price-card__media img{object-position:var(--cadrage-mobile,50% 50%)}
+@media (min-width:860px){
+  .price-card--fondu .price-card__media{aspect-ratio:3/4}
+  .price-card--fondu .price-card__media img{object-position:var(--cadrage,50% 50%)}
+  .price-card--fondu .price-card__body{margin-top:-28px}
+}
+.price-card--fondu .price-card__media::after{content:"";position:absolute;inset:auto 0 0;height:16%;background:linear-gradient(180deg,rgba(255,255,255,0),#fff 92%);pointer-events:none}
+.price-card--fondu .price-card__body{position:relative;padding-top:0}
 .or{width:60px;height:60px;border-radius:50%;background:var(--c-ink);color:#fff;display:grid;place-items:center;font-weight:700;letter-spacing:.08em;margin:0 auto}
 .bestsellers{margin-top:clamp(48px,7vw,80px)}
 .bestsellers > h3{font-size:clamp(22px,3vw,28px);font-weight:700;letter-spacing:-.02em;margin:0 0 20px}
