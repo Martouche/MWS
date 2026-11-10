@@ -25,8 +25,9 @@ export const site = {
   telephoneAffiche: "06 65 48 06 06",
   email: "contact@mandelieu-watersports.com",
 
+  // Adresse postale : identique à la fiche Google Business Profile (cohérence NAP).
   adresse: {
-    rue: "157-305 rue du Capitaine Corvette Marché",
+    rue: "1 Plage de la Rague",
     lieu: "Plage de la Rague",
     codePostal: "06210",
     ville: "Mandelieu-la-Napoule",

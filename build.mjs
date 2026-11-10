@@ -20,6 +20,7 @@ import { accueil } from "./lib/pages/accueil.mjs";
 import { activite } from "./lib/pages/activite.mjs";
 import { fiche } from "./lib/pages/produit.mjs";
 import * as P from "./lib/pages/autres.mjs";
+import { guide, guides, pageLerins, hub } from "./lib/pages/guide.mjs";
 import { redirections } from "./content/redirections.mjs";
 
 const racine = dirname(fileURLToPath(import.meta.url));
@@ -40,6 +41,9 @@ function toutesLesPages() {
     [P.evjf(), "0.6"],
     [P.seminaires(), "0.6"],
     [P.privatisation(), "0.6"],
+    [pageLerins(), "0.8"],
+    [hub(), "0.6"],
+    ...Object.keys(guides).map((k) => [guide(k), "0.7"]),
     [P.contact(), "0.7"],
     [P.pageFaq(), "0.6"],
     [P.attestation(), "0.4"],
