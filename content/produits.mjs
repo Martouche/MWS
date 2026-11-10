@@ -516,5 +516,12 @@ export const produits = [
   },
 ];
 
-export const produit = (slug) => produits.find((p) => p.slug === slug);
-export const parCategorie = (c) => produits.filter((p) => p.categorie === c);
+// --- Accès dans la langue de rendu (lib/langue.mjs) ---------------------------------
+import { L, fusion } from "../lib/langue.mjs";
+import { produitsEn, categoriesEn } from "./en.mjs";
+
+const loc = (p) => (p && L.code === "en" ? fusion(p, produitsEn[p.slug]) : p);
+export const produit = (slug) => loc(produits.find((p) => p.slug === slug));
+export const parCategorie = (c) => produits.filter((p) => p.categorie === c).map(loc);
+export const tousProduits = () => produits.map(loc);
+export const categorie = (c) => (L.code === "en" ? fusion(categories[c], categoriesEn[c]) : categories[c]);

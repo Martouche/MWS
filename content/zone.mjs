@@ -56,3 +56,9 @@ export const zonePour = {
     intro: "Apprenez ou perfectionnez le ski nautique dans le golfe de la Napoule, sur l’eau calme du matin, à quelques minutes de Cannes et de Théoule-sur-Mer.",
   },
 };
+
+// --- Langue de rendu ----------------------------------------------------------------
+import { L } from "../lib/langue.mjs";
+import { zoneEn, zonePourEn } from "./en.mjs";
+export const zoneLoc = () => (L.code === "en" ? zoneEn : zone);
+export const zonePourLoc = (cle) => (L.code === "en" ? zonePourEn : zonePour)[cle];

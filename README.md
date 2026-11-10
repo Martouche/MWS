@@ -21,10 +21,13 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
 | `content/site.mjs` | Coordonnées, horaires, menu, GTM, vérification Search Console. |
 | `content/produits.mjs` | **Les 21 activités** : prix, âge, durée, identifiant Resamare, textes, balises SEO. Une entrée = une page `/produit/<slug>/` + une carte tarif. |
 | `content/activites.mjs` | Pages activités (parachute, location, randonnée, bouée, wakeboard, ski nautique). |
+| `content/guides.mjs` | Guides jet ski (`/guides/…`) et page « Îles de Lérins en jet ski ». |
+| `content/en.mjs` | **Version anglaise** (`/en/…`) : URLs, textes des pages, fiches, FAQ. Seuls les textes y figurent ; prix, photos et identifiants Resamare restent dans les fichiers français. |
 | `content/faq.mjs` | FAQ (page `/faq/` + questions reprises sur les pages activités, balisage `FAQPage`). |
 | `content/avis.mjs` | Avis Google affichés (repris du widget Trustindex de l'ancien site). |
 | `content/redirections.mjs` | Redirections 301 des anciennes URLs sans page. |
 | `content/legal/*.md` | CGV, confidentialité, cookies (textes de l'ancien site). |
+| `lib/langue.mjs` | Langue de rendu : `t("fr", "en")` pour les textes, `u("/url/")` pour les liens, fusion du contenu anglais. |
 | `lib/layout.mjs` | `<head>`, en-tête, tiroir mobile, pied de page, JSON-LD commun. |
 | `lib/composants.mjs` | Composants du style (cartes prix, packs, avis, contact, FAQ…). |
 | `lib/pages/` | Gabarits : accueil, activité, fiche produit, autres pages. |
@@ -56,6 +59,17 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
   `lib/medias.mjs` (texte alternatif obligatoire), puis `npm run medias`.
   (`npm run medias -- --force` régénère toutes les photos ; les vidéos ne sont
   réencodées qu'avec `--videos`.)
+
+## Version anglaise
+
+`npm run build` génère le site français puis la version anglaise (`/en/`) : accueil, 6 activités,
+îles de Lérins, tarifs, packs, réservation, 21 fiches produit, contact et FAQ, avec `hreflang`
+fr/en et un sélecteur FR/EN dans l’en-tête. Les pages non traduites (événements, guides, pages
+légales, formulaire mineur) restent en français et sont signalées « (FR) » dans le pied de page anglais.
+
+- **Modifier un texte anglais** → `content/en.mjs` (ou le second argument de `t()` dans `lib/`).
+- **Ajouter une page traduite** → son URL dans `URLS_EN`, puis l’ajouter à `pagesAnglaises()` (`build.mjs`).
+- **Nouveau produit** → ajouter son slug anglais dans `SLUGS_EN` et ses textes dans `produitsEn`.
 
 ## Avis Google en direct
 

@@ -5,6 +5,10 @@
   'use strict';
   var moi = document.currentScript;
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Version anglaise (/en/) : textes générés par le script dans la langue de la page.
+  var EN = document.documentElement.lang === 'en';
+  var tr = function (fr, en) { return EN ? en : fr; };
+  var note1 = function (n) { return EN ? n.toFixed(1) : n.toFixed(1).replace('.', ','); };
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return [].slice.call((c || document).querySelectorAll(s)); };
 
@@ -32,7 +36,7 @@
   var burger = $('.burger'), drawer = $('#drawer');
   function setMenu(open) {
     burger.setAttribute('aria-expanded', open);
-    burger.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+    burger.setAttribute('aria-label', open ? tr('Fermer le menu', 'Close the menu') : tr('Ouvrir le menu', 'Open the menu'));
     drawer.classList.toggle('is-open', open);
     drawer.setAttribute('aria-hidden', !open);
     document.body.classList.toggle('menu-open', open);
@@ -333,15 +337,15 @@
      (clé absente, quota, réseau), les avis enregistrés restent affichés. */
   var avis = $('[data-avis-live]');
   if (avis) {
-    var CLE_AVIS = 'mws-avis-google', TTL = 6 * 3600 * 1000;
+    var CLE_AVIS = 'mws-avis-google' + (EN ? '-en' : ''), TTL = 6 * 3600 * 1000;
     var afficherAvis = function (d) {
       if (d.rating) {
-        $('[data-avis-note]', avis).textContent = d.rating.toFixed(1).replace('.', ',') + '/5';
+        $('[data-avis-note]', avis).textContent = note1(d.rating) + '/5';
         var et = $('[data-avis-etoiles]', avis);
         et.style.setProperty('--note', d.rating);
-        et.setAttribute('aria-label', 'Note Google : ' + d.rating.toFixed(1).replace('.', ',') + ' sur 5');
+        et.setAttribute('aria-label', tr('Note Google : ', 'Google rating: ') + note1(d.rating) + tr(' sur 5', ' out of 5'));
       }
-      if (d.userRatingCount) $('[data-avis-total]', avis).innerHTML = 'Basée sur <strong>' + d.userRatingCount.toLocaleString('fr-FR') + ' avis</strong> Google';
+      if (d.userRatingCount) $('[data-avis-total]', avis).innerHTML = EN ? 'Based on <strong>' + d.userRatingCount.toLocaleString('en-GB') + ' Google reviews</strong>' : 'Basée sur <strong>' + d.userRatingCount.toLocaleString('fr-FR') + ' avis</strong> Google';
       if (d.googleMapsUri) $('[data-avis-lien]', avis).href = d.googleMapsUri;
       var liste = (d.reviews || []).filter(function (r) { return r.text && r.text.text; })
         .sort(function (a, b) { return (b.publishTime || '').localeCompare(a.publishTime || ''); });
@@ -353,11 +357,11 @@
         var p = document.createElement('p'); p.textContent = '« ' + r.text.text + ' »';
         var pied = document.createElement('footer');
         var et = document.createElement('span'); et.className = 'reviews__mini';
-        et.textContent = '★★★★★'.slice(0, Math.round(r.rating || 5)); et.setAttribute('aria-label', (r.rating || 5) + ' sur 5');
+        et.textContent = '★★★★★'.slice(0, Math.round(r.rating || 5)); et.setAttribute('aria-label', (r.rating || 5) + tr(' sur 5', ' out of 5'));
         pied.appendChild(et);
         var auteur = r.authorAttribution || {};
         var nom = document.createElement(auteur.uri ? 'a' : 'span');
-        nom.textContent = auteur.displayName || 'Client Google';
+        nom.textContent = auteur.displayName || tr('Client Google', 'Google user');
         if (auteur.uri) { nom.href = auteur.uri; nom.rel = 'noopener'; nom.target = '_blank'; }
         pied.appendChild(nom);
         if (r.relativePublishTimeDescription) pied.appendChild(document.createTextNode(' · ' + r.relativePublishTimeDescription));
@@ -367,7 +371,7 @@
     };
     var chargerAvis = function () {
       try { var c = JSON.parse(localStorage.getItem(CLE_AVIS)); if (c && Date.now() - c.t < TTL) return afficherAvis(c.d); } catch (e) {}
-      fetch('https://places.googleapis.com/v1/places/' + encodeURIComponent(avis.dataset.place) + '?languageCode=fr', {
+      fetch('https://places.googleapis.com/v1/places/' + encodeURIComponent(avis.dataset.place) + '?languageCode=' + (EN ? 'en' : 'fr'), {
         headers: { 'X-Goog-Api-Key': avis.dataset.cle, 'X-Goog-FieldMask': 'rating,userRatingCount,reviews,googleMapsUri' }
       }).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
         .then(function (d) { try { localStorage.setItem(CLE_AVIS, JSON.stringify({ t: Date.now(), d: d })); } catch (e) {} afficherAvis(d); })

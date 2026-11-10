@@ -12,6 +12,12 @@ const AVANTAGES_JET_SKI = [
   { titre: "On s’adapte à vous !", texte: "Sortie en duo ou en groupe : nos différentes formules vous offrent une flexibilité totale.", icone: "reglage" },
 ];
 
+import { L, fusion } from "../lib/langue.mjs";
+import { activitesEn } from "./en.mjs";
+
+/** Page activité dans la langue de rendu. */
+export const activiteLoc = (cle) => (L.code === "en" ? fusion(activites[cle], activitesEn[cle]) : activites[cle]);
+
 export const activites = {
   "parachute-ascensionnel": {
     url: "/parachute-ascensionnel/",

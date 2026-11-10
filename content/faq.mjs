@@ -79,4 +79,9 @@ export const questions = [
   },
 ];
 
-export const questionsPour = (cle) => questions.filter((q) => q.pages.includes(cle));
+import { L } from "../lib/langue.mjs";
+import { questionsEn } from "./en.mjs";
+
+/** Questions dans la langue de rendu. */
+export const toutesQuestions = () => (L.code === "en" ? questionsEn : questions);
+export const questionsPour = (cle) => toutesQuestions().filter((q) => q.pages.includes(cle));

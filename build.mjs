@@ -13,7 +13,8 @@ import { fileURLToPath } from "node:url";
 import * as esbuild from "esbuild";
 
 import { site } from "./content/site.mjs";
-import { produits } from "./content/produits.mjs";
+import { produits, produit } from "./content/produits.mjs";
+import { L } from "./lib/langue.mjs";
 import { activites } from "./content/activites.mjs";
 import { layout, assets } from "./lib/layout.mjs";
 import { accueil } from "./lib/pages/accueil.mjs";
@@ -51,6 +52,21 @@ function toutesLesPages() {
     [P.confidentialite(), "0.2"],
     [P.cookies(), "0.2"],
     [P.page404(), null],
+  ];
+}
+
+/** Version anglaise (/en/) : pages à fort enjeu pour les touristes étrangers. */
+function pagesAnglaises() {
+  return [
+    [accueil(), "0.9"],
+    ...Object.keys(activites).map((k) => [activite(k), "0.8"]),
+    [pageLerins(), "0.7"],
+    [P.tarifs(), "0.7"],
+    [P.packs(), "0.7"],
+    [P.reservation(), "0.6"],
+    ...produits.map((p) => [fiche(produit(p.slug)), "0.6"]),
+    [P.contact(), "0.6"],
+    [P.pageFaq(), "0.5"],
   ];
 }
 
@@ -209,13 +225,20 @@ const js = (await esbuild.transform(await readFile(join(racine, "assets", "app.j
 assets.js = `/app.${empreinte(js)}.js`;
 await ecrire(join(dist, assets.js), js);
 
-const pages = toutesLesPages();
+// Chaque langue est générée puis rendue dans la foulée : textes, liens et
+// balises dépendent de L.code au moment du rendu.
+const pages = [];
 const vues = new Set();
-for (const [p] of pages) {
-  if (vues.has(p.url)) throw new Error(`URL en double : ${p.url}`);
-  vues.add(p.url);
-  await ecrire(fichierPour(p.url), minHtml(layout(p, { css, test: TEST })));
+for (const [code, liste] of [["fr", toutesLesPages], ["en", pagesAnglaises]]) {
+  L.code = code;
+  for (const [p, pr] of liste()) {
+    if (vues.has(p.url)) throw new Error(`URL en double : ${p.url}`);
+    vues.add(p.url);
+    pages.push([p, pr]);
+    await ecrire(fichierPour(p.url), minHtml(layout(p, { css, test: TEST })));
+  }
 }
+L.code = "fr";
 
 await ecrire(join(dist, "sitemap.xml"), sitemap(pages));
 await ecrire(join(dist, "robots.txt"), robots());
