@@ -106,7 +106,7 @@ export const produits = [
     note: { valeur: 5, nombre: 912 },
     images: ["carte-location-30", "jet-ski-duo-baie", "jet-ski-pilote"],
     title: "Location Jet Ski 30 minutes à Mandelieu – Cannes",
-    description: "Location Jet Ski 30 minutes à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 90 € par jet ski. Réservez en ligne !",
+    description: "Location jet ski sans permis 30 minutes près de Cannes, à Mandelieu : seul ou à deux, après un briefing moniteur. 90 € par jet ski. Réservez en ligne !",
     accroche: "Trente minutes de navigation libre dans la baie de Mandelieu, sans permis bateau. Seul ou à deux, même tarif.",
     texte: [
       "Le jet ski ne manquera pas de faire le bonheur des amateurs de sensations fortes. L’activité est accessible avec ou sans permis grâce à la présence de votre moniteur diplômé BPJEPS.",
@@ -131,7 +131,7 @@ export const produits = [
     resaId: "2006",
     images: ["jet-ski-location-ponton", "jet-ski-duo-esterel", "jet-ski-femme-pilote"],
     title: "Location Jet Ski 45 minutes à Mandelieu – Cannes",
-    description: "Location Jet Ski 45 minutes à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 120 € par jet ski. Réservez en ligne !",
+    description: "Location jet ski sans permis 45 minutes près de Cannes, à Mandelieu : seul ou à deux, après un briefing moniteur. 120 € par jet ski. Réservez en ligne !",
     accroche: "Doublez le plaisir avec 45 minutes de jet ski sans permis, seul ou à deux au même tarif.",
     texte: [
       "Optez pour une session de 45 minutes, idéale pour décupler les sensations fortes au tarif le plus avantageux, seul ou à deux sur votre jet ski sans permis.",
@@ -157,7 +157,7 @@ export const produits = [
     note: { valeur: 5, nombre: 897 },
     images: ["carte-location-1h", "jet-ski-femme-pilote", "jet-ski-duo-esterel"],
     title: "Location Jet Ski 1 heure à Mandelieu – Cannes",
-    description: "Location Jet Ski 1 heure à Mandelieu, près de Cannes et Théoule : sans permis, seul ou à deux. 160 € par jet ski. Réservez en ligne !",
+    description: "Location jet ski sans permis 1 heure près de Cannes, à Mandelieu : seul ou à deux, après un briefing moniteur. 160 € par jet ski. Réservez en ligne !",
     accroche: "Une heure de liberté en jet ski sans permis, jusqu’aux îles de Lérins. Seul ou à deux, même tarif.",
     texte: [
       "Le jet ski ne manquera pas de faire le bonheur des amateurs de sensations fortes. L’activité est accessible avec ou sans permis grâce à la présence de votre moniteur diplômé BPJEPS.",

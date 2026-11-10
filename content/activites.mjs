@@ -15,10 +15,10 @@ const AVANTAGES_JET_SKI = [
 export const activites = {
   "parachute-ascensionnel": {
     url: "/parachute-ascensionnel/",
-    title: "Parachute Ascensionnel Mandelieu – Cannes, Théoule",
-    description: "Vol en parachute ascensionnel à Mandelieu, face à la baie de Cannes et aux îles de Lérins. Jusqu’à 5 personnes, dès 3 ans, dès 40 €. Réservez en ligne !",
+    title: "Parachute Ascensionnel Cannes – Mandelieu, Théoule",
+    description: "Parachute ascensionnel à Cannes – Mandelieu : envol depuis le bateau face à la baie de Cannes et aux îles de Lérins. Dès 3 ans, dès 40 €. Réservez !",
     nom: "Parachute ascensionnel",
-    h1: "Parachute ascensionnel à Mandelieu, Cannes & Théoule",
+    h1: "Parachute ascensionnel dans la baie de Cannes, à Mandelieu",
     kicker: "Envolez-vous avec nous !",
     tagline: "Baie de Cannes · Mandelieu · Théoule-sur-Mer",
     hero: "parachute-ascensionnel-mandelieu",
@@ -26,7 +26,7 @@ export const activites = {
     categories: ["parachute"],
     intro: {
       eyebrow: "Une expérience sensationnelle",
-      titre: "Vol en parachute ascensionnel dans la baie de Cannes",
+      titre: "Votre vol en parachute ascensionnel près de Cannes",
       textes: [
         "Bienvenue à Mandelieu Watersports, où le ciel devient votre terrain de jeu. Envolez-vous au-dessus des eaux scintillantes de la baie de Mandelieu, Cannes et Théoule-sur-Mer : ce n’est pas pour rien que parachute ascensionnel rime avec sensationnel !",
         "Admirez une vue panoramique à 360° entre ciel et mer. Vous découvrirez la baie comme vous ne l’avez jamais vue, entre le majestueux massif de l’Esterel et les îles de Lérins.",
@@ -89,10 +89,10 @@ export const activites = {
 
   "location-jet-ski": {
     url: "/location-jet-ski/",
-    title: "Location Jet Ski sans permis Mandelieu – Cannes",
-    description: "Location de jet ski sans permis à Mandelieu, à 15 min de Cannes : 30 min, 45 min ou 1 h dès 90 €, seul ou à deux. Moniteur diplômé. Réservez en ligne !",
+    title: "Location Jet Ski sans permis Cannes – Mandelieu",
+    description: "Location de jet ski sans permis près de Cannes, à Mandelieu : 30 min, 45 min ou 1 h dès 90 €, seul ou à deux, briefing inclus. Réservez en ligne !",
     nom: "Location jet ski",
-    h1: "Location jet ski sans permis à Mandelieu, Cannes & Théoule",
+    h1: "Location jet ski sans permis à Cannes – Mandelieu & Théoule",
     kicker: "Plaisir illimité à Mandelieu – Théoule !",
     tagline: "Sans permis · Encadré par des moniteurs agréés",
     hero: "jet-ski-duo-baie",
@@ -158,7 +158,7 @@ export const activites = {
   "randonnee-jet-ski": {
     url: "/randonnee-jet-ski/",
     title: "Randonnée Jet Ski Baie de Cannes, Lérins & Esterel",
-    description: "Rando jet ski sans permis au départ de Mandelieu : baie de Cannes, îles de Lérins, calanques de l’Esterel. Encadrée par un moniteur, dès 130 €. Réservez !",
+    description: "Randonnée jet ski à Cannes, sans permis, au départ de Mandelieu : îles de Lérins, calanques de l’Esterel, coucher de soleil. Dès 130 €. Réservez en ligne !",
     nom: "Randonnée jet ski",
     h1: "Randonnée jet ski dans la baie de Cannes, depuis Mandelieu",
     kicker: "Randonnées en jet ski sans permis !",
@@ -238,7 +238,7 @@ export const activites = {
   "bouee-tractee": {
     url: "/bouee-tractee/",
     title: "Bouée Tractée Mandelieu – Cannes, Théoule-sur-Mer",
-    description: "Bouée tractée et canapé à Mandelieu, près de Cannes et Théoule : jusqu’à 8 personnes, dès 20 €, sans réservation. Fous rires entre amis ou en famille !",
+    description: "Bouée tractée à Mandelieu, près de Cannes et Théoule : bouée ou canapé tracté jusqu’à 8 personnes, dès 20 €, sans réservation. Fous rires garantis !",
     nom: "Bouée tractée",
     h1: "Bouée tractée à Mandelieu, près de Cannes & Théoule",
     kicker: "Accrochez-vous bien, ça va secouer !",
