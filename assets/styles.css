@@ -69,10 +69,17 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .dropdown__panel img{width:52px;height:40px;border-radius:10px;object-fit:cover;background:var(--ocean);flex:none}
 .dropdown__panel small{display:block;color:var(--c-muted);font-weight:400;font-size:12px}
 .header__cta{display:none}
-/* Sélecteur de langue FR / EN */
-.lang{flex:none;display:grid;place-items:center;min-width:44px;min-height:44px;padding:0 8px;border-radius:12px;font-size:13px;font-weight:700;letter-spacing:.08em;color:var(--c-ink);text-decoration:none;transition:background .2s}
-.lang:hover{background:rgba(255,255,255,.7)}
-@media (max-width:399px){.header{gap:6px}.lang{min-width:36px;padding:0 4px}}
+/* Sélecteur de langue : interrupteur FR | EN précédé d'un globe, langue active en blanc */
+.lang{flex:none;display:flex;align-items:center;padding:3px;border-radius:999px;background:rgba(47,96,234,.1)}
+.lang__ico{display:none;width:18px;height:18px;margin:0 3px 0 7px;color:var(--c-primary)}
+.lang__opt{min-width:30px;min-height:34px;display:grid;place-items:center;padding:0 7px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.06em;color:#4a5a80;text-decoration:none;transition:background .2s,color .2s}
+a.lang__opt:hover{color:var(--c-primary);background:rgba(255,255,255,.65)}
+.lang__opt.is-on{background:#fff;color:var(--c-primary);box-shadow:0 2px 8px -4px rgba(12,29,74,.35)}
+.lang--drawer{align-self:center;margin:18px auto 0;width:max-content}
+.lang--drawer .lang__ico{display:block}
+.lang--drawer .lang__opt{min-width:52px;min-height:42px;font-size:13px}
+@media (min-width:640px){.lang__ico{display:block}.lang__opt{min-width:36px;padding:0 9px}}
+@media (max-width:399px){.header{gap:6px}.header .logo img{height:28px}.header .header__call,.header .burger{width:44px;min-height:44px;height:44px}}
 @media (max-width:349px){.header .lang{display:none}}
 .header__call{flex:none;width:48px;min-height:48px;padding:0;gap:8px;border-radius:14px;background:rgba(255,255,255,.6)}
 .header__call span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
