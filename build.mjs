@@ -61,6 +61,8 @@ function pagesAnglaises() {
     [accueil(), "0.9"],
     ...Object.keys(activites).map((k) => [activite(k), "0.8"]),
     [pageLerins(), "0.7"],
+    [hub(), "0.5"],
+    ...Object.keys(guides).map((k) => [guide(k), "0.6"]),
     [P.tarifs(), "0.7"],
     [P.packs(), "0.7"],
     [P.reservation(), "0.6"],

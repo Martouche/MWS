@@ -828,3 +828,128 @@ export const lerinsEn = {
     { q: "Do I need a licence to ride a jet ski to the Lérins Islands?", r: "No: our tours and rentals need no boat licence, after a briefing by a qualified instructor. Drivers from 16 years old." },
   ],
 };
+
+// --- Jet ski guides (/en/guides/) ------------------------------------------------------
+URLS_EN["/guides/"] = "/en/guides/";
+URLS_EN["/guides/jet-ski-sans-permis/"] = "/en/guides/jet-ski-no-licence/";
+URLS_EN["/guides/prix-jet-ski-cannes/"] = "/en/guides/jet-ski-prices-cannes/";
+URLS_EN["/guides/que-voir-en-jet-ski-cannes/"] = "/en/guides/what-to-see-jet-ski-cannes/";
+
+export const hubGuidesEn = {
+  nom: "Jet ski guides",
+  title: "Jet Ski Guides Cannes – Mandelieu: Tips, Prices",
+  description: "Our guides to plan your jet ski outing near Cannes: jet ski with no licence, prices, the Lérins Islands and the best spots of the Esterel.",
+  h1: "Jet ski guides around Cannes",
+  lead: "Age, prices, routes: our tips to plan your jet ski outing with no licence between Cannes, Mandelieu and Théoule-sur-Mer.",
+};
+
+export const guidesEn = {
+  "jet-ski-sans-permis": {
+    nom: "Jet ski with no licence",
+    title: "Jet Ski with No Licence near Cannes: Age, Rules",
+    description: "Jet ski with no licence near Cannes: minimum age, ID, briefing, how it works and safety rules. The complete guide by Mandelieu Watersports.",
+    h1: "Jet ski with no licence: age, rules and how it works",
+    kicker: "Practical guide",
+    resume: "Minimum age, documents, briefing, safety: everything you need to know before riding a jet ski with no licence near Cannes.",
+    intro: "Riding a jet ski without a boat licence is possible: you simply go through a water sports centre that supervises the activity. Here is how it works at Mandelieu Watersports, on La Rague beach, between Cannes and Théoule-sur-Mer.",
+    sections: [
+      { titre: "Can you really ride a jet ski with no licence?", html: [
+        "<p>Yes. No coastal licence is required when you rent a jet ski from a water sports centre that supervises the outing: a qualified instructor explains the machine and the navigation rules, and the outing takes place within the framework set by the centre (riding area, instructions, times).</p>",
+        "<p>We offer two options: <a href=\"/en/jet-ski-rental-cannes/\">jet ski rental with no licence</a> (30 min, 45 min or 1 hour of free riding in the Gulf of La Napoule) and <a href=\"/en/jet-ski-tours-cannes/\">jet ski tours</a>, where you follow an instructor to the Esterel or the Lérins Islands.</p>",
+      ] },
+      { titre: "What is the minimum age?", html: [
+        "<ul><li><strong>Driver:</strong> from 16 years old. Drivers under 18 bring a signed parental consent form.</li><li><strong>Passenger:</strong> children can ride behind an adult from 4 years old.</li></ul>",
+        "<p>The price is the same whether you are one or two on the jet ski: ideal to share the driving as a couple, with friends or with a teenager.</p>",
+      ] },
+      { titre: "What documents should you bring?", html: [
+        "<p><strong>ID is required for every driver</strong>, with or without a booking. For a 16 or 17-year-old driver, add the signed parental consent form.</p>",
+        "<p>Bring a swimsuit, sun cream and sunglasses with a strap. Life jacket, fuel and insurance are provided.</p>",
+      ] },
+      { titre: "How does an outing work?", html: [
+        "<ol><li><strong>Welcome and briefing</strong> at the centre: how the machine works, accelerating, braking, right-of-way rules and areas to respect.</li><li><strong>Assisted start</strong>: the instructor helps you get to grips with the machine near the pontoon.</li><li><strong>Riding</strong>: freely in the area shown for a rental, or in line behind the instructor on a tour.</li><li><strong>Return</strong> to the pontoon at the agreed time.</li></ol>",
+      ] },
+      { titre: "Safety rules to know", html: [
+        "<ul><li>Near the shore, speed is limited to 5 knots within the 300-metre coastal strip: leave and come back slowly.</li><li>Life jacket worn at all times and kill-switch lanyard attached to your wrist.</li><li>Keep your distance from swimmers, divers and other boats.</li><li>No alcohol before riding.</li></ul>",
+        "<p>In bad weather, your outing is postponed or fully refunded.</p>",
+      ] },
+      { titre: "Rental or tour: which one?", html: [
+        "<p>For a first try or a moment of freedom, the <strong>30-minute rental</strong> is enough to have fun. To discover the coast, the <strong>guided tour</strong> takes you further in complete safety: Esterel calanques, sunset facing Théoule or the <a href=\"/en/jet-ski-lerins-islands/\">Lérins Islands</a>.</p>",
+      ] },
+    ],
+    faq: [
+      { q: "Do I need to be able to swim to ride a jet ski?", r: "A life jacket is compulsory and worn during the whole outing. Let us know if you are not comfortable in the water: the instructor will adapt his advice." },
+      { q: "Can two people ride a jet ski with no licence?", r: "Yes: the jet ski takes two people and the price stays the same. Both can take turns driving if they are at least 16 and have ID." },
+      { q: "Do I need to book?", r: "It is recommended in summer to secure your slot. Rentals are also possible without booking depending on availability, between 9 am and 7 pm." },
+    ],
+  },
+  "prix-jet-ski-cannes": {
+    nom: "Jet ski prices in Cannes",
+    title: "How Much Is a Jet Ski in Cannes? Rental & Tours",
+    description: "How much does a jet ski cost in Cannes? Rental with no licence from €90 for 30 min, guided tours from €130: detailed prices and what is included.",
+    h1: "How much does a jet ski cost in Cannes?",
+    kicker: "Price guide",
+    resume: "Rental by the half hour or the hour, tours, packages: jet ski prices around Cannes and what is included.",
+    intro: "In the Bay of Cannes, the price of a jet ski mainly depends on the length and the format: free-riding rental or guided tour. Here are our prices, VAT included, and what they include.",
+    sections: [
+      { titre: "Jet ski rental prices (no licence)", html: [
+        "<table class=\"tableau\"><thead><tr><th scope=\"col\">Length</th><th scope=\"col\">Price per jet ski</th></tr></thead><tbody><tr><td><a href=\"/en/product/jet-ski-rental-30-minutes/\">30 minutes</a></td><td>€90</td></tr><tr><td><a href=\"/en/product/jet-ski-rental-45-minutes/\">45 minutes</a></td><td>€120</td></tr><tr><td><a href=\"/en/product/jet-ski-rental-1-hour/\">1 hour</a></td><td>€160</td></tr></tbody></table>",
+        "<p>Prices are <strong>per jet ski, alone or for two</strong>: for two people, half an hour works out at €45 each.</p>",
+      ] },
+      { titre: "Jet ski tour prices", html: [
+        "<table class=\"tableau\"><thead><tr><th scope=\"col\">Tour</th><th scope=\"col\">Length</th><th scope=\"col\">Price per jet ski</th></tr></thead><tbody><tr><td><a href=\"/en/product/midday-jet-ski-tour/\">Midday tour</a> (Esterel)</td><td>Over 1 h</td><td>€130</td></tr><tr><td><a href=\"/en/product/sunset-jet-ski-tour/\">Sunset tour</a> (Esterel)</td><td>Over 1 h</td><td>€130</td></tr><tr><td><a href=\"/en/product/breakfast-jet-ski-tour-lerins/\">Breakfast tour</a> (Lérins Islands)</td><td>2 h</td><td>€200</td></tr></tbody></table>",
+        "<p>Tours are led by an instructor who picks the route according to the weather: they let you go further than a rental, in complete safety.</p>",
+      ] },
+      { titre: "What is included", html: [
+        "<ul><li>Fuel</li><li>Life jacket and equipment</li><li>Insurance</li><li>Briefing by a qualified instructor</li><li>Breakfast on the pontoon for the morning tour</li></ul>",
+        "<p>Our prices include VAT (20%). If the weather is unfavourable, the activity is postponed or 100% refunded.</p>",
+      ] },
+      { titre: "How to pay less", html: [
+        "<ul><li><strong>Share the jet ski</strong>: the price is the same for one or two people.</li><li><strong>Combine activities</strong>: the <a href=\"/en/product/parasailing-jet-ski-package/\">parasailing + jet ski package</a> is €85 per person (for 2 people).</li><li><strong>Give it as a gift</strong>: a gift card is available online.</li></ul>",
+      ] },
+      { titre: "And elsewhere around Cannes?", html: [
+        "<p>As a rough guide, around the Bay of Cannes, half an hour of jet ski with no licence usually costs between €90 and €120 depending on the machine and the departure point. Always compare what is included (fuel, insurance, briefing) and check whether the price is per person or per jet ski.</p>",
+        "<p>Leaving from Mandelieu, at the far end of the Gulf of La Napoule, gives quick access to the Esterel, Théoule-sur-Mer and the Lérins Islands, with parking near the centre.</p>",
+      ] },
+    ],
+    faq: [
+      { q: "How much is one hour of jet ski?", r: "€160 per jet ski for one hour of rental with no licence, alone or for two, fuel, equipment and insurance included." },
+      { q: "Is the price per person or per jet ski?", r: "Per jet ski. One or two people can ride the same machine for the same price." },
+      { q: "How do I book?", r: "Online from the activity page (secure deposit), or by phone on +33 6 65 48 06 06." },
+    ],
+  },
+  "que-voir-en-jet-ski-cannes": {
+    nom: "What to see by jet ski around Cannes",
+    title: "What to See by Jet Ski around Cannes: Lérins, Esterel",
+    description: "Lérins Islands, red rocks of the Esterel, Théoule-sur-Mer, Château de la Napoule: the most beautiful spots to see by jet ski around Cannes.",
+    h1: "What to see by jet ski around Cannes?",
+    kicker: "Routes",
+    resume: "Lérins Islands, Esterel, Théoule-sur-Mer: the most beautiful landscapes to discover by jet ski from Mandelieu.",
+    intro: "Between Cannes and Théoule-sur-Mer, the coastline changes in a few minutes of riding: wooded islands, red cliffs, turquoise coves. Here are the must-sees to discover by jet ski from Mandelieu-la-Napoule.",
+    sections: [
+      { titre: "The Lérins Islands", html: [
+        "<p>Facing Cannes, the Lérins archipelago has two main islands. <strong>Sainte-Marguerite</strong>, the largest, is covered with pines and home to the Fort Royal, where the famous Man in the Iron Mask was held. <strong>Saint-Honorat</strong> has been home for centuries to a community of Cistercian monks who grow vines there.</p>",
+        "<p>Between the two, the water turns turquoise over sandy seabeds. It is the destination of our <a href=\"/en/jet-ski-lerins-islands/\">jet ski tour to the Lérins Islands</a>.</p>",
+      ] },
+      { titre: "The Esterel massif and its red rocks", html: [
+        "<p>West of the gulf, the Esterel massif plunges into the sea: its bright red volcanic rocks contrast with the deep blue water. Hidden coves, calanques and small beaches unreachable by road can be discovered from the sea.</p>",
+        "<p>It is the playground of our <a href=\"/en/product/midday-jet-ski-tour/\">midday</a> and <a href=\"/en/product/sunset-jet-ski-tour/\">sunset</a> tours.</p>",
+      ] },
+      { titre: "Théoule-sur-Mer and its calanques", html: [
+        "<p>Just past La Rague beach, Théoule-sur-Mer lines up its waterfront villas, coves and calanques. From the sea, you get a unique view of this Esterel village.</p>",
+      ] },
+      { titre: "Château de la Napoule and the gulf", html: [
+        "<p>At the far end of the gulf, the Château de la Napoule and its crenellated towers overlook the sea in Mandelieu. You see it in the very first minutes of riding from our centre, along with the whole Bay of Cannes.</p>",
+      ] },
+      { titre: "Sunset over the Esterel", html: [
+        "<p>At the end of the day, the sun sets behind the Esterel ridges and sets the sea ablaze. It is one of the best times to ride: the sea is often calmer and the light golden.</p>",
+      ] },
+      { titre: "Our tips to make the most of it", html: [
+        "<ul><li>To reach the Lérins Islands on your own, choose at least the <a href=\"/en/product/jet-ski-rental-1-hour/\">one-hour rental</a>: we give you the route before you leave.</li><li>In the morning, the sea is usually calmer: ideal for the <a href=\"/en/product/breakfast-jet-ski-tour-lerins/\">breakfast tour</a>.</li><li>Keep your eyes open: with a bit of luck, you will meet dolphins or sunfish.</li><li>Respect the speed limit near the coast and the swimming areas.</li></ul>",
+      ] },
+    ],
+    faq: [
+      { q: "Can I reach the Lérins Islands with a jet ski rental?", r: "Yes, with the one-hour rental, the time needed for the round trip from Mandelieu. We give you the route before you leave." },
+      { q: "Which tour to see the Esterel?", r: "The midday tour and the sunset tour follow the red rocks and calanques of the Esterel, guided by an instructor." },
+    ],
+  },
+};
