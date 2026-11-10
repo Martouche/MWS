@@ -63,8 +63,8 @@ npm run test         # build de recette : tout en noindex, robots.txt fermé
 ## Version anglaise
 
 `npm run build` génère le site français puis la version anglaise (`/en/`) : accueil, 6 activités,
-îles de Lérins, tarifs, packs, réservation, 21 fiches produit, contact et FAQ, avec `hreflang`
-fr/en et un sélecteur FR/EN dans l’en-tête. Les pages non traduites (événements, guides, pages
+îles de Lérins, guides jet ski, tarifs, packs, réservation, 21 fiches produit, contact et FAQ, avec `hreflang`
+fr/en et un sélecteur FR/EN dans l’en-tête. Les pages non traduites (événements, pages
 légales, formulaire mineur) restent en français et sont signalées « (FR) » dans le pied de page anglais.
 
 - **Modifier un texte anglais** → `content/en.mjs` (ou le second argument de `t()` dans `lib/`).
